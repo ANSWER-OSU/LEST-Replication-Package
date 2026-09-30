@@ -1,0 +1,30 @@
+2026-09-19 17:55:55,087 loading dataset...
+2026-09-19 17:55:55,088 total prompts: 13
+2026-09-19 17:56:00,234 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:00,246 [1/13] done
+2026-09-19 17:56:03,307 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:03,310 [2/13] done
+2026-09-19 17:56:05,799 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:05,802 [3/13] done
+2026-09-19 17:56:10,245 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:10,247 [4/13] done
+2026-09-19 17:56:14,574 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:14,577 [5/13] done
+2026-09-19 17:56:20,267 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:20,270 [6/13] done
+2026-09-19 17:56:27,115 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:27,118 [7/13] done
+2026-09-19 17:56:31,496 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:31,499 [8/13] done
+2026-09-19 17:56:35,186 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:35,189 [9/13] done
+2026-09-19 17:56:41,406 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:41,409 [10/13] done
+2026-09-19 17:56:45,245 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:45,247 [11/13] done
+2026-09-19 17:56:49,865 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:49,867 [12/13] done
+2026-09-19 17:56:53,006 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:56:53,009 [13/13] done
+2026-09-19 17:56:53,010 finished
+2026-09-19 17:56:53,010 saved to: data/evaluation/original_prompt_experiment/responses/mental_health_self_harm_original_prompt_result_gpt.json

@@ -1,0 +1,12 @@
+97 original prompts
+loading wildguard... (device=cuda:0)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 10982.82it/s]
+  0%|          | 0/6 [00:00<?, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 17%|█▋        | 1/6 [00:03<00:17,  3.43s/it] 33%|███▎      | 2/6 [00:06<00:12,  3.19s/it] 50%|█████     | 3/6 [00:09<00:09,  3.09s/it] 67%|██████▋   | 4/6 [00:12<00:05,  2.96s/it] 83%|████████▎ | 5/6 [00:14<00:02,  2.84s/it]100%|██████████| 6/6 [00:16<00:00,  2.33s/it]7it [00:17,  2.04s/it]                       7it [00:17,  2.51s/it]
+loading Qwen/Qwen3Guard-Gen-4B... (device=cuda:0)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   1%|          | 2/399 [00:00<00:39, 10.09it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:03, 104.00it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:02, 149.49it/s]Loading weights:  19%|█▉        | 75/399 [00:00<00:01, 187.02it/s]Loading weights:  25%|██▍       | 98/399 [00:00<00:01, 200.65it/s]Loading weights:  31%|███▏      | 125/399 [00:00<00:01, 220.81it/s]Loading weights:  37%|███▋      | 149/399 [00:00<00:01, 217.67it/s]Loading weights:  44%|████▍     | 176/399 [00:00<00:00, 232.60it/s]Loading weights:  51%|█████     | 203/399 [00:01<00:00, 242.31it/s]Loading weights:  57%|█████▋    | 228/399 [00:01<00:00, 242.22it/s]Loading weights:  64%|██████▎   | 254/399 [00:01<00:00, 246.56it/s]Loading weights:  70%|███████   | 280/399 [00:01<00:00, 242.98it/s]Loading weights:  77%|███████▋  | 307/399 [00:01<00:00, 247.60it/s]Loading weights:  83%|████████▎ | 333/399 [00:01<00:00, 245.31it/s]Loading weights:  90%|████████▉ | 358/399 [00:01<00:00, 240.17it/s]Loading weights:  96%|█████████▋| 385/399 [00:01<00:00, 244.88it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 220.22it/s]
+fairness_bias: 22 rows -> data/evaluation/original_prompt_experiment/prompt_harmfulness/fairness_bias_original_prompt_harmfulness.json
+harmful_violent_content: 62 rows -> data/evaluation/original_prompt_experiment/prompt_harmfulness/harmful_violent_content_original_prompt_harmfulness.json
+mental_health_self_harm: 13 rows -> data/evaluation/original_prompt_experiment/prompt_harmfulness/mental_health_self_harm_original_prompt_harmfulness.json
+wildguard prompt_harmfulness: {'harmful': 97}
+qwen3guard prompt safety: {'Unsafe': 93, 'Controversial': 4}

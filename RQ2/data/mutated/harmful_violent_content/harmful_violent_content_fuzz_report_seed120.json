@@ -1,0 +1,68 @@
+{
+  "input_file": "/scratch/projects/Kausar/SafetyDrift/data/raw/harmful_violent_content.json",
+  "category_ids": [
+    "3",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "15",
+    "22"
+  ],
+  "seed": 120,
+  "total_generated": 19503,
+  "total_kept": 3114,
+  "total_discarded": 16389,
+  "discarded_apply": 5235,
+  "apply_failures_by_operator": {
+    "fairness": {
+      "no_identity_terms_found": 3327
+    },
+    "delete": {
+      "no_eligible_adj_adv": 917
+    },
+    "paraphrase": {
+      "no_paraphrase_candidates": 207
+    },
+    "person_first_to_third": {
+      "mutated_too_similar_to_parent": 524
+    },
+    "modifier": {
+      "no_modifier_candidates": 247
+    },
+    "person_third_to_first": {
+      "mutated_too_similar_to_parent": 13
+    }
+  },
+  "discarded_unchanged": 3704,
+  "discarded_semantic": 2216,
+  "discarded_perplexity": 1829,
+  "discarded_grammar": 309,
+  "discarded_duplicate": 2111,
+  "discarded_similar": 985,
+  "discarded_no_applicable_op": 0,
+  "keep_rate_pct": 15.97,
+  "seed_pool_final_size": 3130,
+  "generation_distribution": {
+    "1": 241,
+    "2": 421,
+    "3": 525,
+    "4": 525,
+    "5": 439,
+    "6": 415,
+    "7": 269,
+    "8": 166,
+    "9": 67,
+    "10": 46
+  },
+  "max_generation": 10,
+  "thresholds": {
+    "semantic": 0.8,
+    "perplexity": 2.0,
+    "grammar": 0.5,
+    "different": 0.95,
+    "dedup": 0.95
+  }
+}

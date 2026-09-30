@@ -1,0 +1,1179 @@
+2026-09-28 16:25:32,976 loading dataset outputs/complied_prompts/claude-opus-4-8_original_complied.json...
+2026-09-28 16:25:32,977 run 2: 3 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run2_claude.json
+2026-09-28 16:25:45,322 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:25:45,360 [run 2] [1/3] done
+2026-09-28 16:25:56,482 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:25:56,484 [run 2] [2/3] done
+2026-09-28 16:26:09,075 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:26:09,085 [run 2] [3/3] done
+2026-09-28 16:26:09,086 run 2 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run2_claude.json
+2026-09-28 16:26:09,086 run 3: 3 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run3_claude.json
+2026-09-28 16:26:18,498 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:26:18,515 [run 3] [1/3] done
+2026-09-28 16:26:27,822 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:26:27,824 [run 3] [2/3] done
+2026-09-28 16:26:39,647 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:26:39,656 [run 3] [3/3] done
+2026-09-28 16:26:39,664 run 3 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run3_claude.json
+2026-09-28 16:26:39,664 run 4: 3 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run4_claude.json
+2026-09-28 16:26:49,921 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:26:49,924 [run 4] [1/3] done
+2026-09-28 16:27:00,585 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:27:00,599 [run 4] [2/3] done
+2026-09-28 16:27:12,444 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:27:12,461 [run 4] [3/3] done
+2026-09-28 16:27:12,463 run 4 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run4_claude.json
+2026-09-28 16:27:12,464 run 5: 3 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run5_claude.json
+2026-09-28 16:27:21,986 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:27:21,988 [run 5] [1/3] done
+2026-09-28 16:27:33,146 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:27:33,148 [run 5] [2/3] done
+2026-09-28 16:27:47,379 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:27:47,381 [run 5] [3/3] done
+2026-09-28 16:27:47,383 run 5 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_original_complied_run5_claude.json
+2026-09-28 16:27:47,384 loading dataset outputs/complied_prompts/claude-opus-4-8_mutated_complied.json...
+2026-09-28 16:27:47,394 run 2: 142 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run2_claude.json
+2026-09-28 16:28:00,802 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:00,804 [run 2] [1/142] done
+2026-09-28 16:28:10,860 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:10,877 [run 2] [2/142] done
+2026-09-28 16:28:20,666 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:20,684 [run 2] [3/142] done
+2026-09-28 16:28:26,399 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:26,401 [run 2] [4/142] done
+2026-09-28 16:28:32,747 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:32,751 [run 2] [5/142] done
+2026-09-28 16:28:35,712 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:35,713 [run 2] [6/142] done
+2026-09-28 16:28:40,226 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:40,228 [run 2] [7/142] done
+2026-09-28 16:28:43,188 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:43,190 [run 2] [8/142] done
+2026-09-28 16:28:49,639 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:49,641 [run 2] [9/142] done
+2026-09-28 16:28:55,474 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:28:55,478 [run 2] [10/142] done
+2026-09-28 16:29:00,332 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:00,343 [run 2] [11/142] done
+2026-09-28 16:29:06,201 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:06,223 [run 2] [12/142] done
+2026-09-28 16:29:09,358 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:09,373 [run 2] [13/142] done
+2026-09-28 16:29:11,961 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:11,963 [run 2] [14/142] done
+2026-09-28 16:29:18,533 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:18,537 [run 2] [15/142] done
+2026-09-28 16:29:24,660 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:24,662 [run 2] [16/142] done
+2026-09-28 16:29:29,882 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:29,884 [run 2] [17/142] done
+2026-09-28 16:29:33,362 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:33,364 [run 2] [18/142] done
+2026-09-28 16:29:40,736 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:40,738 [run 2] [19/142] done
+2026-09-28 16:29:45,138 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:45,144 [run 2] [20/142] done
+2026-09-28 16:29:49,408 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:49,408 [run 2] [21/142] done
+2026-09-28 16:29:56,108 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:29:56,132 [run 2] [22/142] done
+2026-09-28 16:30:00,236 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:00,238 [run 2] [23/142] done
+2026-09-28 16:30:03,109 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:03,111 [run 2] [24/142] done
+2026-09-28 16:30:09,101 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:09,107 [run 2] [25/142] done
+2026-09-28 16:30:12,616 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:12,631 [run 2] [26/142] done
+2026-09-28 16:30:16,574 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:16,576 [run 2] [27/142] done
+2026-09-28 16:30:21,136 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:21,149 [run 2] [28/142] done
+2026-09-28 16:30:24,110 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:24,112 [run 2] [29/142] done
+2026-09-28 16:30:31,422 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:31,425 [run 2] [30/142] done
+2026-09-28 16:30:47,191 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:47,192 [run 2] [31/142] done
+2026-09-28 16:30:55,998 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:30:56,000 [run 2] [32/142] done
+2026-09-28 16:31:02,858 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:31:02,860 [run 2] [33/142] done
+2026-09-28 16:31:20,880 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:31:20,882 [run 2] [34/142] done
+2026-09-28 16:31:33,587 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:31:33,593 [run 2] [35/142] done
+2026-09-28 16:31:47,716 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:31:47,718 [run 2] [36/142] done
+2026-09-28 16:32:04,156 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:04,172 [run 2] [37/142] done
+2026-09-28 16:32:11,406 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:11,408 [run 2] [38/142] done
+2026-09-28 16:32:24,675 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:24,676 [run 2] [39/142] done
+2026-09-28 16:32:32,252 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:32,256 [run 2] [40/142] done
+2026-09-28 16:32:39,810 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:39,827 [run 2] [41/142] done
+2026-09-28 16:32:45,126 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:45,129 [run 2] [42/142] done
+2026-09-28 16:32:51,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:32:51,098 [run 2] [43/142] done
+2026-09-28 16:33:00,621 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:00,623 [run 2] [44/142] done
+2026-09-28 16:33:08,916 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:08,924 [run 2] [45/142] done
+2026-09-28 16:33:25,058 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:25,083 [run 2] [46/142] done
+2026-09-28 16:33:34,307 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:34,309 [run 2] [47/142] done
+2026-09-28 16:33:44,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:44,094 [run 2] [48/142] done
+2026-09-28 16:33:53,659 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:33:53,661 [run 2] [49/142] done
+2026-09-28 16:34:01,924 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:01,933 [run 2] [50/142] done
+2026-09-28 16:34:09,223 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:09,225 [run 2] [51/142] done
+2026-09-28 16:34:19,164 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:19,166 [run 2] [52/142] done
+2026-09-28 16:34:29,397 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:29,399 [run 2] [53/142] done
+2026-09-28 16:34:39,697 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:39,699 [run 2] [54/142] done
+2026-09-28 16:34:49,676 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:34:49,682 [run 2] [55/142] done
+2026-09-28 16:35:00,116 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:00,118 [run 2] [56/142] done
+2026-09-28 16:35:08,821 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:08,823 [run 2] [57/142] done
+2026-09-28 16:35:16,911 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:16,913 [run 2] [58/142] done
+2026-09-28 16:35:23,874 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:23,876 [run 2] [59/142] done
+2026-09-28 16:35:34,528 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:34,534 [run 2] [60/142] done
+2026-09-28 16:35:45,274 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:45,279 [run 2] [61/142] done
+2026-09-28 16:35:57,458 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:35:57,462 [run 2] [62/142] done
+2026-09-28 16:36:09,338 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:36:09,340 [run 2] [63/142] done
+2026-09-28 16:36:16,844 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:36:16,846 [run 2] [64/142] done
+2026-09-28 16:36:28,286 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:36:28,293 [run 2] [65/142] done
+2026-09-28 16:36:38,727 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:36:38,729 [run 2] [66/142] done
+2026-09-28 16:36:51,834 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:36:51,837 [run 2] [67/142] done
+2026-09-28 16:37:02,284 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:02,285 [run 2] [68/142] done
+2026-09-28 16:37:11,946 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:11,950 [run 2] [69/142] done
+2026-09-28 16:37:23,456 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:23,475 [run 2] [70/142] done
+2026-09-28 16:37:33,819 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:33,820 [run 2] [71/142] done
+2026-09-28 16:37:43,442 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:43,448 [run 2] [72/142] done
+2026-09-28 16:37:52,251 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:37:52,252 [run 2] [73/142] done
+2026-09-28 16:38:01,148 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:01,157 [run 2] [74/142] done
+2026-09-28 16:38:12,933 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:12,943 [run 2] [75/142] done
+2026-09-28 16:38:25,125 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:25,127 [run 2] [76/142] done
+2026-09-28 16:38:33,311 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:33,313 [run 2] [77/142] done
+2026-09-28 16:38:43,449 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:43,451 [run 2] [78/142] done
+2026-09-28 16:38:51,340 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:51,342 [run 2] [79/142] done
+2026-09-28 16:38:57,630 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:38:57,641 [run 2] [80/142] done
+2026-09-28 16:39:04,889 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:04,891 [run 2] [81/142] done
+2026-09-28 16:39:10,998 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:11,000 [run 2] [82/142] done
+2026-09-28 16:39:19,397 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:19,399 [run 2] [83/142] done
+2026-09-28 16:39:26,048 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:26,050 [run 2] [84/142] done
+2026-09-28 16:39:32,907 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:32,917 [run 2] [85/142] done
+2026-09-28 16:39:36,220 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:36,240 [run 2] [86/142] done
+2026-09-28 16:39:42,840 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:42,843 [run 2] [87/142] done
+2026-09-28 16:39:47,062 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:47,064 [run 2] [88/142] done
+2026-09-28 16:39:57,178 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:39:57,180 [run 2] [89/142] done
+2026-09-28 16:40:04,140 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:04,148 [run 2] [90/142] done
+2026-09-28 16:40:10,899 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:10,901 [run 2] [91/142] done
+2026-09-28 16:40:21,034 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:21,036 [run 2] [92/142] done
+2026-09-28 16:40:27,286 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:27,288 [run 2] [93/142] done
+2026-09-28 16:40:34,755 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:34,757 [run 2] [94/142] done
+2026-09-28 16:40:44,998 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:45,006 [run 2] [95/142] done
+2026-09-28 16:40:52,777 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:40:52,778 [run 2] [96/142] done
+2026-09-28 16:41:00,355 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:00,357 [run 2] [97/142] done
+2026-09-28 16:41:08,547 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:08,549 [run 2] [98/142] done
+2026-09-28 16:41:14,794 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:14,796 [run 2] [99/142] done
+2026-09-28 16:41:22,270 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:22,277 [run 2] [100/142] done
+2026-09-28 16:41:27,183 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:27,185 [run 2] [101/142] done
+2026-09-28 16:41:33,850 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:33,852 [run 2] [102/142] done
+2026-09-28 16:41:40,393 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:40,395 [run 2] [103/142] done
+2026-09-28 16:41:44,677 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:44,687 [run 2] [104/142] done
+2026-09-28 16:41:51,043 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:51,051 [run 2] [105/142] done
+2026-09-28 16:41:55,039 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:41:55,057 [run 2] [106/142] done
+2026-09-28 16:42:05,447 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:05,461 [run 2] [107/142] done
+2026-09-28 16:42:12,036 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:12,038 [run 2] [108/142] done
+2026-09-28 16:42:19,919 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:19,921 [run 2] [109/142] done
+2026-09-28 16:42:26,253 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:26,277 [run 2] [110/142] done
+2026-09-28 16:42:32,308 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:32,311 [run 2] [111/142] done
+2026-09-28 16:42:45,416 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:45,418 [run 2] [112/142] done
+2026-09-28 16:42:53,306 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:42:53,308 [run 2] [113/142] done
+2026-09-28 16:43:01,288 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:01,290 [run 2] [114/142] done
+2026-09-28 16:43:07,226 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:07,235 [run 2] [115/142] done
+2026-09-28 16:43:13,985 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:13,987 [run 2] [116/142] done
+2026-09-28 16:43:21,255 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:21,257 [run 2] [117/142] done
+2026-09-28 16:43:27,299 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:27,301 [run 2] [118/142] done
+2026-09-28 16:43:30,885 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:30,887 [run 2] [119/142] done
+2026-09-28 16:43:37,544 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:37,580 [run 2] [120/142] done
+2026-09-28 16:43:42,764 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:42,766 [run 2] [121/142] done
+2026-09-28 16:43:48,521 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:48,523 [run 2] [122/142] done
+2026-09-28 16:43:51,937 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:51,939 [run 2] [123/142] done
+2026-09-28 16:43:59,245 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:43:59,247 [run 2] [124/142] done
+2026-09-28 16:44:04,561 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:04,570 [run 2] [125/142] done
+2026-09-28 16:44:09,178 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:09,180 [run 2] [126/142] done
+2026-09-28 16:44:17,183 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:17,185 [run 2] [127/142] done
+2026-09-28 16:44:32,732 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:32,734 [run 2] [128/142] done
+2026-09-28 16:44:38,148 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:38,160 [run 2] [129/142] done
+2026-09-28 16:44:44,098 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:44,107 [run 2] [130/142] done
+2026-09-28 16:44:51,367 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:44:51,369 [run 2] [131/142] done
+2026-09-28 16:45:00,584 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:00,593 [run 2] [132/142] done
+2026-09-28 16:45:09,697 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:09,699 [run 2] [133/142] done
+2026-09-28 16:45:18,811 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:18,818 [run 2] [134/142] done
+2026-09-28 16:45:27,165 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:27,187 [run 2] [135/142] done
+2026-09-28 16:45:40,109 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:40,111 [run 2] [136/142] done
+2026-09-28 16:45:45,334 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:45,336 [run 2] [137/142] done
+2026-09-28 16:45:50,556 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:50,558 [run 2] [138/142] done
+2026-09-28 16:45:56,697 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:45:56,699 [run 2] [139/142] done
+2026-09-28 16:46:01,612 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:01,622 [run 2] [140/142] done
+2026-09-28 16:46:10,628 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:10,630 [run 2] [141/142] done
+2026-09-28 16:46:15,130 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:15,132 [run 2] [142/142] done
+2026-09-28 16:46:15,142 run 2 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run2_claude.json
+2026-09-28 16:46:15,143 run 3: 142 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run3_claude.json
+2026-09-28 16:46:28,851 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:28,854 [run 3] [1/142] done
+2026-09-28 16:46:39,192 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:39,194 [run 3] [2/142] done
+2026-09-28 16:46:49,433 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:49,435 [run 3] [3/142] done
+2026-09-28 16:46:54,054 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:46:54,056 [run 3] [4/142] done
+2026-09-28 16:47:00,799 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:00,803 [run 3] [5/142] done
+2026-09-28 16:47:05,204 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:05,206 [run 3] [6/142] done
+2026-09-28 16:47:09,093 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:09,095 [run 3] [7/142] done
+2026-09-28 16:47:11,825 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:11,827 [run 3] [8/142] done
+2026-09-28 16:47:17,797 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:17,799 [run 3] [9/142] done
+2026-09-28 16:47:23,842 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:23,846 [run 3] [10/142] done
+2026-09-28 16:47:28,248 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:28,250 [run 3] [11/142] done
+2026-09-28 16:47:33,671 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:33,673 [run 3] [12/142] done
+2026-09-28 16:47:36,641 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:36,643 [run 3] [13/142] done
+2026-09-28 16:47:39,915 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:39,917 [run 3] [14/142] done
+2026-09-28 16:47:44,114 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:44,118 [run 3] [15/142] done
+2026-09-28 16:47:49,439 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:49,440 [run 3] [16/142] done
+2026-09-28 16:47:52,726 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:52,728 [run 3] [17/142] done
+2026-09-28 16:47:56,709 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:47:56,711 [run 3] [18/142] done
+2026-09-28 16:48:04,510 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:04,513 [run 3] [19/142] done
+2026-09-28 16:48:07,972 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:07,978 [run 3] [20/142] done
+2026-09-28 16:48:12,173 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:12,175 [run 3] [21/142] done
+2026-09-28 16:48:19,338 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:19,340 [run 3] [22/142] done
+2026-09-28 16:48:23,334 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:23,336 [run 3] [23/142] done
+2026-09-28 16:48:26,661 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:26,663 [run 3] [24/142] done
+2026-09-28 16:48:32,240 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:32,246 [run 3] [25/142] done
+2026-09-28 16:48:34,596 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:34,598 [run 3] [26/142] done
+2026-09-28 16:48:40,641 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:40,643 [run 3] [27/142] done
+2026-09-28 16:48:46,577 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:46,579 [run 3] [28/142] done
+2026-09-28 16:48:49,757 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:49,759 [run 3] [29/142] done
+2026-09-28 16:48:57,429 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:48:57,432 [run 3] [30/142] done
+2026-09-28 16:49:03,091 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:49:03,106 [run 3] [31/142] done
+2026-09-28 16:49:11,870 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:49:11,872 [run 3] [32/142] done
+2026-09-28 16:49:19,140 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:49:19,141 [run 3] [33/142] done
+2026-09-28 16:49:36,545 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:49:36,547 [run 3] [34/142] done
+2026-09-28 16:49:50,517 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:49:50,532 [run 3] [35/142] done
+2026-09-28 16:50:02,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:02,102 [run 3] [36/142] done
+2026-09-28 16:50:19,041 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:19,044 [run 3] [37/142] done
+2026-09-28 16:50:25,189 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:25,191 [run 3] [38/142] done
+2026-09-28 16:50:33,070 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:33,072 [run 3] [39/142] done
+2026-09-28 16:50:40,650 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:40,656 [run 3] [40/142] done
+2026-09-28 16:50:48,226 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:48,228 [run 3] [41/142] done
+2026-09-28 16:50:54,471 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:50:54,474 [run 3] [42/142] done
+2026-09-28 16:51:00,820 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:00,823 [run 3] [43/142] done
+2026-09-28 16:51:09,933 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:09,936 [run 3] [44/142] done
+2026-09-28 16:51:18,642 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:18,648 [run 3] [45/142] done
+2026-09-28 16:51:30,312 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:30,314 [run 3] [46/142] done
+2026-09-28 16:51:39,940 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:39,942 [run 3] [47/142] done
+2026-09-28 16:51:50,278 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:50,280 [run 3] [48/142] done
+2026-09-28 16:51:58,575 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:51:58,577 [run 3] [49/142] done
+2026-09-28 16:52:05,946 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:05,953 [run 3] [50/142] done
+2026-09-28 16:52:14,957 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:14,959 [run 3] [51/142] done
+2026-09-28 16:52:27,450 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:27,451 [run 3] [52/142] done
+2026-09-28 16:52:37,483 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:37,484 [run 3] [53/142] done
+2026-09-28 16:52:48,342 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:48,344 [run 3] [54/142] done
+2026-09-28 16:52:56,838 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:52:56,845 [run 3] [55/142] done
+2026-09-28 16:53:08,411 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:08,414 [run 3] [56/142] done
+2026-09-28 16:53:14,758 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:14,760 [run 3] [57/142] done
+2026-09-28 16:53:22,539 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:22,540 [run 3] [58/142] done
+2026-09-28 16:53:27,867 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:27,868 [run 3] [59/142] done
+2026-09-28 16:53:38,211 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:38,220 [run 3] [60/142] done
+2026-09-28 16:53:49,061 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:49,063 [run 3] [61/142] done
+2026-09-28 16:53:58,710 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:53:58,712 [run 3] [62/142] done
+2026-09-28 16:54:11,148 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:54:11,150 [run 3] [63/142] done
+2026-09-28 16:54:21,326 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:54:21,328 [run 3] [64/142] done
+2026-09-28 16:54:32,071 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:54:32,084 [run 3] [65/142] done
+2026-09-28 16:54:43,336 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:54:43,338 [run 3] [66/142] done
+2026-09-28 16:54:55,743 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:54:55,745 [run 3] [67/142] done
+2026-09-28 16:55:05,251 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:05,251 [run 3] [68/142] done
+2026-09-28 16:55:15,106 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:15,118 [run 3] [69/142] done
+2026-09-28 16:55:27,057 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:27,070 [run 3] [70/142] done
+2026-09-28 16:55:37,299 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:37,301 [run 3] [71/142] done
+2026-09-28 16:55:48,461 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:48,464 [run 3] [72/142] done
+2026-09-28 16:55:57,887 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:55:57,889 [run 3] [73/142] done
+2026-09-28 16:56:05,868 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:56:05,870 [run 3] [74/142] done
+2026-09-28 16:56:19,669 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:56:19,677 [run 3] [75/142] done
+2026-09-28 16:56:32,492 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:56:32,494 [run 3] [76/142] done
+2026-09-28 16:56:42,051 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:56:42,067 [run 3] [77/142] done
+2026-09-28 16:56:54,099 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:56:54,101 [run 3] [78/142] done
+2026-09-28 16:57:05,258 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:05,260 [run 3] [79/142] done
+2026-09-28 16:57:12,841 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:12,853 [run 3] [80/142] done
+2026-09-28 16:57:19,567 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:19,582 [run 3] [81/142] done
+2026-09-28 16:57:25,226 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:25,228 [run 3] [82/142] done
+2026-09-28 16:57:32,495 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:32,500 [run 3] [83/142] done
+2026-09-28 16:57:39,160 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:39,162 [run 3] [84/142] done
+2026-09-28 16:57:44,570 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:44,582 [run 3] [85/142] done
+2026-09-28 16:57:50,315 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:50,317 [run 3] [86/142] done
+2026-09-28 16:57:57,481 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:57:57,483 [run 3] [87/142] done
+2026-09-28 16:58:01,878 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:01,880 [run 3] [88/142] done
+2026-09-28 16:58:08,152 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:08,161 [run 3] [89/142] done
+2026-09-28 16:58:15,504 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:15,512 [run 3] [90/142] done
+2026-09-28 16:58:20,912 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:20,922 [run 3] [91/142] done
+2026-09-28 16:58:32,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:32,094 [run 3] [92/142] done
+2026-09-28 16:58:39,589 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:39,599 [run 3] [93/142] done
+2026-09-28 16:58:46,810 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:46,812 [run 3] [94/142] done
+2026-09-28 16:58:53,800 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:58:53,808 [run 3] [95/142] done
+2026-09-28 16:59:00,400 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:00,415 [run 3] [96/142] done
+2026-09-28 16:59:06,298 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:06,300 [run 3] [97/142] done
+2026-09-28 16:59:13,024 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:13,044 [run 3] [98/142] done
+2026-09-28 16:59:19,914 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:19,916 [run 3] [99/142] done
+2026-09-28 16:59:26,057 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:26,073 [run 3] [100/142] done
+2026-09-28 16:59:28,834 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:28,847 [run 3] [101/142] done
+2026-09-28 16:59:33,531 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:33,533 [run 3] [102/142] done
+2026-09-28 16:59:39,344 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:39,346 [run 3] [103/142] done
+2026-09-28 16:59:43,976 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:43,979 [run 3] [104/142] done
+2026-09-28 16:59:53,704 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:53,713 [run 3] [105/142] done
+2026-09-28 16:59:57,800 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 16:59:57,802 [run 3] [106/142] done
+2026-09-28 17:00:09,780 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:09,782 [run 3] [107/142] done
+2026-09-28 17:00:16,028 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:16,030 [run 3] [108/142] done
+2026-09-28 17:00:23,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:23,094 [run 3] [109/142] done
+2026-09-28 17:00:29,646 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:29,655 [run 3] [110/142] done
+2026-09-28 17:00:35,894 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:35,907 [run 3] [111/142] done
+2026-09-28 17:00:48,078 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:00:48,080 [run 3] [112/142] done
+2026-09-28 17:01:00,879 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:00,881 [run 3] [113/142] done
+2026-09-28 17:01:06,547 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:06,549 [run 3] [114/142] done
+2026-09-28 17:01:10,508 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:10,516 [run 3] [115/142] done
+2026-09-28 17:01:16,956 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:16,958 [run 3] [116/142] done
+2026-09-28 17:01:24,429 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:24,431 [run 3] [117/142] done
+2026-09-28 17:01:29,652 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:29,654 [run 3] [118/142] done
+2026-09-28 17:01:33,338 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:33,340 [run 3] [119/142] done
+2026-09-28 17:01:39,793 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:39,801 [run 3] [120/142] done
+2026-09-28 17:01:46,035 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:46,037 [run 3] [121/142] done
+2026-09-28 17:01:51,464 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:51,465 [run 3] [122/142] done
+2026-09-28 17:01:58,473 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:01:58,485 [run 3] [123/142] done
+2026-09-28 17:02:05,492 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:05,494 [run 3] [124/142] done
+2026-09-28 17:02:12,047 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:12,077 [run 3] [125/142] done
+2026-09-28 17:02:18,087 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:18,089 [run 3] [126/142] done
+2026-09-28 17:02:26,280 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:26,282 [run 3] [127/142] done
+2026-09-28 17:02:42,560 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:42,564 [run 3] [128/142] done
+2026-09-28 17:02:48,975 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:48,977 [run 3] [129/142] done
+2026-09-28 17:02:56,080 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:02:56,096 [run 3] [130/142] done
+2026-09-28 17:03:02,833 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:02,836 [run 3] [131/142] done
+2026-09-28 17:03:11,439 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:11,441 [run 3] [132/142] done
+2026-09-28 17:03:23,109 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:23,111 [run 3] [133/142] done
+2026-09-28 17:03:35,500 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:35,502 [run 3] [134/142] done
+2026-09-28 17:03:46,357 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:46,373 [run 3] [135/142] done
+2026-09-28 17:03:58,518 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:03:58,520 [run 3] [136/142] done
+2026-09-28 17:04:03,252 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:03,254 [run 3] [137/142] done
+2026-09-28 17:04:08,472 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:08,474 [run 3] [138/142] done
+2026-09-28 17:04:16,141 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:16,143 [run 3] [139/142] done
+2026-09-28 17:04:20,610 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:20,618 [run 3] [140/142] done
+2026-09-28 17:04:29,655 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:29,657 [run 3] [141/142] done
+2026-09-28 17:04:34,912 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:34,928 [run 3] [142/142] done
+2026-09-28 17:04:34,937 run 3 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run3_claude.json
+2026-09-28 17:04:34,938 run 4: 142 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run4_claude.json
+2026-09-28 17:04:46,294 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:46,312 [run 4] [1/142] done
+2026-09-28 17:04:56,673 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:04:56,675 [run 4] [2/142] done
+2026-09-28 17:05:05,087 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:05,089 [run 4] [3/142] done
+2026-09-28 17:05:11,037 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:11,040 [run 4] [4/142] done
+2026-09-28 17:05:16,875 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:16,878 [run 4] [5/142] done
+2026-09-28 17:05:19,844 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:19,846 [run 4] [6/142] done
+2026-09-28 17:05:23,431 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:23,433 [run 4] [7/142] done
+2026-09-28 17:05:26,932 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:26,934 [run 4] [8/142] done
+2026-09-28 17:05:33,976 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:33,978 [run 4] [9/142] done
+2026-09-28 17:05:40,222 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:40,225 [run 4] [10/142] done
+2026-09-28 17:05:43,601 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:43,603 [run 4] [11/142] done
+2026-09-28 17:05:50,564 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:50,566 [run 4] [12/142] done
+2026-09-28 17:05:54,556 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:54,559 [run 4] [13/142] done
+2026-09-28 17:05:57,520 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:05:57,522 [run 4] [14/142] done
+2026-09-28 17:06:03,568 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:03,572 [run 4] [15/142] done
+2026-09-28 17:06:10,327 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:10,329 [run 4] [16/142] done
+2026-09-28 17:06:15,139 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:15,142 [run 4] [17/142] done
+2026-09-28 17:06:21,366 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:21,368 [run 4] [18/142] done
+2026-09-28 17:06:27,427 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:27,429 [run 4] [19/142] done
+2026-09-28 17:06:31,717 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:31,720 [run 4] [20/142] done
+2026-09-28 17:06:35,728 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:35,730 [run 4] [21/142] done
+2026-09-28 17:06:42,154 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:42,156 [run 4] [22/142] done
+2026-09-28 17:06:45,859 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:45,861 [run 4] [23/142] done
+2026-09-28 17:06:48,836 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:48,838 [run 4] [24/142] done
+2026-09-28 17:06:53,518 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:53,523 [run 4] [25/142] done
+2026-09-28 17:06:56,613 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:06:56,615 [run 4] [26/142] done
+2026-09-28 17:07:01,884 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:01,886 [run 4] [27/142] done
+2026-09-28 17:07:07,670 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:07,671 [run 4] [28/142] done
+2026-09-28 17:07:10,741 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:10,743 [run 4] [29/142] done
+2026-09-28 17:07:19,244 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:19,250 [run 4] [30/142] done
+2026-09-28 17:07:30,198 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:30,201 [run 4] [31/142] done
+2026-09-28 17:07:39,211 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:39,213 [run 4] [32/142] done
+2026-09-28 17:07:47,707 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:07:47,708 [run 4] [33/142] done
+2026-09-28 17:08:03,787 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:08:03,789 [run 4] [34/142] done
+2026-09-28 17:08:20,374 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:08:20,381 [run 4] [35/142] done
+2026-09-28 17:08:32,047 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:08:32,049 [run 4] [36/142] done
+2026-09-28 17:08:49,047 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:08:49,049 [run 4] [37/142] done
+2026-09-28 17:08:54,881 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:08:54,883 [run 4] [38/142] done
+2026-09-28 17:09:01,632 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:01,653 [run 4] [39/142] done
+2026-09-28 17:09:10,140 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:10,146 [run 4] [40/142] done
+2026-09-28 17:09:17,821 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:17,823 [run 4] [41/142] done
+2026-09-28 17:09:23,663 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:23,678 [run 4] [42/142] done
+2026-09-28 17:09:29,288 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:29,289 [run 4] [43/142] done
+2026-09-28 17:09:38,714 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:38,716 [run 4] [44/142] done
+2026-09-28 17:09:47,675 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:47,699 [run 4] [45/142] done
+2026-09-28 17:09:57,959 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:09:57,961 [run 4] [46/142] done
+2026-09-28 17:10:07,791 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:07,792 [run 4] [47/142] done
+2026-09-28 17:10:18,030 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:18,032 [run 4] [48/142] done
+2026-09-28 17:10:27,030 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:27,032 [run 4] [49/142] done
+2026-09-28 17:10:34,315 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:34,337 [run 4] [50/142] done
+2026-09-28 17:10:39,739 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:39,741 [run 4] [51/142] done
+2026-09-28 17:10:49,465 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:49,467 [run 4] [52/142] done
+2026-09-28 17:10:59,500 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:10:59,503 [run 4] [53/142] done
+2026-09-28 17:11:09,332 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:09,334 [run 4] [54/142] done
+2026-09-28 17:11:18,036 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:18,044 [run 4] [55/142] done
+2026-09-28 17:11:27,968 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:27,970 [run 4] [56/142] done
+2026-09-28 17:11:33,805 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:33,808 [run 4] [57/142] done
+2026-09-28 17:11:41,697 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:41,700 [run 4] [58/142] done
+2026-09-28 17:11:49,373 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:11:49,375 [run 4] [59/142] done
+2026-09-28 17:12:01,149 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:01,158 [run 4] [60/142] done
+2026-09-28 17:12:11,489 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:11,491 [run 4] [61/142] done
+2026-09-28 17:12:18,757 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:18,759 [run 4] [62/142] done
+2026-09-28 17:12:29,511 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:29,513 [run 4] [63/142] done
+2026-09-28 17:12:36,987 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:36,989 [run 4] [64/142] done
+2026-09-28 17:12:48,659 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:48,666 [run 4] [65/142] done
+2026-09-28 17:12:57,567 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:12:57,569 [run 4] [66/142] done
+2026-09-28 17:13:09,242 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:13:09,245 [run 4] [67/142] done
+2026-09-28 17:13:29,516 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:13:29,518 [run 4] [68/142] done
+2026-09-28 17:13:40,576 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:13:40,579 [run 4] [69/142] done
+2026-09-28 17:13:51,019 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:13:51,026 [run 4] [70/142] done
+2026-09-28 17:14:02,213 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:02,215 [run 4] [71/142] done
+2026-09-28 17:14:13,343 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:13,345 [run 4] [72/142] done
+2026-09-28 17:14:22,928 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:22,929 [run 4] [73/142] done
+2026-09-28 17:14:31,309 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:31,317 [run 4] [74/142] done
+2026-09-28 17:14:44,955 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:44,974 [run 4] [75/142] done
+2026-09-28 17:14:58,090 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:14:58,092 [run 4] [76/142] done
+2026-09-28 17:15:06,286 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:06,288 [run 4] [77/142] done
+2026-09-28 17:15:16,046 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:16,054 [run 4] [78/142] done
+2026-09-28 17:15:27,694 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:27,696 [run 4] [79/142] done
+2026-09-28 17:15:31,624 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:31,632 [run 4] [80/142] done
+2026-09-28 17:15:39,460 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:39,462 [run 4] [81/142] done
+2026-09-28 17:15:45,510 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:45,512 [run 4] [82/142] done
+2026-09-28 17:15:52,544 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:52,546 [run 4] [83/142] done
+2026-09-28 17:15:59,018 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:15:59,020 [run 4] [84/142] done
+2026-09-28 17:16:05,778 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:05,789 [run 4] [85/142] done
+2026-09-28 17:16:10,794 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:10,796 [run 4] [86/142] done
+2026-09-28 17:16:18,589 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:18,601 [run 4] [87/142] done
+2026-09-28 17:16:23,491 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:23,494 [run 4] [88/142] done
+2026-09-28 17:16:32,605 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:32,607 [run 4] [89/142] done
+2026-09-28 17:16:39,158 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:39,165 [run 4] [90/142] done
+2026-09-28 17:16:45,610 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:45,613 [run 4] [91/142] done
+2026-09-28 17:16:56,365 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:16:56,367 [run 4] [92/142] done
+2026-09-28 17:17:03,121 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:03,123 [run 4] [93/142] done
+2026-09-28 17:17:13,703 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:13,714 [run 4] [94/142] done
+2026-09-28 17:17:20,329 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:20,341 [run 4] [95/142] done
+2026-09-28 17:17:28,207 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:28,209 [run 4] [96/142] done
+2026-09-28 17:17:36,389 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:36,391 [run 4] [97/142] done
+2026-09-28 17:17:44,899 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:44,901 [run 4] [98/142] done
+2026-09-28 17:17:51,249 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:51,251 [run 4] [99/142] done
+2026-09-28 17:17:56,679 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:56,688 [run 4] [100/142] done
+2026-09-28 17:17:59,953 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:17:59,955 [run 4] [101/142] done
+2026-09-28 17:18:07,221 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:07,233 [run 4] [102/142] done
+2026-09-28 17:18:13,432 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:13,448 [run 4] [103/142] done
+2026-09-28 17:18:17,261 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:17,263 [run 4] [104/142] done
+2026-09-28 17:18:25,972 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:26,034 [run 4] [105/142] done
+2026-09-28 17:18:30,093 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:30,095 [run 4] [106/142] done
+2026-09-28 17:18:46,751 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:46,753 [run 4] [107/142] done
+2026-09-28 17:18:53,058 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:53,060 [run 4] [108/142] done
+2026-09-28 17:18:59,138 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:18:59,140 [run 4] [109/142] done
+2026-09-28 17:19:06,919 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:06,928 [run 4] [110/142] done
+2026-09-28 17:19:14,599 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:14,601 [run 4] [111/142] done
+2026-09-28 17:19:25,474 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:25,497 [run 4] [112/142] done
+2026-09-28 17:19:32,780 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:32,784 [run 4] [113/142] done
+2026-09-28 17:19:39,893 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:39,895 [run 4] [114/142] done
+2026-09-28 17:19:44,712 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:44,727 [run 4] [115/142] done
+2026-09-28 17:19:51,361 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:51,363 [run 4] [116/142] done
+2026-09-28 17:19:59,654 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:19:59,657 [run 4] [117/142] done
+2026-09-28 17:20:06,328 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:06,340 [run 4] [118/142] done
+2026-09-28 17:20:09,587 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:09,589 [run 4] [119/142] done
+2026-09-28 17:20:17,575 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:17,590 [run 4] [120/142] done
+2026-09-28 17:20:22,079 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:22,086 [run 4] [121/142] done
+2026-09-28 17:20:26,996 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:26,998 [run 4] [122/142] done
+2026-09-28 17:20:32,932 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:32,934 [run 4] [123/142] done
+2026-09-28 17:20:38,567 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:38,569 [run 4] [124/142] done
+2026-09-28 17:20:44,915 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:44,924 [run 4] [125/142] done
+2026-09-28 17:20:51,061 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:51,063 [run 4] [126/142] done
+2026-09-28 17:20:57,612 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:20:57,614 [run 4] [127/142] done
+2026-09-28 17:21:16,556 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:16,559 [run 4] [128/142] done
+2026-09-28 17:21:22,700 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:22,706 [run 4] [129/142] done
+2026-09-28 17:21:29,663 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:29,673 [run 4] [130/142] done
+2026-09-28 17:21:38,288 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:38,290 [run 4] [131/142] done
+2026-09-28 17:21:47,888 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:47,890 [run 4] [132/142] done
+2026-09-28 17:21:57,516 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:21:57,518 [run 4] [133/142] done
+2026-09-28 17:22:06,631 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:06,634 [run 4] [134/142] done
+2026-09-28 17:22:18,613 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:18,630 [run 4] [135/142] done
+2026-09-28 17:22:31,308 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:31,310 [run 4] [136/142] done
+2026-09-28 17:22:37,657 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:37,659 [run 4] [137/142] done
+2026-09-28 17:22:42,776 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:42,778 [run 4] [138/142] done
+2026-09-28 17:22:51,070 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:51,072 [run 4] [139/142] done
+2026-09-28 17:22:55,473 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:22:55,489 [run 4] [140/142] done
+2026-09-28 17:23:02,541 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:02,543 [run 4] [141/142] done
+2026-09-28 17:23:07,146 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:07,149 [run 4] [142/142] done
+2026-09-28 17:23:07,164 run 4 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run4_claude.json
+2026-09-28 17:23:07,165 run 5: 142 prompts -> data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run5_claude.json
+2026-09-28 17:23:20,561 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:20,563 [run 5] [1/142] done
+2026-09-28 17:23:30,805 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:30,832 [run 5] [2/142] done
+2026-09-28 17:23:39,344 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:39,347 [run 5] [3/142] done
+2026-09-28 17:23:43,740 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:43,742 [run 5] [4/142] done
+2026-09-28 17:23:52,034 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:52,038 [run 5] [5/142] done
+2026-09-28 17:23:55,486 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:55,488 [run 5] [6/142] done
+2026-09-28 17:23:59,994 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:23:59,996 [run 5] [7/142] done
+2026-09-28 17:24:03,672 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:03,674 [run 5] [8/142] done
+2026-09-28 17:24:10,211 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:10,213 [run 5] [9/142] done
+2026-09-28 17:24:15,568 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:15,572 [run 5] [10/142] done
+2026-09-28 17:24:21,488 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:21,490 [run 5] [11/142] done
+2026-09-28 17:24:31,943 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:31,945 [run 5] [12/142] done
+2026-09-28 17:24:35,624 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:35,626 [run 5] [13/142] done
+2026-09-28 17:24:39,567 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:39,569 [run 5] [14/142] done
+2026-09-28 17:24:44,836 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:44,839 [run 5] [15/142] done
+2026-09-28 17:24:49,554 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:49,556 [run 5] [16/142] done
+2026-09-28 17:24:53,263 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:53,265 [run 5] [17/142] done
+2026-09-28 17:24:57,294 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:24:57,297 [run 5] [18/142] done
+2026-09-28 17:25:03,884 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:03,886 [run 5] [19/142] done
+2026-09-28 17:25:08,089 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:08,095 [run 5] [20/142] done
+2026-09-28 17:25:13,302 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:13,304 [run 5] [21/142] done
+2026-09-28 17:25:18,644 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:18,647 [run 5] [22/142] done
+2026-09-28 17:25:22,214 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:22,216 [run 5] [23/142] done
+2026-09-28 17:25:26,821 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:26,823 [run 5] [24/142] done
+2026-09-28 17:25:32,608 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:32,614 [run 5] [25/142] done
+2026-09-28 17:25:38,189 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:38,233 [run 5] [26/142] done
+2026-09-28 17:25:43,211 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:43,216 [run 5] [27/142] done
+2026-09-28 17:25:47,503 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:47,505 [run 5] [28/142] done
+2026-09-28 17:25:53,045 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:25:53,050 [run 5] [29/142] done
+2026-09-28 17:26:00,629 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:26:00,634 [run 5] [30/142] done
+2026-09-28 17:26:10,353 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:26:10,355 [run 5] [31/142] done
+2026-09-28 17:26:18,650 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:26:18,652 [run 5] [32/142] done
+2026-09-28 17:26:28,361 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:26:28,363 [run 5] [33/142] done
+2026-09-28 17:26:48,657 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:26:48,659 [run 5] [34/142] done
+2026-09-28 17:27:02,292 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:02,570 [run 5] [35/142] done
+2026-09-28 17:27:17,376 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:17,378 [run 5] [36/142] done
+2026-09-28 17:27:38,007 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:38,009 [run 5] [37/142] done
+2026-09-28 17:27:44,856 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:44,861 [run 5] [38/142] done
+2026-09-28 17:27:51,537 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:51,539 [run 5] [39/142] done
+2026-09-28 17:27:59,597 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:27:59,605 [run 5] [40/142] done
+2026-09-28 17:28:07,583 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:07,585 [run 5] [41/142] done
+2026-09-28 17:28:13,393 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:13,397 [run 5] [42/142] done
+2026-09-28 17:28:19,042 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:19,054 [run 5] [43/142] done
+2026-09-28 17:28:27,680 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:27,684 [run 5] [44/142] done
+2026-09-28 17:28:37,590 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:37,597 [run 5] [45/142] done
+2026-09-28 17:28:47,398 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:47,401 [run 5] [46/142] done
+2026-09-28 17:28:57,743 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:28:57,758 [run 5] [47/142] done
+2026-09-28 17:29:07,693 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:07,695 [run 5] [48/142] done
+2026-09-28 17:29:16,207 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:16,237 [run 5] [49/142] done
+2026-09-28 17:29:23,872 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:23,877 [run 5] [50/142] done
+2026-09-28 17:29:30,842 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:30,844 [run 5] [51/142] done
+2026-09-28 17:29:41,381 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:41,383 [run 5] [52/142] done
+2026-09-28 17:29:50,802 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:29:50,804 [run 5] [53/142] done
+2026-09-28 17:30:01,450 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:01,453 [run 5] [54/142] done
+2026-09-28 17:30:09,650 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:09,669 [run 5] [55/142] done
+2026-09-28 17:30:19,515 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:19,531 [run 5] [56/142] done
+2026-09-28 17:30:27,263 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:27,265 [run 5] [57/142] done
+2026-09-28 17:30:33,835 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:33,846 [run 5] [58/142] done
+2026-09-28 17:30:41,904 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:41,906 [run 5] [59/142] done
+2026-09-28 17:30:53,879 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:30:53,889 [run 5] [60/142] done
+2026-09-28 17:31:03,504 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:03,507 [run 5] [61/142] done
+2026-09-28 17:31:14,462 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:14,465 [run 5] [62/142] done
+2026-09-28 17:31:26,035 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:26,037 [run 5] [63/142] done
+2026-09-28 17:31:34,226 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:34,228 [run 5] [64/142] done
+2026-09-28 17:31:45,795 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:45,808 [run 5] [65/142] done
+2026-09-28 17:31:55,830 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:31:55,833 [run 5] [66/142] done
+2026-09-28 17:32:07,401 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:07,403 [run 5] [67/142] done
+2026-09-28 17:32:15,309 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:15,313 [run 5] [68/142] done
+2026-09-28 17:32:24,810 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:24,813 [run 5] [69/142] done
+2026-09-28 17:32:34,935 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:34,948 [run 5] [70/142] done
+2026-09-28 17:32:48,467 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:48,470 [run 5] [71/142] done
+2026-09-28 17:32:58,457 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:32:58,459 [run 5] [72/142] done
+2026-09-28 17:33:06,691 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:06,694 [run 5] [73/142] done
+2026-09-28 17:33:14,211 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:14,220 [run 5] [74/142] done
+2026-09-28 17:33:25,090 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:25,100 [run 5] [75/142] done
+2026-09-28 17:33:39,663 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:39,666 [run 5] [76/142] done
+2026-09-28 17:33:47,495 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:47,505 [run 5] [77/142] done
+2026-09-28 17:33:57,642 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:33:57,646 [run 5] [78/142] done
+2026-09-28 17:34:08,850 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:08,853 [run 5] [79/142] done
+2026-09-28 17:34:15,676 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:15,687 [run 5] [80/142] done
+2026-09-28 17:34:22,677 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:22,679 [run 5] [81/142] done
+2026-09-28 17:34:29,140 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:29,170 [run 5] [82/142] done
+2026-09-28 17:34:35,880 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:35,883 [run 5] [83/142] done
+2026-09-28 17:34:42,228 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:42,230 [run 5] [84/142] done
+2026-09-28 17:34:50,092 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:50,111 [run 5] [85/142] done
+2026-09-28 17:34:55,849 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:34:55,851 [run 5] [86/142] done
+2026-09-28 17:35:02,505 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:02,507 [run 5] [87/142] done
+2026-09-28 17:35:06,599 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:06,601 [run 5] [88/142] done
+2026-09-28 17:35:16,433 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:16,435 [run 5] [89/142] done
+2026-09-28 17:35:23,188 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:23,200 [run 5] [90/142] done
+2026-09-28 17:35:29,647 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:29,657 [run 5] [91/142] done
+2026-09-28 17:35:40,287 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:40,290 [run 5] [92/142] done
+2026-09-28 17:35:44,384 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:44,386 [run 5] [93/142] done
+2026-09-28 17:35:51,041 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:35:51,044 [run 5] [94/142] done
+2026-09-28 17:36:01,998 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:02,014 [run 5] [95/142] done
+2026-09-28 17:36:08,858 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:08,860 [run 5] [96/142] done
+2026-09-28 17:36:18,359 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:18,361 [run 5] [97/142] done
+2026-09-28 17:36:25,971 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:25,973 [run 5] [98/142] done
+2026-09-28 17:36:32,331 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:32,347 [run 5] [99/142] done
+2026-09-28 17:36:39,270 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:39,283 [run 5] [100/142] done
+2026-09-28 17:36:44,497 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:44,500 [run 5] [101/142] done
+2026-09-28 17:36:49,512 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:49,514 [run 5] [102/142] done
+2026-09-28 17:36:56,474 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:36:56,476 [run 5] [103/142] done
+2026-09-28 17:37:00,297 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:00,303 [run 5] [104/142] done
+2026-09-28 17:37:06,949 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:06,969 [run 5] [105/142] done
+2026-09-28 17:37:10,604 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:10,606 [run 5] [106/142] done
+2026-09-28 17:37:22,790 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:22,792 [run 5] [107/142] done
+2026-09-28 17:37:28,217 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:28,219 [run 5] [108/142] done
+2026-09-28 17:37:33,848 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:33,850 [run 5] [109/142] done
+2026-09-28 17:37:41,072 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:41,085 [run 5] [110/142] done
+2026-09-28 17:37:48,084 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:48,086 [run 5] [111/142] done
+2026-09-28 17:37:58,732 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:37:58,745 [run 5] [112/142] done
+2026-09-28 17:38:03,812 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:03,814 [run 5] [113/142] done
+2026-09-28 17:38:08,869 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:08,872 [run 5] [114/142] done
+2026-09-28 17:38:12,355 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:12,369 [run 5] [115/142] done
+2026-09-28 17:38:18,187 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:18,194 [run 5] [116/142] done
+2026-09-28 17:38:26,238 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:26,256 [run 5] [117/142] done
+2026-09-28 17:38:30,278 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:30,280 [run 5] [118/142] done
+2026-09-28 17:38:34,061 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:34,064 [run 5] [119/142] done
+2026-09-28 17:38:41,028 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:41,042 [run 5] [120/142] done
+2026-09-28 17:38:45,937 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:45,939 [run 5] [121/142] done
+2026-09-28 17:38:51,775 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:51,778 [run 5] [122/142] done
+2026-09-28 17:38:58,752 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:38:58,761 [run 5] [123/142] done
+2026-09-28 17:39:03,694 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:03,711 [run 5] [124/142] done
+2026-09-28 17:39:09,695 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:09,710 [run 5] [125/142] done
+2026-09-28 17:39:14,917 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:14,919 [run 5] [126/142] done
+2026-09-28 17:39:21,860 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:21,870 [run 5] [127/142] done
+2026-09-28 17:39:38,172 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:38,181 [run 5] [128/142] done
+2026-09-28 17:39:43,791 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:43,794 [run 5] [129/142] done
+2026-09-28 17:39:49,917 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:49,937 [run 5] [130/142] done
+2026-09-28 17:39:55,670 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:39:55,673 [run 5] [131/142] done
+2026-09-28 17:40:06,012 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:06,014 [run 5] [132/142] done
+2026-09-28 17:40:15,996 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:16,005 [run 5] [133/142] done
+2026-09-28 17:40:26,995 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:27,006 [run 5] [134/142] done
+2026-09-28 17:40:39,296 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:39,315 [run 5] [135/142] done
+2026-09-28 17:40:49,430 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:49,432 [run 5] [136/142] done
+2026-09-28 17:40:54,960 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:40:54,963 [run 5] [137/142] done
+2026-09-28 17:41:00,798 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:41:00,801 [run 5] [138/142] done
+2026-09-28 17:41:09,296 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:41:09,299 [run 5] [139/142] done
+2026-09-28 17:41:15,848 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:41:15,864 [run 5] [140/142] done
+2026-09-28 17:41:25,678 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:41:25,681 [run 5] [141/142] done
+2026-09-28 17:41:30,697 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-28 17:41:30,700 [run 5] [142/142] done
+2026-09-28 17:41:30,715 run 5 finished, saved to: data/evaluation/complied_rerun/claude-opus-4-8_mutated_complied_run5_claude.json
+2026-09-28 17:41:30,715 finished

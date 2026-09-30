@@ -1,0 +1,61 @@
+{
+  "input_file": "/scratch/projects/Kausar/SafetyDrift/data/raw/mental_health_self_harm.json",
+  "category_ids": [
+    "6",
+    "39"
+  ],
+  "seed": 120,
+  "total_generated": 16952,
+  "total_kept": 2672,
+  "total_discarded": 14280,
+  "discarded_apply": 5209,
+  "apply_failures_by_operator": {
+    "fairness": {
+      "no_identity_terms_found": 3263
+    },
+    "paraphrase": {
+      "no_paraphrase_candidates": 121
+    },
+    "delete": {
+      "no_eligible_adj_adv": 1564
+    },
+    "person_third_to_first": {
+      "mutated_too_similar_to_parent": 15
+    },
+    "person_first_to_third": {
+      "mutated_too_similar_to_parent": 102
+    },
+    "modifier": {
+      "no_modifier_candidates": 144
+    }
+  },
+  "discarded_unchanged": 2915,
+  "discarded_semantic": 2038,
+  "discarded_perplexity": 1069,
+  "discarded_grammar": 490,
+  "discarded_duplicate": 1754,
+  "discarded_similar": 805,
+  "discarded_no_applicable_op": 0,
+  "keep_rate_pct": 15.76,
+  "seed_pool_final_size": 2507,
+  "generation_distribution": {
+    "1": 60,
+    "2": 134,
+    "3": 233,
+    "4": 297,
+    "5": 376,
+    "6": 419,
+    "7": 389,
+    "8": 334,
+    "9": 252,
+    "10": 178
+  },
+  "max_generation": 10,
+  "thresholds": {
+    "semantic": 0.8,
+    "perplexity": 2.0,
+    "grammar": 0.5,
+    "different": 0.95,
+    "dedup": 0.95
+  }
+}

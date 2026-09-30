@@ -1,0 +1,1418 @@
+2026-09-03 21:53:05,220 loading dataset...
+2026-09-03 21:53:05,228 total prompts: 707
+2026-09-03 21:53:16,177 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:16,195 [1/707] done
+2026-09-03 21:53:26,111 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:26,115 [2/707] done
+2026-09-03 21:53:40,021 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:40,024 [3/707] done
+2026-09-03 21:53:50,585 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:50,588 [4/707] done
+2026-09-03 21:53:54,182 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:54,186 [5/707] done
+2026-09-03 21:53:58,620 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:53:58,623 [6/707] done
+2026-09-03 21:54:02,573 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:02,577 [7/707] done
+2026-09-03 21:54:12,523 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:12,526 [8/707] done
+2026-09-03 21:54:27,445 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:27,448 [9/707] done
+2026-09-03 21:54:31,218 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:31,223 [10/707] done
+2026-09-03 21:54:45,825 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:45,828 [11/707] done
+2026-09-03 21:54:50,314 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:50,317 [12/707] done
+2026-09-03 21:54:55,862 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:54:55,865 [13/707] done
+2026-09-03 21:55:00,856 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:00,858 [14/707] done
+2026-09-03 21:55:09,326 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:09,331 [15/707] done
+2026-09-03 21:55:16,783 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:16,786 [16/707] done
+2026-09-03 21:55:21,096 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:21,099 [17/707] done
+2026-09-03 21:55:25,469 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:25,471 [18/707] done
+2026-09-03 21:55:29,925 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:29,928 [19/707] done
+2026-09-03 21:55:38,786 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:55:38,791 [20/707] done
+2026-09-03 21:56:03,388 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:03,391 [21/707] done
+2026-09-03 21:56:15,949 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:15,952 [22/707] done
+2026-09-03 21:56:22,280 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:22,283 [23/707] done
+2026-09-03 21:56:24,555 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:24,557 [24/707] done
+2026-09-03 21:56:29,794 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:29,800 [25/707] done
+2026-09-03 21:56:37,375 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:37,377 [26/707] done
+2026-09-03 21:56:43,124 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:43,127 [27/707] done
+2026-09-03 21:56:54,716 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:54,719 [28/707] done
+2026-09-03 21:56:58,952 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:56:58,955 [29/707] done
+2026-09-03 21:57:03,896 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:03,902 [30/707] done
+2026-09-03 21:57:07,963 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:07,966 [31/707] done
+2026-09-03 21:57:12,671 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:12,674 [32/707] done
+2026-09-03 21:57:17,969 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:17,972 [33/707] done
+2026-09-03 21:57:24,961 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:24,964 [34/707] done
+2026-09-03 21:57:38,166 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:38,174 [35/707] done
+2026-09-03 21:57:47,680 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:47,683 [36/707] done
+2026-09-03 21:57:53,245 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:57:53,249 [37/707] done
+2026-09-03 21:58:02,720 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:02,723 [38/707] done
+2026-09-03 21:58:07,629 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:07,632 [39/707] done
+2026-09-03 21:58:12,422 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:12,428 [40/707] done
+2026-09-03 21:58:19,130 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:19,132 [41/707] done
+2026-09-03 21:58:43,411 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:43,415 [42/707] done
+2026-09-03 21:58:48,140 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:48,142 [43/707] done
+2026-09-03 21:58:55,117 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:58:55,119 [44/707] done
+2026-09-03 21:59:02,364 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:59:02,371 [45/707] done
+2026-09-03 21:59:10,119 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:59:10,122 [46/707] done
+2026-09-03 21:59:27,133 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:59:27,137 [47/707] done
+2026-09-03 21:59:37,706 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:59:37,709 [48/707] done
+2026-09-03 21:59:55,142 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 21:59:55,145 [49/707] done
+2026-09-03 22:00:03,579 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:03,587 [50/707] done
+2026-09-03 22:00:13,219 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:13,222 [51/707] done
+2026-09-03 22:00:17,999 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:18,002 [52/707] done
+2026-09-03 22:00:22,749 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:22,752 [53/707] done
+2026-09-03 22:00:27,337 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:27,340 [54/707] done
+2026-09-03 22:00:34,386 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:34,393 [55/707] done
+2026-09-03 22:00:39,891 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:39,893 [56/707] done
+2026-09-03 22:00:46,114 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:46,117 [57/707] done
+2026-09-03 22:00:50,673 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:50,676 [58/707] done
+2026-09-03 22:00:54,634 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:00:54,637 [59/707] done
+2026-09-03 22:01:04,843 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:04,851 [60/707] done
+2026-09-03 22:01:10,054 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:10,057 [61/707] done
+2026-09-03 22:01:16,058 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:16,061 [62/707] done
+2026-09-03 22:01:30,715 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:30,718 [63/707] done
+2026-09-03 22:01:36,415 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:36,418 [64/707] done
+2026-09-03 22:01:43,335 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:01:43,343 [65/707] done
+2026-09-03 22:02:05,074 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:05,079 [66/707] done
+2026-09-03 22:02:10,532 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:10,535 [67/707] done
+2026-09-03 22:02:16,823 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:16,826 [68/707] done
+2026-09-03 22:02:30,007 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:30,010 [69/707] done
+2026-09-03 22:02:36,104 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:36,112 [70/707] done
+2026-09-03 22:02:49,521 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:49,523 [71/707] done
+2026-09-03 22:02:54,320 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:02:54,323 [72/707] done
+2026-09-03 22:03:16,240 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:16,243 [73/707] done
+2026-09-03 22:03:24,206 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:24,210 [74/707] done
+2026-09-03 22:03:30,562 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:30,571 [75/707] done
+2026-09-03 22:03:35,611 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:35,613 [76/707] done
+2026-09-03 22:03:40,891 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:40,894 [77/707] done
+2026-09-03 22:03:46,027 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:46,030 [78/707] done
+2026-09-03 22:03:59,275 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:03:59,278 [79/707] done
+2026-09-03 22:04:04,419 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:04:04,428 [80/707] done
+2026-09-03 22:04:44,468 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:04:44,471 [81/707] done
+2026-09-03 22:04:48,941 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:04:48,944 [82/707] done
+2026-09-03 22:04:57,680 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:04:57,683 [83/707] done
+2026-09-03 22:05:02,387 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:05:02,390 [84/707] done
+2026-09-03 22:05:28,120 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:05:28,129 [85/707] done
+2026-09-03 22:05:42,566 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:05:42,568 [86/707] done
+2026-09-03 22:05:54,057 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:05:54,059 [87/707] done
+2026-09-03 22:06:04,422 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:04,425 [88/707] done
+2026-09-03 22:06:09,637 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:09,640 [89/707] done
+2026-09-03 22:06:13,601 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:13,611 [90/707] done
+2026-09-03 22:06:26,235 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:26,238 [91/707] done
+2026-09-03 22:06:33,075 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:33,078 [92/707] done
+2026-09-03 22:06:52,791 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:52,794 [93/707] done
+2026-09-03 22:06:57,355 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:06:57,357 [94/707] done
+2026-09-03 22:07:04,558 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:04,567 [95/707] done
+2026-09-03 22:07:09,291 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:09,294 [96/707] done
+2026-09-03 22:07:13,570 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:13,573 [97/707] done
+2026-09-03 22:07:16,769 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:16,772 [98/707] done
+2026-09-03 22:07:28,083 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:28,086 [99/707] done
+2026-09-03 22:07:32,127 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:32,137 [100/707] done
+2026-09-03 22:07:37,321 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:37,323 [101/707] done
+2026-09-03 22:07:46,550 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:46,552 [102/707] done
+2026-09-03 22:07:51,209 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:51,212 [103/707] done
+2026-09-03 22:07:56,850 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:07:56,852 [104/707] done
+2026-09-03 22:08:11,641 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:11,651 [105/707] done
+2026-09-03 22:08:25,114 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:25,116 [106/707] done
+2026-09-03 22:08:41,775 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:41,778 [107/707] done
+2026-09-03 22:08:46,221 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:46,224 [108/707] done
+2026-09-03 22:08:49,434 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:49,436 [109/707] done
+2026-09-03 22:08:53,682 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:53,693 [110/707] done
+2026-09-03 22:08:59,432 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:08:59,435 [111/707] done
+2026-09-03 22:09:27,526 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:09:27,529 [112/707] done
+2026-09-03 22:09:34,382 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:09:34,385 [113/707] done
+2026-09-03 22:09:48,652 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:09:48,655 [114/707] done
+2026-09-03 22:10:00,499 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:00,509 [115/707] done
+2026-09-03 22:10:04,903 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:04,906 [116/707] done
+2026-09-03 22:10:08,649 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:08,651 [117/707] done
+2026-09-03 22:10:14,688 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:14,690 [118/707] done
+2026-09-03 22:10:17,812 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:17,814 [119/707] done
+2026-09-03 22:10:27,892 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:27,902 [120/707] done
+2026-09-03 22:10:34,822 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:34,824 [121/707] done
+2026-09-03 22:10:38,920 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:38,923 [122/707] done
+2026-09-03 22:10:46,666 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:10:46,668 [123/707] done
+2026-09-03 22:11:03,806 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:03,809 [124/707] done
+2026-09-03 22:11:07,180 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:07,191 [125/707] done
+2026-09-03 22:11:17,649 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:17,651 [126/707] done
+2026-09-03 22:11:21,891 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:21,894 [127/707] done
+2026-09-03 22:11:25,120 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:25,122 [128/707] done
+2026-09-03 22:11:33,988 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:33,991 [129/707] done
+2026-09-03 22:11:46,108 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:46,119 [130/707] done
+2026-09-03 22:11:49,659 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:49,662 [131/707] done
+2026-09-03 22:11:59,184 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:11:59,187 [132/707] done
+2026-09-03 22:12:02,323 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:02,326 [133/707] done
+2026-09-03 22:12:07,344 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:07,346 [134/707] done
+2026-09-03 22:12:11,290 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:11,302 [135/707] done
+2026-09-03 22:12:15,598 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:15,600 [136/707] done
+2026-09-03 22:12:19,336 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:19,338 [137/707] done
+2026-09-03 22:12:23,308 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:23,311 [138/707] done
+2026-09-03 22:12:28,456 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:28,459 [139/707] done
+2026-09-03 22:12:35,751 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:35,763 [140/707] done
+2026-09-03 22:12:41,252 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:41,256 [141/707] done
+2026-09-03 22:12:44,555 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:44,557 [142/707] done
+2026-09-03 22:12:52,798 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:52,801 [143/707] done
+2026-09-03 22:12:58,897 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:12:58,900 [144/707] done
+2026-09-03 22:13:07,898 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:07,910 [145/707] done
+2026-09-03 22:13:17,268 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:17,270 [146/707] done
+2026-09-03 22:13:22,294 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:22,297 [147/707] done
+2026-09-03 22:13:24,938 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:24,941 [148/707] done
+2026-09-03 22:13:28,750 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:28,753 [149/707] done
+2026-09-03 22:13:40,934 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:40,945 [150/707] done
+2026-09-03 22:13:45,858 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:45,861 [151/707] done
+2026-09-03 22:13:49,610 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:49,613 [152/707] done
+2026-09-03 22:13:53,884 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:53,886 [153/707] done
+2026-09-03 22:13:58,631 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:13:58,634 [154/707] done
+2026-09-03 22:14:17,742 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:17,756 [155/707] done
+2026-09-03 22:14:28,399 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:28,402 [156/707] done
+2026-09-03 22:14:33,020 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:33,023 [157/707] done
+2026-09-03 22:14:45,693 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:45,696 [158/707] done
+2026-09-03 22:14:53,806 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:53,809 [159/707] done
+2026-09-03 22:14:56,997 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:14:57,010 [160/707] done
+2026-09-03 22:15:00,731 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:00,734 [161/707] done
+2026-09-03 22:15:03,191 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:03,194 [162/707] done
+2026-09-03 22:15:07,765 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:07,768 [163/707] done
+2026-09-03 22:15:14,310 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:14,312 [164/707] done
+2026-09-03 22:15:28,504 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:28,518 [165/707] done
+2026-09-03 22:15:31,430 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:31,433 [166/707] done
+2026-09-03 22:15:49,912 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:49,915 [167/707] done
+2026-09-03 22:15:54,738 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:54,740 [168/707] done
+2026-09-03 22:15:58,199 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:15:58,201 [169/707] done
+2026-09-03 22:16:02,245 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:02,259 [170/707] done
+2026-09-03 22:16:15,889 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:15,892 [171/707] done
+2026-09-03 22:16:19,361 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:19,364 [172/707] done
+2026-09-03 22:16:24,367 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:24,370 [173/707] done
+2026-09-03 22:16:26,914 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:26,917 [174/707] done
+2026-09-03 22:16:37,787 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:37,800 [175/707] done
+2026-09-03 22:16:42,759 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:42,762 [176/707] done
+2026-09-03 22:16:50,896 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:50,899 [177/707] done
+2026-09-03 22:16:55,035 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:55,038 [178/707] done
+2026-09-03 22:16:58,356 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:16:58,359 [179/707] done
+2026-09-03 22:17:05,808 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:05,821 [180/707] done
+2026-09-03 22:17:09,706 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:09,708 [181/707] done
+2026-09-03 22:17:17,534 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:17,537 [182/707] done
+2026-09-03 22:17:21,092 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:21,095 [183/707] done
+2026-09-03 22:17:37,638 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:37,641 [184/707] done
+2026-09-03 22:17:40,897 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:40,911 [185/707] done
+2026-09-03 22:17:51,224 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:51,226 [186/707] done
+2026-09-03 22:17:55,644 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:17:55,646 [187/707] done
+2026-09-03 22:18:01,909 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:01,912 [188/707] done
+2026-09-03 22:18:06,752 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:06,755 [189/707] done
+2026-09-03 22:18:10,822 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:10,835 [190/707] done
+2026-09-03 22:18:14,519 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:14,522 [191/707] done
+2026-09-03 22:18:19,027 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:19,030 [192/707] done
+2026-09-03 22:18:32,083 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:32,086 [193/707] done
+2026-09-03 22:18:35,790 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:35,793 [194/707] done
+2026-09-03 22:18:39,027 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:39,041 [195/707] done
+2026-09-03 22:18:43,234 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:43,236 [196/707] done
+2026-09-03 22:18:50,852 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:50,855 [197/707] done
+2026-09-03 22:18:54,716 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:54,718 [198/707] done
+2026-09-03 22:18:59,378 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:18:59,381 [199/707] done
+2026-09-03 22:19:06,629 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:06,643 [200/707] done
+2026-09-03 22:19:16,407 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:16,410 [201/707] done
+2026-09-03 22:19:36,057 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:36,060 [202/707] done
+2026-09-03 22:19:44,574 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:44,577 [203/707] done
+2026-09-03 22:19:50,287 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:50,290 [204/707] done
+2026-09-03 22:19:55,492 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:19:55,507 [205/707] done
+2026-09-03 22:20:11,490 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:11,493 [206/707] done
+2026-09-03 22:20:18,519 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:18,521 [207/707] done
+2026-09-03 22:20:21,771 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:21,774 [208/707] done
+2026-09-03 22:20:45,792 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:45,795 [209/707] done
+2026-09-03 22:20:49,446 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:49,461 [210/707] done
+2026-09-03 22:20:53,326 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:53,329 [211/707] done
+2026-09-03 22:20:59,364 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:20:59,366 [212/707] done
+2026-09-03 22:21:02,489 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:02,492 [213/707] done
+2026-09-03 22:21:11,441 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:11,443 [214/707] done
+2026-09-03 22:21:19,110 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:19,125 [215/707] done
+2026-09-03 22:21:34,112 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:34,116 [216/707] done
+2026-09-03 22:21:39,816 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:39,819 [217/707] done
+2026-09-03 22:21:55,034 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:55,037 [218/707] done
+2026-09-03 22:21:59,924 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:21:59,927 [219/707] done
+2026-09-03 22:22:04,230 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:04,245 [220/707] done
+2026-09-03 22:22:09,577 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:09,580 [221/707] done
+2026-09-03 22:22:15,294 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:15,296 [222/707] done
+2026-09-03 22:22:19,610 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:19,613 [223/707] done
+2026-09-03 22:22:28,171 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:28,174 [224/707] done
+2026-09-03 22:22:52,658 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:52,674 [225/707] done
+2026-09-03 22:22:56,803 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:22:56,805 [226/707] done
+2026-09-03 22:23:04,545 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:04,547 [227/707] done
+2026-09-03 22:23:07,180 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:07,183 [228/707] done
+2026-09-03 22:23:15,425 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:15,428 [229/707] done
+2026-09-03 22:23:20,424 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:20,440 [230/707] done
+2026-09-03 22:23:27,116 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:27,118 [231/707] done
+2026-09-03 22:23:38,478 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:38,480 [232/707] done
+2026-09-03 22:23:42,563 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:42,566 [233/707] done
+2026-09-03 22:23:46,354 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:46,357 [234/707] done
+2026-09-03 22:23:50,428 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:50,443 [235/707] done
+2026-09-03 22:23:58,153 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:23:58,156 [236/707] done
+2026-09-03 22:24:01,984 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:01,987 [237/707] done
+2026-09-03 22:24:06,085 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:06,088 [238/707] done
+2026-09-03 22:24:14,526 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:14,529 [239/707] done
+2026-09-03 22:24:18,934 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:18,950 [240/707] done
+2026-09-03 22:24:22,336 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:22,339 [241/707] done
+2026-09-03 22:24:27,781 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:27,783 [242/707] done
+2026-09-03 22:24:33,535 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:33,538 [243/707] done
+2026-09-03 22:24:37,974 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:37,977 [244/707] done
+2026-09-03 22:24:41,532 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:41,549 [245/707] done
+2026-09-03 22:24:49,953 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:49,956 [246/707] done
+2026-09-03 22:24:53,360 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:53,363 [247/707] done
+2026-09-03 22:24:57,968 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:24:57,970 [248/707] done
+2026-09-03 22:25:09,942 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:09,944 [249/707] done
+2026-09-03 22:25:13,056 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:13,073 [250/707] done
+2026-09-03 22:25:16,142 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:16,145 [251/707] done
+2026-09-03 22:25:22,487 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:22,490 [252/707] done
+2026-09-03 22:25:26,601 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:26,604 [253/707] done
+2026-09-03 22:25:31,373 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:31,376 [254/707] done
+2026-09-03 22:25:34,807 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:34,824 [255/707] done
+2026-09-03 22:25:57,312 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:25:57,315 [256/707] done
+2026-09-03 22:26:02,264 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:02,267 [257/707] done
+2026-09-03 22:26:06,900 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:06,902 [258/707] done
+2026-09-03 22:26:14,202 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:14,205 [259/707] done
+2026-09-03 22:26:20,299 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:20,317 [260/707] done
+2026-09-03 22:26:25,105 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:25,108 [261/707] done
+2026-09-03 22:26:29,761 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:29,764 [262/707] done
+2026-09-03 22:26:38,113 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:38,116 [263/707] done
+2026-09-03 22:26:42,990 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:42,992 [264/707] done
+2026-09-03 22:26:47,017 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:47,034 [265/707] done
+2026-09-03 22:26:53,399 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:53,403 [266/707] done
+2026-09-03 22:26:56,990 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:26:56,992 [267/707] done
+2026-09-03 22:27:01,064 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:01,066 [268/707] done
+2026-09-03 22:27:19,548 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:19,551 [269/707] done
+2026-09-03 22:27:25,271 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:25,289 [270/707] done
+2026-09-03 22:27:30,428 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:30,431 [271/707] done
+2026-09-03 22:27:33,090 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:33,092 [272/707] done
+2026-09-03 22:27:36,270 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:36,272 [273/707] done
+2026-09-03 22:27:40,524 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:40,527 [274/707] done
+2026-09-03 22:27:44,611 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:44,629 [275/707] done
+2026-09-03 22:27:48,091 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:48,094 [276/707] done
+2026-09-03 22:27:52,315 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:52,317 [277/707] done
+2026-09-03 22:27:57,900 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:27:57,903 [278/707] done
+2026-09-03 22:28:05,713 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:05,715 [279/707] done
+2026-09-03 22:28:09,475 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:09,493 [280/707] done
+2026-09-03 22:28:34,042 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:34,045 [281/707] done
+2026-09-03 22:28:41,212 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:41,215 [282/707] done
+2026-09-03 22:28:53,298 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:53,301 [283/707] done
+2026-09-03 22:28:57,395 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:28:57,398 [284/707] done
+2026-09-03 22:29:06,207 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:06,226 [285/707] done
+2026-09-03 22:29:19,107 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:19,111 [286/707] done
+2026-09-03 22:29:23,367 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:23,369 [287/707] done
+2026-09-03 22:29:28,620 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:28,623 [288/707] done
+2026-09-03 22:29:32,482 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:32,485 [289/707] done
+2026-09-03 22:29:41,576 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:41,595 [290/707] done
+2026-09-03 22:29:45,228 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:45,231 [291/707] done
+2026-09-03 22:29:53,870 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:29:53,873 [292/707] done
+2026-09-03 22:30:11,555 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:11,560 [293/707] done
+2026-09-03 22:30:16,817 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:16,820 [294/707] done
+2026-09-03 22:30:23,646 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:23,665 [295/707] done
+2026-09-03 22:30:29,058 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:29,061 [296/707] done
+2026-09-03 22:30:35,118 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:35,120 [297/707] done
+2026-09-03 22:30:39,753 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:39,756 [298/707] done
+2026-09-03 22:30:45,484 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:45,487 [299/707] done
+2026-09-03 22:30:50,751 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:30:50,770 [300/707] done
+2026-09-03 22:31:04,660 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:04,662 [301/707] done
+2026-09-03 22:31:12,037 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:12,040 [302/707] done
+2026-09-03 22:31:15,524 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:15,527 [303/707] done
+2026-09-03 22:31:19,244 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:19,247 [304/707] done
+2026-09-03 22:31:24,840 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:24,860 [305/707] done
+2026-09-03 22:31:28,122 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:28,125 [306/707] done
+2026-09-03 22:31:32,529 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:32,532 [307/707] done
+2026-09-03 22:31:37,815 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:37,817 [308/707] done
+2026-09-03 22:31:41,676 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:41,679 [309/707] done
+2026-09-03 22:31:55,144 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:31:55,164 [310/707] done
+2026-09-03 22:32:01,474 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:01,477 [311/707] done
+2026-09-03 22:32:05,954 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:05,956 [312/707] done
+2026-09-03 22:32:15,556 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:15,558 [313/707] done
+2026-09-03 22:32:19,410 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:19,412 [314/707] done
+2026-09-03 22:32:24,533 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:24,553 [315/707] done
+2026-09-03 22:32:29,522 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:29,525 [316/707] done
+2026-09-03 22:32:39,404 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:32:39,407 [317/707] done
+2026-09-03 22:33:00,582 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:00,586 [318/707] done
+2026-09-03 22:33:05,504 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:05,509 [319/707] done
+2026-09-03 22:33:10,376 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:10,398 [320/707] done
+2026-09-03 22:33:19,019 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:19,022 [321/707] done
+2026-09-03 22:33:32,840 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:32,843 [322/707] done
+2026-09-03 22:33:40,828 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:40,832 [323/707] done
+2026-09-03 22:33:48,440 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:48,443 [324/707] done
+2026-09-03 22:33:55,586 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:33:55,607 [325/707] done
+2026-09-03 22:34:30,926 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:30,930 [326/707] done
+2026-09-03 22:34:37,416 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:37,420 [327/707] done
+2026-09-03 22:34:42,340 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:42,344 [328/707] done
+2026-09-03 22:34:48,617 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:48,621 [329/707] done
+2026-09-03 22:34:54,246 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:54,269 [330/707] done
+2026-09-03 22:34:56,887 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:34:56,890 [331/707] done
+2026-09-03 22:35:01,421 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:35:01,424 [332/707] done
+2026-09-03 22:35:22,857 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:35:22,860 [333/707] done
+2026-09-03 22:35:50,022 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:35:50,026 [334/707] done
+2026-09-03 22:35:56,104 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:35:56,126 [335/707] done
+2026-09-03 22:36:01,897 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:01,901 [336/707] done
+2026-09-03 22:36:06,487 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:06,490 [337/707] done
+2026-09-03 22:36:10,260 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:10,264 [338/707] done
+2026-09-03 22:36:20,311 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:20,315 [339/707] done
+2026-09-03 22:36:24,223 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:24,246 [340/707] done
+2026-09-03 22:36:28,719 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:28,724 [341/707] done
+2026-09-03 22:36:33,118 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:33,122 [342/707] done
+2026-09-03 22:36:38,633 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:38,637 [343/707] done
+2026-09-03 22:36:42,859 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:42,862 [344/707] done
+2026-09-03 22:36:48,386 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:48,413 [345/707] done
+2026-09-03 22:36:54,286 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:54,290 [346/707] done
+2026-09-03 22:36:57,592 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:36:57,595 [347/707] done
+2026-09-03 22:37:01,987 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:01,990 [348/707] done
+2026-09-03 22:37:08,050 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:08,054 [349/707] done
+2026-09-03 22:37:12,562 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:12,584 [350/707] done
+2026-09-03 22:37:23,281 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:23,284 [351/707] done
+2026-09-03 22:37:36,606 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:36,609 [352/707] done
+2026-09-03 22:37:42,054 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:42,057 [353/707] done
+2026-09-03 22:37:50,304 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:50,307 [354/707] done
+2026-09-03 22:37:55,133 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:37:55,155 [355/707] done
+2026-09-03 22:38:00,867 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:00,870 [356/707] done
+2026-09-03 22:38:05,096 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:05,099 [357/707] done
+2026-09-03 22:38:09,015 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:09,018 [358/707] done
+2026-09-03 22:38:33,994 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:33,997 [359/707] done
+2026-09-03 22:38:38,454 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:38,477 [360/707] done
+2026-09-03 22:38:46,741 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:46,744 [361/707] done
+2026-09-03 22:38:51,718 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:51,721 [362/707] done
+2026-09-03 22:38:56,482 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:38:56,485 [363/707] done
+2026-09-03 22:39:03,255 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:03,258 [364/707] done
+2026-09-03 22:39:06,596 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:06,619 [365/707] done
+2026-09-03 22:39:12,096 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:12,100 [366/707] done
+2026-09-03 22:39:16,714 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:16,717 [367/707] done
+2026-09-03 22:39:28,085 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:28,089 [368/707] done
+2026-09-03 22:39:34,727 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:34,731 [369/707] done
+2026-09-03 22:39:41,797 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:41,821 [370/707] done
+2026-09-03 22:39:46,484 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:46,487 [371/707] done
+2026-09-03 22:39:51,760 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:51,764 [372/707] done
+2026-09-03 22:39:54,891 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:39:54,894 [373/707] done
+2026-09-03 22:40:00,577 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:00,580 [374/707] done
+2026-09-03 22:40:04,750 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:04,774 [375/707] done
+2026-09-03 22:40:09,942 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:09,945 [376/707] done
+2026-09-03 22:40:15,588 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:15,591 [377/707] done
+2026-09-03 22:40:20,573 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:20,577 [378/707] done
+2026-09-03 22:40:31,919 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:31,922 [379/707] done
+2026-09-03 22:40:38,823 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:38,847 [380/707] done
+2026-09-03 22:40:58,770 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:40:58,774 [381/707] done
+2026-09-03 22:41:01,749 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:01,752 [382/707] done
+2026-09-03 22:41:09,967 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:09,971 [383/707] done
+2026-09-03 22:41:13,455 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:13,458 [384/707] done
+2026-09-03 22:41:18,219 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:18,242 [385/707] done
+2026-09-03 22:41:23,203 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:23,206 [386/707] done
+2026-09-03 22:41:29,584 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:29,587 [387/707] done
+2026-09-03 22:41:33,450 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:33,453 [388/707] done
+2026-09-03 22:41:38,727 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:38,730 [389/707] done
+2026-09-03 22:41:55,223 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:41:55,248 [390/707] done
+2026-09-03 22:42:04,368 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:04,372 [391/707] done
+2026-09-03 22:42:09,309 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:09,312 [392/707] done
+2026-09-03 22:42:14,342 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:14,345 [393/707] done
+2026-09-03 22:42:21,015 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:21,018 [394/707] done
+2026-09-03 22:42:26,452 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:26,476 [395/707] done
+2026-09-03 22:42:31,368 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:31,371 [396/707] done
+2026-09-03 22:42:36,180 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:36,183 [397/707] done
+2026-09-03 22:42:47,205 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:47,208 [398/707] done
+2026-09-03 22:42:51,032 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:51,035 [399/707] done
+2026-09-03 22:42:55,980 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:42:56,004 [400/707] done
+2026-09-03 22:43:01,066 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:01,069 [401/707] done
+2026-09-03 22:43:04,118 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:04,121 [402/707] done
+2026-09-03 22:43:07,416 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:07,419 [403/707] done
+2026-09-03 22:43:12,336 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:12,339 [404/707] done
+2026-09-03 22:43:17,155 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:17,180 [405/707] done
+2026-09-03 22:43:21,103 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:21,106 [406/707] done
+2026-09-03 22:43:25,410 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:25,413 [407/707] done
+2026-09-03 22:43:32,441 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:32,444 [408/707] done
+2026-09-03 22:43:43,609 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:43,613 [409/707] done
+2026-09-03 22:43:48,862 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:43:48,887 [410/707] done
+2026-09-03 22:44:01,509 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:01,512 [411/707] done
+2026-09-03 22:44:06,534 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:06,537 [412/707] done
+2026-09-03 22:44:10,851 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:10,854 [413/707] done
+2026-09-03 22:44:13,778 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:13,781 [414/707] done
+2026-09-03 22:44:18,454 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:18,480 [415/707] done
+2026-09-03 22:44:27,805 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:27,807 [416/707] done
+2026-09-03 22:44:52,384 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:44:52,387 [417/707] done
+2026-09-03 22:45:00,824 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:00,827 [418/707] done
+2026-09-03 22:45:05,077 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:05,081 [419/707] done
+2026-09-03 22:45:10,846 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:10,871 [420/707] done
+2026-09-03 22:45:17,245 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:17,249 [421/707] done
+2026-09-03 22:45:21,159 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:21,162 [422/707] done
+2026-09-03 22:45:25,830 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:25,833 [423/707] done
+2026-09-03 22:45:40,246 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:40,249 [424/707] done
+2026-09-03 22:45:47,852 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:47,878 [425/707] done
+2026-09-03 22:45:59,703 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:45:59,707 [426/707] done
+2026-09-03 22:46:02,707 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:02,710 [427/707] done
+2026-09-03 22:46:17,256 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:17,259 [428/707] done
+2026-09-03 22:46:30,565 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:30,568 [429/707] done
+2026-09-03 22:46:35,894 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:35,920 [430/707] done
+2026-09-03 22:46:38,780 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:38,783 [431/707] done
+2026-09-03 22:46:44,301 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:44,304 [432/707] done
+2026-09-03 22:46:47,415 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:47,418 [433/707] done
+2026-09-03 22:46:51,090 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:51,093 [434/707] done
+2026-09-03 22:46:55,388 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:46:55,415 [435/707] done
+2026-09-03 22:47:07,426 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:07,430 [436/707] done
+2026-09-03 22:47:15,842 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:15,845 [437/707] done
+2026-09-03 22:47:19,792 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:19,795 [438/707] done
+2026-09-03 22:47:23,499 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:23,501 [439/707] done
+2026-09-03 22:47:28,973 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:29,000 [440/707] done
+2026-09-03 22:47:32,628 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:32,632 [441/707] done
+2026-09-03 22:47:36,967 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:36,970 [442/707] done
+2026-09-03 22:47:41,623 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:41,626 [443/707] done
+2026-09-03 22:47:47,447 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:47,450 [444/707] done
+2026-09-03 22:47:49,708 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:49,735 [445/707] done
+2026-09-03 22:47:59,018 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:47:59,021 [446/707] done
+2026-09-03 22:48:02,702 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:02,705 [447/707] done
+2026-09-03 22:48:15,899 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:15,902 [448/707] done
+2026-09-03 22:48:27,437 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:27,440 [449/707] done
+2026-09-03 22:48:32,306 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:32,333 [450/707] done
+2026-09-03 22:48:35,496 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:35,499 [451/707] done
+2026-09-03 22:48:44,640 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:44,643 [452/707] done
+2026-09-03 22:48:48,873 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:48:48,876 [453/707] done
+2026-09-03 22:49:00,020 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:00,023 [454/707] done
+2026-09-03 22:49:05,771 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:05,799 [455/707] done
+2026-09-03 22:49:09,033 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:09,036 [456/707] done
+2026-09-03 22:49:17,167 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:17,170 [457/707] done
+2026-09-03 22:49:22,315 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:22,318 [458/707] done
+2026-09-03 22:49:39,042 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:39,045 [459/707] done
+2026-09-03 22:49:42,102 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:42,130 [460/707] done
+2026-09-03 22:49:51,315 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:49:51,318 [461/707] done
+2026-09-03 22:50:10,229 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:10,232 [462/707] done
+2026-09-03 22:50:22,683 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:22,691 [463/707] done
+2026-09-03 22:50:25,322 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:25,324 [464/707] done
+2026-09-03 22:50:37,758 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:37,786 [465/707] done
+2026-09-03 22:50:43,254 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:43,258 [466/707] done
+2026-09-03 22:50:52,799 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:50:52,802 [467/707] done
+2026-09-03 22:51:17,021 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:17,025 [468/707] done
+2026-09-03 22:51:20,844 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:20,847 [469/707] done
+2026-09-03 22:51:25,153 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:25,181 [470/707] done
+2026-09-03 22:51:33,639 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:33,642 [471/707] done
+2026-09-03 22:51:37,359 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:37,361 [472/707] done
+2026-09-03 22:51:41,434 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:51:41,437 [473/707] done
+2026-09-03 22:52:01,377 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:01,380 [474/707] done
+2026-09-03 22:52:08,754 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:08,783 [475/707] done
+2026-09-03 22:52:19,181 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:19,184 [476/707] done
+2026-09-03 22:52:31,928 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:31,933 [477/707] done
+2026-09-03 22:52:37,433 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:37,435 [478/707] done
+2026-09-03 22:52:52,697 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:52,700 [479/707] done
+2026-09-03 22:52:56,280 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:52:56,310 [480/707] done
+2026-09-03 22:53:10,914 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:10,917 [481/707] done
+2026-09-03 22:53:14,747 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:14,750 [482/707] done
+2026-09-03 22:53:20,746 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:20,749 [483/707] done
+2026-09-03 22:53:39,711 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:39,715 [484/707] done
+2026-09-03 22:53:48,497 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:48,526 [485/707] done
+2026-09-03 22:53:53,886 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:53,889 [486/707] done
+2026-09-03 22:53:55,999 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:56,002 [487/707] done
+2026-09-03 22:53:59,122 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:53:59,124 [488/707] done
+2026-09-03 22:54:01,969 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:01,972 [489/707] done
+2026-09-03 22:54:17,625 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:17,655 [490/707] done
+2026-09-03 22:54:20,471 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:20,474 [491/707] done
+2026-09-03 22:54:27,785 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:27,788 [492/707] done
+2026-09-03 22:54:34,237 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:34,240 [493/707] done
+2026-09-03 22:54:36,944 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:36,946 [494/707] done
+2026-09-03 22:54:42,711 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:42,742 [495/707] done
+2026-09-03 22:54:52,382 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:54:52,387 [496/707] done
+2026-09-03 22:55:01,829 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:01,832 [497/707] done
+2026-09-03 22:55:08,909 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:08,912 [498/707] done
+2026-09-03 22:55:12,593 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:12,596 [499/707] done
+2026-09-03 22:55:21,200 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:21,231 [500/707] done
+2026-09-03 22:55:24,341 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:24,344 [501/707] done
+2026-09-03 22:55:27,287 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:27,290 [502/707] done
+2026-09-03 22:55:32,420 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:32,423 [503/707] done
+2026-09-03 22:55:35,330 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:35,334 [504/707] done
+2026-09-03 22:55:42,335 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:42,365 [505/707] done
+2026-09-03 22:55:48,528 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:55:48,531 [506/707] done
+2026-09-03 22:56:04,299 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:04,302 [507/707] done
+2026-09-03 22:56:07,782 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:07,784 [508/707] done
+2026-09-03 22:56:21,127 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:21,130 [509/707] done
+2026-09-03 22:56:25,550 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:25,580 [510/707] done
+2026-09-03 22:56:34,544 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:34,546 [511/707] done
+2026-09-03 22:56:47,035 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:47,038 [512/707] done
+2026-09-03 22:56:56,981 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:56:56,984 [513/707] done
+2026-09-03 22:57:01,092 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:01,095 [514/707] done
+2026-09-03 22:57:10,482 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:10,513 [515/707] done
+2026-09-03 22:57:18,470 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:18,473 [516/707] done
+2026-09-03 22:57:27,805 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:27,809 [517/707] done
+2026-09-03 22:57:31,251 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:31,254 [518/707] done
+2026-09-03 22:57:44,393 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:57:44,397 [519/707] done
+2026-09-03 22:58:01,256 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:01,287 [520/707] done
+2026-09-03 22:58:09,304 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:09,307 [521/707] done
+2026-09-03 22:58:12,860 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:12,863 [522/707] done
+2026-09-03 22:58:26,383 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:26,386 [523/707] done
+2026-09-03 22:58:30,690 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:30,693 [524/707] done
+2026-09-03 22:58:33,840 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:33,872 [525/707] done
+2026-09-03 22:58:47,528 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:58:47,533 [526/707] done
+2026-09-03 22:59:06,719 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:06,724 [527/707] done
+2026-09-03 22:59:09,387 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:09,390 [528/707] done
+2026-09-03 22:59:13,074 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:13,077 [529/707] done
+2026-09-03 22:59:18,056 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:18,088 [530/707] done
+2026-09-03 22:59:22,652 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:22,655 [531/707] done
+2026-09-03 22:59:26,862 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:26,865 [532/707] done
+2026-09-03 22:59:41,046 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:41,049 [533/707] done
+2026-09-03 22:59:46,489 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 22:59:46,492 [534/707] done
+2026-09-03 23:00:04,716 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:04,749 [535/707] done
+2026-09-03 23:00:26,338 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:26,341 [536/707] done
+2026-09-03 23:00:31,483 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:31,486 [537/707] done
+2026-09-03 23:00:35,594 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:35,597 [538/707] done
+2026-09-03 23:00:38,556 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:38,559 [539/707] done
+2026-09-03 23:00:49,568 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:49,600 [540/707] done
+2026-09-03 23:00:53,406 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:00:53,409 [541/707] done
+2026-09-03 23:01:10,166 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:10,169 [542/707] done
+2026-09-03 23:01:17,075 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:17,079 [543/707] done
+2026-09-03 23:01:20,627 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:20,630 [544/707] done
+2026-09-03 23:01:26,066 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:26,099 [545/707] done
+2026-09-03 23:01:35,302 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:35,305 [546/707] done
+2026-09-03 23:01:46,571 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:46,574 [547/707] done
+2026-09-03 23:01:49,691 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:49,694 [548/707] done
+2026-09-03 23:01:58,714 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:01:58,717 [549/707] done
+2026-09-03 23:02:07,614 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:07,647 [550/707] done
+2026-09-03 23:02:11,258 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:11,260 [551/707] done
+2026-09-03 23:02:15,539 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:15,542 [552/707] done
+2026-09-03 23:02:17,858 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:17,861 [553/707] done
+2026-09-03 23:02:23,086 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:23,089 [554/707] done
+2026-09-03 23:02:34,320 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:34,352 [555/707] done
+2026-09-03 23:02:40,889 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:40,892 [556/707] done
+2026-09-03 23:02:46,851 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:46,853 [557/707] done
+2026-09-03 23:02:52,624 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:52,627 [558/707] done
+2026-09-03 23:02:56,613 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:02:56,616 [559/707] done
+2026-09-03 23:03:00,528 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:00,562 [560/707] done
+2026-09-03 23:03:06,373 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:06,377 [561/707] done
+2026-09-03 23:03:16,809 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:16,812 [562/707] done
+2026-09-03 23:03:20,166 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:20,169 [563/707] done
+2026-09-03 23:03:23,217 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:23,220 [564/707] done
+2026-09-03 23:03:32,988 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:33,022 [565/707] done
+2026-09-03 23:03:48,087 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:48,090 [566/707] done
+2026-09-03 23:03:58,104 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:03:58,107 [567/707] done
+2026-09-03 23:04:03,497 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:03,501 [568/707] done
+2026-09-03 23:04:12,839 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:12,841 [569/707] done
+2026-09-03 23:04:16,142 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:16,176 [570/707] done
+2026-09-03 23:04:23,968 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:23,971 [571/707] done
+2026-09-03 23:04:35,772 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:35,775 [572/707] done
+2026-09-03 23:04:40,804 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:40,807 [573/707] done
+2026-09-03 23:04:45,001 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:45,003 [574/707] done
+2026-09-03 23:04:52,188 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:52,222 [575/707] done
+2026-09-03 23:04:56,147 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:56,149 [576/707] done
+2026-09-03 23:04:59,080 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:04:59,084 [577/707] done
+2026-09-03 23:05:03,141 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:03,144 [578/707] done
+2026-09-03 23:05:06,285 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:06,288 [579/707] done
+2026-09-03 23:05:16,729 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:16,765 [580/707] done
+2026-09-03 23:05:20,737 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:20,740 [581/707] done
+2026-09-03 23:05:31,312 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:31,315 [582/707] done
+2026-09-03 23:05:43,320 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:43,323 [583/707] done
+2026-09-03 23:05:48,806 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:48,808 [584/707] done
+2026-09-03 23:05:52,328 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:52,363 [585/707] done
+2026-09-03 23:05:55,888 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:55,891 [586/707] done
+2026-09-03 23:05:59,078 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:05:59,081 [587/707] done
+2026-09-03 23:06:07,321 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:07,324 [588/707] done
+2026-09-03 23:06:18,104 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:18,107 [589/707] done
+2026-09-03 23:06:22,927 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:22,962 [590/707] done
+2026-09-03 23:06:26,811 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:26,814 [591/707] done
+2026-09-03 23:06:30,420 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:30,423 [592/707] done
+2026-09-03 23:06:33,929 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:33,932 [593/707] done
+2026-09-03 23:06:38,908 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:38,911 [594/707] done
+2026-09-03 23:06:48,071 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:48,106 [595/707] done
+2026-09-03 23:06:50,949 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:50,952 [596/707] done
+2026-09-03 23:06:56,456 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:06:56,459 [597/707] done
+2026-09-03 23:07:00,475 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:00,479 [598/707] done
+2026-09-03 23:07:09,272 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:09,275 [599/707] done
+2026-09-03 23:07:17,198 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:17,233 [600/707] done
+2026-09-03 23:07:24,160 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:24,163 [601/707] done
+2026-09-03 23:07:27,666 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:27,669 [602/707] done
+2026-09-03 23:07:35,496 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:35,499 [603/707] done
+2026-09-03 23:07:38,711 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:38,713 [604/707] done
+2026-09-03 23:07:41,602 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:41,638 [605/707] done
+2026-09-03 23:07:45,551 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:45,554 [606/707] done
+2026-09-03 23:07:53,462 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:53,465 [607/707] done
+2026-09-03 23:07:56,681 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:07:56,684 [608/707] done
+2026-09-03 23:08:08,866 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:08,869 [609/707] done
+2026-09-03 23:08:22,866 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:22,903 [610/707] done
+2026-09-03 23:08:25,644 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:25,647 [611/707] done
+2026-09-03 23:08:32,828 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:32,831 [612/707] done
+2026-09-03 23:08:37,634 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:37,637 [613/707] done
+2026-09-03 23:08:41,116 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:41,119 [614/707] done
+2026-09-03 23:08:47,926 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:47,962 [615/707] done
+2026-09-03 23:08:51,229 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:51,231 [616/707] done
+2026-09-03 23:08:54,804 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:08:54,807 [617/707] done
+2026-09-03 23:09:05,465 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:05,469 [618/707] done
+2026-09-03 23:09:11,077 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:11,080 [619/707] done
+2026-09-03 23:09:31,115 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:31,152 [620/707] done
+2026-09-03 23:09:39,261 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:39,264 [621/707] done
+2026-09-03 23:09:42,681 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:42,684 [622/707] done
+2026-09-03 23:09:52,214 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:52,217 [623/707] done
+2026-09-03 23:09:56,623 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:09:56,626 [624/707] done
+2026-09-03 23:10:00,884 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:00,921 [625/707] done
+2026-09-03 23:10:04,991 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:04,994 [626/707] done
+2026-09-03 23:10:08,575 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:08,578 [627/707] done
+2026-09-03 23:10:14,180 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:14,183 [628/707] done
+2026-09-03 23:10:17,184 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:17,187 [629/707] done
+2026-09-03 23:10:26,329 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:26,366 [630/707] done
+2026-09-03 23:10:44,531 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:44,534 [631/707] done
+2026-09-03 23:10:59,770 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:10:59,774 [632/707] done
+2026-09-03 23:11:09,862 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:09,865 [633/707] done
+2026-09-03 23:11:12,846 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:12,849 [634/707] done
+2026-09-03 23:11:16,906 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:16,944 [635/707] done
+2026-09-03 23:11:20,129 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:20,132 [636/707] done
+2026-09-03 23:11:25,533 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:25,536 [637/707] done
+2026-09-03 23:11:32,157 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:32,161 [638/707] done
+2026-09-03 23:11:36,639 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:36,642 [639/707] done
+2026-09-03 23:11:40,793 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:40,831 [640/707] done
+2026-09-03 23:11:48,847 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:48,851 [641/707] done
+2026-09-03 23:11:52,578 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:52,581 [642/707] done
+2026-09-03 23:11:58,091 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:11:58,094 [643/707] done
+2026-09-03 23:12:19,870 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:19,874 [644/707] done
+2026-09-03 23:12:30,336 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:30,373 [645/707] done
+2026-09-03 23:12:37,329 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:37,332 [646/707] done
+2026-09-03 23:12:41,322 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:41,325 [647/707] done
+2026-09-03 23:12:46,083 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:46,086 [648/707] done
+2026-09-03 23:12:55,404 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:12:55,407 [649/707] done
+2026-09-03 23:13:06,112 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:06,151 [650/707] done
+2026-09-03 23:13:10,303 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:10,306 [651/707] done
+2026-09-03 23:13:18,423 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:18,426 [652/707] done
+2026-09-03 23:13:22,752 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:22,754 [653/707] done
+2026-09-03 23:13:28,076 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:28,079 [654/707] done
+2026-09-03 23:13:38,844 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:38,883 [655/707] done
+2026-09-03 23:13:48,910 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:48,913 [656/707] done
+2026-09-03 23:13:52,086 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:52,090 [657/707] done
+2026-09-03 23:13:56,293 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:56,296 [658/707] done
+2026-09-03 23:13:59,642 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:13:59,645 [659/707] done
+2026-09-03 23:14:07,632 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:07,671 [660/707] done
+2026-09-03 23:14:12,108 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:12,111 [661/707] done
+2026-09-03 23:14:15,113 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:15,116 [662/707] done
+2026-09-03 23:14:18,121 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:18,124 [663/707] done
+2026-09-03 23:14:23,258 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:23,261 [664/707] done
+2026-09-03 23:14:34,093 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:34,131 [665/707] done
+2026-09-03 23:14:43,964 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:43,967 [666/707] done
+2026-09-03 23:14:49,902 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:49,905 [667/707] done
+2026-09-03 23:14:53,004 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:14:53,007 [668/707] done
+2026-09-03 23:15:02,192 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:02,195 [669/707] done
+2026-09-03 23:15:04,885 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:04,924 [670/707] done
+2026-09-03 23:15:09,023 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:09,026 [671/707] done
+2026-09-03 23:15:14,627 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:14,630 [672/707] done
+2026-09-03 23:15:17,845 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:17,848 [673/707] done
+2026-09-03 23:15:21,412 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:21,415 [674/707] done
+2026-09-03 23:15:24,268 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:24,307 [675/707] done
+2026-09-03 23:15:40,405 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:40,408 [676/707] done
+2026-09-03 23:15:47,798 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:15:47,801 [677/707] done
+2026-09-03 23:16:05,441 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:05,445 [678/707] done
+2026-09-03 23:16:11,445 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:11,449 [679/707] done
+2026-09-03 23:16:23,498 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:23,538 [680/707] done
+2026-09-03 23:16:27,298 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:27,301 [681/707] done
+2026-09-03 23:16:31,413 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:31,416 [682/707] done
+2026-09-03 23:16:39,141 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:39,144 [683/707] done
+2026-09-03 23:16:42,102 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:42,104 [684/707] done
+2026-09-03 23:16:53,588 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:16:53,629 [685/707] done
+2026-09-03 23:17:00,695 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:00,698 [686/707] done
+2026-09-03 23:17:03,925 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:03,927 [687/707] done
+2026-09-03 23:17:07,761 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:07,764 [688/707] done
+2026-09-03 23:17:11,228 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:11,231 [689/707] done
+2026-09-03 23:17:17,799 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:17,840 [690/707] done
+2026-09-03 23:17:36,090 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:36,094 [691/707] done
+2026-09-03 23:17:40,069 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:40,072 [692/707] done
+2026-09-03 23:17:47,867 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:47,870 [693/707] done
+2026-09-03 23:17:51,030 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:51,033 [694/707] done
+2026-09-03 23:17:59,225 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:17:59,265 [695/707] done
+2026-09-03 23:18:04,150 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:04,153 [696/707] done
+2026-09-03 23:18:13,592 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:13,595 [697/707] done
+2026-09-03 23:18:17,392 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:17,395 [698/707] done
+2026-09-03 23:18:22,027 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:22,030 [699/707] done
+2026-09-03 23:18:29,769 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:29,810 [700/707] done
+2026-09-03 23:18:40,881 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:40,884 [701/707] done
+2026-09-03 23:18:52,667 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:18:52,671 [702/707] done
+2026-09-03 23:19:07,671 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:19:07,675 [703/707] done
+2026-09-03 23:19:10,936 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:19:10,939 [704/707] done
+2026-09-03 23:19:21,050 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:19:21,091 [705/707] done
+2026-09-03 23:19:25,206 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:19:25,209 [706/707] done
+2026-09-03 23:19:37,428 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-03 23:19:37,431 [707/707] done
+2026-09-03 23:19:37,469 finished
+2026-09-03 23:19:37,469 saved to: data/evaluation/model_response/fairness_bias_mutated_prompt_result_gpt.json

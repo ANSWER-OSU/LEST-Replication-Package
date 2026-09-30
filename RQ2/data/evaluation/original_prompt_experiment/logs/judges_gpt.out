@@ -1,0 +1,767 @@
+[18:02:52] (cuda:1) wildguard response fairness_bias/gpt
+loading wildguard... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:  95%|█████████▌| 277/291 [00:00<00:00, 2721.65it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 2796.31it/s]
+wildguard loaded
+0it [00:00, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+1it [00:01,  1.04s/it]1it [00:01,  1.04s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6494.32it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6621.97it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6456.02it/s]
+0it [00:00, ?it/s]1it [00:00,  1.56it/s]1it [00:00,  1.56it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6524.24it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6087.34it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5970.38it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6568.91it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6309.96it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6380.95it/s]
+0it [00:00, ?it/s]1it [00:00,  1.17it/s]1it [00:00,  1.17it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5489.38it/s]
+0it [00:00, ?it/s]1it [00:00,  1.30it/s]1it [00:00,  1.30it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6206.80it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6751.01it/s]
+0it [00:00, ?it/s]1it [00:00,  1.15it/s]1it [00:00,  1.15it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6404.90it/s]
+0it [00:00, ?it/s]1it [00:00,  1.36it/s]1it [00:00,  1.36it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5211.07it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6504.29it/s]
+0it [00:00, ?it/s]1it [00:00,  1.43it/s]1it [00:00,  1.43it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6574.32it/s]
+0it [00:00, ?it/s]1it [00:00,  1.58it/s]1it [00:00,  1.58it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5863.93it/s]
+0it [00:00, ?it/s]1it [00:00,  1.39it/s]1it [00:00,  1.39it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 7678.59it/s]
+0it [00:00, ?it/s]1it [00:00,  1.35it/s]1it [00:00,  1.35it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6046.27it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+[20/22] saved
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6163.73it/s]
+0it [00:00, ?it/s]1it [00:00,  1.39it/s]1it [00:00,  1.39it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6347.31it/s]
+0it [00:00, ?it/s]1it [00:00,  1.43it/s]1it [00:00,  1.43it/s]
+[22/22] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/responses/fairness_bias_original_prompt_result_gpt_wildguard_result.json
+[18:04:31] (cuda:1) wildguard response harmful_violent_content/gpt
+loading wildguard... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6645.77it/s]
+wildguard loaded
+0it [00:00, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+1it [00:01,  1.00s/it]1it [00:01,  1.00s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5778.76it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5972.98it/s]
+0it [00:00, ?it/s]1it [00:00,  1.41it/s]1it [00:00,  1.41it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5784.84it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6522.88it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.52it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6350.05it/s]
+0it [00:00, ?it/s]1it [00:00,  1.56it/s]1it [00:00,  1.56it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6492.94it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6265.01it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6419.45it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6202.89it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6232.31it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6418.91it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6127.53it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6636.05it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6324.97it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6570.43it/s]
+0it [00:00, ?it/s]1it [00:00,  1.54it/s]1it [00:00,  1.54it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6105.61it/s]
+0it [00:00, ?it/s]1it [00:00,  1.52it/s]1it [00:00,  1.52it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5469.88it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6250.41it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5855.35it/s]
+0it [00:00, ?it/s]1it [00:00,  1.54it/s]1it [00:00,  1.54it/s]
+[20/62] saved
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6176.24it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6100.55it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6144.99it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5758.85it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6169.65it/s]
+0it [00:00, ?it/s]1it [00:00,  1.39it/s]1it [00:00,  1.39it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6301.72it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6251.82it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6392.15it/s]
+0it [00:00, ?it/s]1it [00:00,  1.43it/s]1it [00:00,  1.43it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5623.14it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5943.63it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6138.28it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 9192.77it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6224.27it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.52it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6229.13it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6359.28it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5029.58it/s]
+0it [00:00, ?it/s]1it [00:00,  1.45it/s]1it [00:00,  1.45it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6220.47it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6305.79it/s]
+0it [00:00, ?it/s]1it [00:00,  1.54it/s]1it [00:00,  1.54it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6283.23it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+[40/62] saved
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6347.83it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5513.74it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6175.74it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5545.50it/s]
+0it [00:00, ?it/s]1it [00:00,  1.55it/s]1it [00:00,  1.54it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6420.53it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6391.38it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6059.51it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6380.65it/s]
+0it [00:00, ?it/s]1it [00:00,  1.43it/s]1it [00:00,  1.43it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6319.01it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5445.45it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6467.41it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6330.29it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6362.63it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6210.65it/s]
+0it [00:00, ?it/s]1it [00:00,  1.53it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5326.09it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6317.57it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6472.31it/s]
+0it [00:00, ?it/s]1it [00:00,  1.42it/s]1it [00:00,  1.42it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5688.66it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5758.55it/s]
+0it [00:00, ?it/s]1it [00:00,  1.46it/s]1it [00:00,  1.46it/s]
+[60/62] saved
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6343.64it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6461.83it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+[62/62] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/responses/harmful_violent_content_original_prompt_result_gpt_wildguard_result.json
+[18:08:23] (cuda:1) wildguard response mental_health_self_harm/gpt
+loading wildguard... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6454.79it/s]
+wildguard loaded
+0it [00:00, ?it/s][transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+1it [00:01,  1.14s/it]1it [00:01,  1.14s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6388.84it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6122.55it/s]
+0it [00:00, ?it/s]1it [00:00,  1.54it/s]1it [00:00,  1.53it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6075.89it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5779.88it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6130.76it/s]
+0it [00:00, ?it/s]1it [00:00,  1.47it/s]1it [00:00,  1.47it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6212.39it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6369.63it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6266.42it/s]
+0it [00:00, ?it/s]1it [00:00,  1.48it/s]1it [00:00,  1.48it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6409.17it/s]
+0it [00:00, ?it/s]1it [00:00,  1.42it/s]1it [00:00,  1.42it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 6362.49it/s]
+0it [00:00, ?it/s]1it [00:00,  1.50it/s]1it [00:00,  1.50it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5818.70it/s]
+0it [00:00, ?it/s]1it [00:00,  1.49it/s]1it [00:00,  1.49it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 5665.90it/s]
+0it [00:00, ?it/s]1it [00:00,  1.54it/s]1it [00:00,  1.54it/s]
+[13/13] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/responses/mental_health_self_harm_original_prompt_result_gpt_wildguard_result.json
+[18:09:19] (cuda:1) ensemble fairness_bias/gpt
+[18:09:19] guardreasoner
+loading yueliu1999/GuardReasoner-8B... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<01:34,  3.06it/s]Loading weights:   1%|          | 2/291 [00:00<01:40,  2.88it/s]Loading weights:   2%|▏         | 6/291 [00:00<00:30,  9.49it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:12, 22.62it/s]Loading weights:   8%|▊         | 22/291 [00:01<00:08, 33.54it/s]Loading weights:   9%|▉         | 27/291 [00:01<00:07, 37.16it/s]Loading weights:  11%|█         | 32/291 [00:01<00:06, 40.20it/s]Loading weights:  14%|█▎        | 40/291 [00:01<00:05, 46.85it/s]Loading weights:  16%|█▌        | 46/291 [00:01<00:05, 46.47it/s]Loading weights:  18%|█▊        | 51/291 [00:01<00:05, 43.41it/s]Loading weights:  20%|██        | 59/291 [00:01<00:04, 47.48it/s]Loading weights:  23%|██▎       | 67/291 [00:01<00:04, 51.41it/s]Loading weights:  25%|██▌       | 73/291 [00:02<00:04, 50.41it/s]Loading weights:  27%|██▋       | 79/291 [00:02<00:04, 47.97it/s]Loading weights:  30%|██▉       | 86/291 [00:02<00:04, 49.78it/s]Loading weights:  32%|███▏      | 94/291 [00:02<00:03, 53.01it/s]Loading weights:  34%|███▍      | 100/291 [00:02<00:03, 51.63it/s]Loading weights:  36%|███▋      | 106/291 [00:02<00:03, 48.77it/s]Loading weights:  39%|███▉      | 113/291 [00:02<00:03, 50.37it/s]Loading weights:  42%|████▏     | 121/291 [00:03<00:03, 53.38it/s]Loading weights:  44%|████▎     | 127/291 [00:03<00:03, 51.91it/s]Loading weights:  46%|████▌     | 133/291 [00:03<00:03, 49.09it/s]Loading weights:  48%|████▊     | 140/291 [00:03<00:02, 50.44it/s]Loading weights:  51%|█████     | 148/291 [00:03<00:02, 53.70it/s]Loading weights:  53%|█████▎    | 154/291 [00:03<00:02, 52.11it/s]Loading weights:  55%|█████▍    | 160/291 [00:03<00:02, 49.10it/s]Loading weights:  57%|█████▋    | 167/291 [00:03<00:02, 50.55it/s]Loading weights:  60%|██████    | 175/291 [00:04<00:02, 53.86it/s]Loading weights:  62%|██████▏   | 181/291 [00:04<00:02, 52.07it/s]Loading weights:  64%|██████▍   | 187/291 [00:04<00:02, 49.30it/s]Loading weights:  67%|██████▋   | 194/291 [00:04<00:01, 50.91it/s]Loading weights:  69%|██████▉   | 202/291 [00:04<00:01, 54.13it/s]Loading weights:  71%|███████▏  | 208/291 [00:04<00:01, 52.32it/s]Loading weights:  74%|███████▎  | 214/291 [00:04<00:01, 49.38it/s]Loading weights:  76%|███████▌  | 221/291 [00:04<00:01, 50.63it/s]Loading weights:  79%|███████▊  | 229/291 [00:05<00:01, 53.80it/s]Loading weights:  81%|████████  | 235/291 [00:05<00:01, 51.75it/s]Loading weights:  83%|████████▎ | 241/291 [00:05<00:01, 48.86it/s]Loading weights:  85%|████████▍ | 247/291 [00:05<00:00, 51.56it/s]Loading weights:  87%|████████▋ | 253/291 [00:05<00:00, 50.90it/s]Loading weights:  89%|████████▉ | 259/291 [00:05<00:00, 48.35it/s]Loading weights:  91%|█████████▏| 266/291 [00:05<00:00, 49.83it/s]Loading weights:  94%|█████████▍| 274/291 [00:05<00:00, 53.60it/s]Loading weights:  96%|█████████▌| 280/291 [00:06<00:00, 50.02it/s]Loading weights:  98%|█████████▊| 286/291 [00:06<00:00, 45.64it/s]Loading weights: 100%|██████████| 291/291 [00:06<00:00, 45.94it/s]
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+loaded
+[5/22] saved
+[10/22] saved
+[15/22] saved
+[20/22] saved
+[22/22] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/fairness_bias_original_prompt_result_gpt_wildguard_result_guardreasoner.json
+[18:14:30] qwen3guard
+loading Qwen/Qwen3Guard-Gen-4B... (device=cuda:1)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   1%|          | 2/399 [00:00<00:39, 10.01it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:03, 105.04it/s]Loading weights:  13%|█▎        | 50/399 [00:00<00:02, 150.22it/s]Loading weights:  20%|█▉        | 79/399 [00:00<00:01, 196.80it/s]Loading weights:  26%|██▌       | 104/399 [00:00<00:01, 212.01it/s]Loading weights:  33%|███▎      | 130/399 [00:00<00:01, 227.11it/s]Loading weights:  39%|███▉      | 157/399 [00:00<00:01, 233.63it/s]Loading weights:  46%|████▌     | 182/399 [00:00<00:00, 231.50it/s]Loading weights:  53%|█████▎    | 210/399 [00:01<00:00, 243.35it/s]Loading weights:  59%|█████▉    | 235/399 [00:01<00:00, 242.72it/s]Loading weights:  65%|██████▌   | 260/399 [00:01<00:00, 237.67it/s]Loading weights:  72%|███████▏  | 287/399 [00:01<00:00, 246.37it/s]Loading weights:  78%|███████▊  | 313/399 [00:01<00:00, 242.99it/s]Loading weights:  85%|████████▍ | 339/399 [00:01<00:00, 247.37it/s]Loading weights:  91%|█████████▏| 365/399 [00:01<00:00, 250.57it/s]Loading weights:  98%|█████████▊| 391/399 [00:01<00:00, 233.73it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 220.82it/s]
+loaded
+[5/22] saved
+[10/22] saved
+[15/22] saved
+[20/22] saved
+[22/22] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/fairness_bias_original_prompt_result_gpt_wildguard_result_qwen3guard.json
+[18:14:48] sorrybench (non-voting)
+loading sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:28, 10.13it/s]Loading weights:   2%|▏         | 5/291 [00:00<00:15, 18.12it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:08, 34.43it/s]Loading weights:   6%|▌         | 17/291 [00:00<00:07, 35.07it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:07, 37.55it/s]Loading weights:  11%|█         | 31/291 [00:00<00:05, 43.43it/s]Loading weights:  12%|█▏        | 36/291 [00:00<00:06, 42.32it/s]Loading weights:  14%|█▍        | 41/291 [00:01<00:06, 41.36it/s]Loading weights:  17%|█▋        | 49/291 [00:01<00:05, 45.50it/s]Loading weights:  19%|█▊        | 54/291 [00:01<00:05, 43.73it/s]Loading weights:  20%|██        | 59/291 [00:01<00:05, 42.42it/s]Loading weights:  23%|██▎       | 67/291 [00:01<00:04, 46.12it/s]Loading weights:  25%|██▍       | 72/291 [00:01<00:04, 44.21it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:05, 42.80it/s]Loading weights:  29%|██▉       | 85/291 [00:02<00:04, 46.50it/s]Loading weights:  31%|███       | 90/291 [00:02<00:04, 44.48it/s]Loading weights:  33%|███▎      | 95/291 [00:02<00:04, 43.12it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:04, 46.63it/s]Loading weights:  37%|███▋      | 108/291 [00:02<00:04, 44.66it/s]Loading weights:  39%|███▉      | 113/291 [00:02<00:04, 43.22it/s]Loading weights:  42%|████▏     | 121/291 [00:02<00:03, 46.74it/s]Loading weights:  43%|████▎     | 126/291 [00:02<00:03, 44.84it/s]Loading weights:  45%|████▌     | 131/291 [00:03<00:03, 45.87it/s]Loading weights:  48%|████▊     | 139/291 [00:03<00:02, 52.74it/s]Loading weights:  50%|████▉     | 145/291 [00:03<00:02, 53.33it/s]Loading weights:  52%|█████▏    | 151/291 [00:03<00:02, 51.95it/s]Loading weights:  54%|█████▍    | 158/291 [00:03<00:02, 54.83it/s]Loading weights:  57%|█████▋    | 166/291 [00:03<00:02, 59.32it/s]Loading weights:  59%|█████▉    | 172/291 [00:03<00:02, 58.29it/s]Loading weights:  61%|██████    | 178/291 [00:03<00:02, 55.40it/s]Loading weights:  64%|██████▎   | 185/291 [00:04<00:01, 57.19it/s]Loading weights:  66%|██████▋   | 193/291 [00:04<00:01, 60.90it/s]Loading weights:  69%|██████▊   | 200/291 [00:04<00:01, 61.00it/s]Loading weights:  71%|███████   | 207/291 [00:04<00:01, 57.89it/s]Loading weights:  73%|███████▎  | 213/291 [00:04<00:01, 53.52it/s]Loading weights:  76%|███████▌  | 221/291 [00:04<00:01, 58.25it/s]Loading weights:  79%|███████▊  | 229/291 [00:04<00:01, 61.71it/s]Loading weights:  81%|████████  | 236/291 [00:04<00:00, 61.80it/s]Loading weights:  84%|████████▎ | 243/291 [00:04<00:00, 58.43it/s]Loading weights:  86%|████████▌ | 249/291 [00:05<00:00, 53.71it/s]Loading weights:  88%|████████▊ | 257/291 [00:05<00:00, 58.13it/s]Loading weights:  91%|█████████ | 265/291 [00:05<00:00, 61.30it/s]Loading weights:  93%|█████████▎| 272/291 [00:05<00:00, 61.23it/s]Loading weights:  96%|█████████▌| 279/291 [00:05<00:00, 58.11it/s]Loading weights:  98%|█████████▊| 285/291 [00:05<00:00, 53.67it/s]Loading weights: 100%|██████████| 291/291 [00:05<00:00, 50.34it/s]
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+loaded
+[5/22] saved
+[10/22] saved
+[15/22] saved
+[20/22] saved
+[22/22] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/fairness_bias_original_prompt_result_gpt_wildguard_result_sorrybench.json
+[18:15:18] strongreject (non-voting)
+Map:   0%|          | 0/8 [00:00<?, ? examples/s][transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:32,  5.09it/s][A
+Loading weights:  10%|▉         | 16/164 [00:00<00:02, 66.12it/s][A
+Loading weights:  23%|██▎       | 38/164 [00:00<00:01, 121.97it/s][A
+Loading weights:  36%|███▌      | 59/164 [00:00<00:00, 147.17it/s][A
+Loading weights:  50%|█████     | 82/164 [00:00<00:00, 171.24it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 178.77it/s][A
+Loading weights:  79%|███████▊  | 129/164 [00:00<00:00, 197.77it/s][A
+Loading weights:  91%|█████████▏| 150/164 [00:00<00:00, 192.40it/s][ALoading weights: 100%|██████████| 164/164 [00:00<00:00, 164.47it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2762.14it/s]
+Map: 100%|██████████| 8/8 [00:06<00:00,  1.31 examples/s]Map: 100%|██████████| 8/8 [00:06<00:00,  1.31 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[8/22] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:33,  4.93it/s][A
+Loading weights:  10%|▉         | 16/164 [00:00<00:02, 64.70it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:01, 123.92it/s][A
+Loading weights:  36%|███▌      | 59/164 [00:00<00:00, 144.40it/s][A
+Loading weights:  51%|█████     | 84/164 [00:00<00:00, 167.61it/s][A
+Loading weights:  65%|██████▍   | 106/164 [00:00<00:00, 183.05it/s][A
+Loading weights:  79%|███████▉  | 130/164 [00:00<00:00, 192.99it/s][A
+Loading weights:  93%|█████████▎| 153/164 [00:00<00:00, 203.18it/s][ALoading weights: 100%|██████████| 164/164 [00:00<00:00, 164.93it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  86%|████████▌ | 216/252 [00:00<00:00, 2157.09it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2225.83it/s]
+Map: 100%|██████████| 8/8 [00:05<00:00,  1.44 examples/s]Map: 100%|██████████| 8/8 [00:05<00:00,  1.44 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[16/22] saved
+Map:   0%|          | 0/6 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:33,  4.91it/s][A
+Loading weights:   9%|▉         | 15/164 [00:00<00:02, 60.49it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:01, 124.62it/s][A
+Loading weights:  36%|███▌      | 59/164 [00:00<00:00, 145.86it/s][A
+Loading weights:  51%|█████     | 84/164 [00:00<00:00, 178.22it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 178.52it/s][A
+Loading weights:  79%|███████▊  | 129/164 [00:00<00:00, 199.63it/s][A
+Loading weights:  91%|█████████▏| 150/164 [00:00<00:00, 194.28it/s][ALoading weights: 100%|██████████| 164/164 [00:00<00:00, 165.02it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  54%|█████▎    | 135/252 [00:00<00:00, 1348.99it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 1806.80it/s]
+Map: 100%|██████████| 6/6 [00:05<00:00,  1.12 examples/s]Map: 100%|██████████| 6/6 [00:05<00:00,  1.12 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[22/22] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/fairness_bias_original_prompt_result_gpt_wildguard_result_strongreject.json
+[18:15:51] aggregate
+aggregated 22 records -> data/evaluation/original_prompt_experiment/judge_ensemble/fairness_bias_original_prompt_result_gpt_wildguard_result_ensemble.json
+  disagreement:  3/22
+  overturns WildGuard: 0/22
+  insufficient_votes: 1/22
+[18:15:51] all steps completed
+[18:15:51] (cuda:1) ensemble harmful_violent_content/gpt
+[18:15:51] guardreasoner
+loading yueliu1999/GuardReasoner-8B... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.74it/s]Loading weights:   1%|          | 2/291 [00:00<00:42,  6.75it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 43.70it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 62.40it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:03, 73.64it/s]Loading weights:  16%|█▌        | 46/291 [00:00<00:02, 90.31it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:02, 96.07it/s]Loading weights:  23%|██▎       | 68/291 [00:00<00:02, 96.40it/s]Loading weights:  27%|██▋       | 78/291 [00:01<00:02, 96.02it/s]Loading weights:  31%|███▏      | 91/291 [00:01<00:01, 106.01it/s]Loading weights:  35%|███▌      | 103/291 [00:01<00:01, 100.43it/s]Loading weights:  39%|███▉      | 114/291 [00:01<00:01, 97.27it/s] Loading weights:  44%|████▎     | 127/291 [00:01<00:01, 105.58it/s]Loading weights:  48%|████▊     | 139/291 [00:01<00:01, 107.54it/s]Loading weights:  52%|█████▏    | 150/291 [00:01<00:01, 100.72it/s]Loading weights:  56%|█████▋    | 164/291 [00:01<00:01, 110.78it/s]Loading weights:  60%|██████    | 176/291 [00:01<00:01, 106.65it/s]Loading weights:  64%|██████▍   | 187/291 [00:02<00:00, 105.49it/s]Loading weights:  69%|██████▊   | 200/291 [00:02<00:00, 111.60it/s]Loading weights:  73%|███████▎  | 212/291 [00:02<00:00, 106.58it/s]Loading weights:  77%|███████▋  | 223/291 [00:02<00:00, 106.22it/s]Loading weights:  81%|████████  | 235/291 [00:02<00:00, 109.56it/s]Loading weights:  85%|████████▍ | 247/291 [00:02<00:00, 110.36it/s]Loading weights:  89%|████████▉ | 259/291 [00:02<00:00, 105.03it/s]Loading weights:  93%|█████████▎| 270/291 [00:02<00:00, 106.29it/s]Loading weights:  97%|█████████▋| 283/291 [00:02<00:00, 109.95it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 97.55it/s] 
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+loaded
+[5/62] saved
+[10/62] saved
+[15/62] saved
+[20/62] saved
+[25/62] saved
+[30/62] saved
+[35/62] saved
+[40/62] saved
+[45/62] saved
+[50/62] saved
+[55/62] saved
+[60/62] saved
+[62/62] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/harmful_violent_content_original_prompt_result_gpt_wildguard_result_guardreasoner.json
+[18:27:24] qwen3guard
+loading Qwen/Qwen3Guard-Gen-4B... (device=cuda:1)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   1%|          | 2/399 [00:00<00:39, 10.05it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:03, 105.34it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:02, 149.36it/s]Loading weights:  18%|█▊        | 72/399 [00:00<00:01, 176.20it/s]Loading weights:  25%|██▍       | 99/399 [00:00<00:01, 205.89it/s]Loading weights:  32%|███▏      | 126/399 [00:00<00:01, 221.96it/s]Loading weights:  38%|███▊      | 152/399 [00:00<00:01, 233.46it/s]Loading weights:  45%|████▌     | 180/399 [00:00<00:00, 243.11it/s]Loading weights:  51%|█████▏    | 205/399 [00:01<00:00, 234.82it/s]Loading weights:  58%|█████▊    | 232/399 [00:01<00:00, 243.94it/s]Loading weights:  65%|██████▍   | 258/399 [00:01<00:00, 242.00it/s]Loading weights:  71%|███████   | 283/399 [00:01<00:00, 243.05it/s]Loading weights:  78%|███████▊  | 310/399 [00:01<00:00, 249.94it/s]Loading weights:  84%|████████▍ | 336/399 [00:01<00:00, 238.58it/s]Loading weights:  91%|█████████ | 364/399 [00:01<00:00, 247.18it/s]Loading weights:  97%|█████████▋| 389/399 [00:01<00:00, 244.89it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 219.79it/s]
+loaded
+[5/62] saved
+[10/62] saved
+[15/62] saved
+[20/62] saved
+[25/62] saved
+[30/62] saved
+[35/62] saved
+[40/62] saved
+[45/62] saved
+[50/62] saved
+[55/62] saved
+[60/62] saved
+[62/62] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/harmful_violent_content_original_prompt_result_gpt_wildguard_result_qwen3guard.json
+[18:27:55] sorrybench (non-voting)
+loading sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:38,  7.49it/s]Loading weights:   2%|▏         | 6/291 [00:00<00:10, 27.00it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:05, 46.59it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:04, 56.42it/s]Loading weights:  10%|▉         | 28/291 [00:00<00:04, 55.87it/s]Loading weights:  12%|█▏        | 34/291 [00:00<00:04, 53.49it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:04, 56.27it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:03, 61.50it/s]Loading weights:  19%|█▉        | 56/291 [00:01<00:03, 62.10it/s]Loading weights:  22%|██▏       | 63/291 [00:01<00:03, 59.50it/s]Loading weights:  24%|██▍       | 70/291 [00:01<00:03, 57.05it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:03, 58.44it/s]Loading weights:  29%|██▉       | 85/291 [00:01<00:03, 62.80it/s]Loading weights:  32%|███▏      | 92/291 [00:01<00:03, 63.43it/s]Loading weights:  34%|███▍      | 99/291 [00:01<00:03, 60.95it/s]Loading weights:  36%|███▋      | 106/291 [00:01<00:03, 57.86it/s]Loading weights:  39%|███▉      | 113/291 [00:02<00:03, 59.04it/s]Loading weights:  42%|████▏     | 121/291 [00:02<00:02, 63.31it/s]Loading weights:  44%|████▍     | 128/291 [00:02<00:02, 64.02it/s]Loading weights:  46%|████▋     | 135/291 [00:02<00:02, 54.18it/s]Loading weights:  48%|████▊     | 141/291 [00:02<00:03, 47.17it/s]Loading weights:  51%|█████     | 149/291 [00:02<00:02, 49.20it/s]Loading weights:  54%|█████▍    | 157/291 [00:02<00:02, 51.15it/s]Loading weights:  56%|█████▌    | 163/291 [00:02<00:02, 49.53it/s]Loading weights:  58%|█████▊    | 169/291 [00:03<00:02, 46.29it/s]Loading weights:  60%|██████    | 176/291 [00:03<00:02, 47.05it/s]Loading weights:  63%|██████▎   | 184/291 [00:03<00:02, 49.08it/s]Loading weights:  65%|██████▍   | 189/291 [00:03<00:02, 46.88it/s]Loading weights:  67%|██████▋   | 194/291 [00:03<00:02, 45.93it/s]Loading weights:  69%|██████▉   | 202/291 [00:03<00:01, 48.96it/s]Loading weights:  71%|███████   | 207/291 [00:03<00:01, 46.28it/s]Loading weights:  73%|███████▎  | 212/291 [00:04<00:01, 44.64it/s]Loading weights:  76%|███████▌  | 220/291 [00:04<00:01, 48.76it/s]Loading weights:  77%|███████▋  | 225/291 [00:04<00:01, 46.65it/s]Loading weights:  79%|███████▉  | 230/291 [00:04<00:01, 44.95it/s]Loading weights:  82%|████████▏ | 238/291 [00:04<00:01, 47.67it/s]Loading weights:  84%|████████▎ | 243/291 [00:04<00:01, 45.77it/s]Loading weights:  85%|████████▌ | 248/291 [00:04<00:00, 44.50it/s]Loading weights:  88%|████████▊ | 256/291 [00:04<00:00, 48.87it/s]Loading weights:  90%|████████▉ | 261/291 [00:05<00:00, 46.81it/s]Loading weights:  91%|█████████▏| 266/291 [00:05<00:00, 45.17it/s]Loading weights:  94%|█████████▍| 274/291 [00:05<00:00, 48.00it/s]Loading weights:  96%|█████████▌| 279/291 [00:05<00:00, 46.07it/s]Loading weights:  98%|█████████▊| 284/291 [00:05<00:00, 44.82it/s]Loading weights: 100%|██████████| 291/291 [00:05<00:00, 51.07it/s]
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+loaded
+[5/62] saved
+[10/62] saved
+[15/62] saved
+[20/62] saved
+[25/62] saved
+[30/62] saved
+[35/62] saved
+[40/62] saved
+[45/62] saved
+[50/62] saved
+[55/62] saved
+[60/62] saved
+[62/62] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/harmful_violent_content_original_prompt_result_gpt_wildguard_result_sorrybench.json
+[18:28:39] strongreject (non-voting)
+Map:   0%|          | 0/8 [00:00<?, ? examples/s][transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:23,  6.94it/s][A
+Loading weights:   5%|▌         | 9/164 [00:00<00:03, 43.16it/s][A
+Loading weights:  11%|█         | 18/164 [00:00<00:02, 62.22it/s][A
+Loading weights:  19%|█▉        | 31/164 [00:00<00:01, 81.21it/s][A
+Loading weights:  30%|███       | 50/164 [00:00<00:01, 113.41it/s][A
+Loading weights:  41%|████▏     | 68/164 [00:00<00:00, 130.12it/s][A
+Loading weights:  52%|█████▏    | 86/164 [00:00<00:00, 140.24it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 147.55it/s][A
+Loading weights:  74%|███████▍  | 122/164 [00:01<00:00, 154.11it/s][A
+Loading weights:  85%|████████▌ | 140/164 [00:01<00:00, 156.94it/s][A
+Loading weights:  96%|█████████▋| 158/164 [00:01<00:00, 158.82it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 132.04it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2579.67it/s]
+Map: 100%|██████████| 8/8 [00:08<00:00,  1.02s/ examples]Map: 100%|██████████| 8/8 [00:08<00:00,  1.02s/ examples]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[8/62] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:20,  8.12it/s][A
+Loading weights:  11%|█         | 18/164 [00:00<00:01, 94.88it/s][A
+Loading weights:  21%|██▏       | 35/164 [00:00<00:01, 126.77it/s][A
+Loading weights:  32%|███▏      | 52/164 [00:00<00:00, 142.77it/s][A
+Loading weights:  41%|████      | 67/164 [00:00<00:00, 144.66it/s][A
+Loading weights:  52%|█████▏    | 86/164 [00:00<00:00, 157.31it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 161.11it/s][A
+Loading weights:  76%|███████▌  | 125/164 [00:00<00:00, 175.66it/s][A
+Loading weights:  88%|████████▊ | 144/164 [00:00<00:00, 179.35it/s][A
+Loading weights:  99%|█████████▉| 163/164 [00:01<00:00, 181.20it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 157.08it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  99%|█████████▉| 249/252 [00:00<00:00, 2487.26it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2476.52it/s]
+Map: 100%|██████████| 8/8 [00:06<00:00,  1.30 examples/s]Map: 100%|██████████| 8/8 [00:06<00:00,  1.30 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[16/62] saved
+Map:   0%|          | 0/7 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:34,  4.68it/s][A
+Loading weights:  10%|█         | 17/164 [00:00<00:02, 66.79it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:01, 121.02it/s][A
+Loading weights:  35%|███▌      | 58/164 [00:00<00:00, 143.60it/s][A
+Loading weights:  47%|████▋     | 77/164 [00:00<00:00, 156.52it/s][A
+Loading weights:  62%|██████▏   | 102/164 [00:00<00:00, 181.61it/s][A
+Loading weights:  74%|███████▍  | 122/164 [00:00<00:00, 175.49it/s][A
+Loading weights:  90%|████████▉ | 147/164 [00:00<00:00, 195.98it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 158.64it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2645.64it/s]
+Map: 100%|██████████| 7/7 [00:05<00:00,  1.35 examples/s]Map: 100%|██████████| 7/7 [00:05<00:00,  1.35 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[24/62] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:30,  5.39it/s][A
+Loading weights:  13%|█▎        | 21/164 [00:00<00:01, 87.32it/s][A
+Loading weights:  25%|██▌       | 41/164 [00:00<00:00, 124.86it/s][A
+Loading weights:  40%|████      | 66/164 [00:00<00:00, 166.11it/s][A
+Loading weights:  52%|█████▏    | 85/164 [00:00<00:00, 164.04it/s][A
+Loading weights:  68%|██████▊   | 112/164 [00:00<00:00, 188.88it/s][A
+Loading weights:  82%|████████▏ | 135/164 [00:00<00:00, 200.23it/s][A
+Loading weights:  96%|█████████▌| 157/164 [00:00<00:00, 190.56it/s][ALoading weights: 100%|██████████| 164/164 [00:00<00:00, 169.21it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 3276.68it/s]
+Map: 100%|██████████| 8/8 [00:05<00:00,  1.42 examples/s]Map: 100%|██████████| 8/8 [00:05<00:00,  1.42 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[32/62] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:34,  4.69it/s][A
+Loading weights:  11%|█         | 18/164 [00:00<00:02, 70.41it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:01, 111.65it/s][A
+Loading weights:  40%|████      | 66/164 [00:00<00:00, 161.39it/s][A
+Loading weights:  52%|█████▏    | 85/164 [00:00<00:00, 163.41it/s][A
+Loading weights:  68%|██████▊   | 112/164 [00:00<00:00, 187.98it/s][A
+Loading weights:  80%|████████  | 132/164 [00:00<00:00, 190.30it/s][A
+Loading weights:  95%|█████████▌| 156/164 [00:00<00:00, 204.83it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 163.62it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  90%|█████████ | 228/252 [00:00<00:00, 2268.80it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2316.90it/s]
+Map: 100%|██████████| 8/8 [00:04<00:00,  1.62 examples/s]Map: 100%|██████████| 8/8 [00:04<00:00,  1.62 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[40/62] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:34,  4.72it/s][A
+Loading weights:  13%|█▎        | 21/164 [00:00<00:01, 79.70it/s][A
+Loading weights:  24%|██▍       | 40/164 [00:00<00:01, 118.20it/s][A
+Loading weights:  36%|███▌      | 59/164 [00:00<00:00, 140.87it/s][A
+Loading weights:  52%|█████▏    | 85/164 [00:00<00:00, 172.07it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 176.94it/s][A
+Loading weights:  79%|███████▊  | 129/164 [00:00<00:00, 196.38it/s][A
+Loading weights:  91%|█████████▏| 150/164 [00:00<00:00, 191.48it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 162.22it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  90%|█████████ | 228/252 [00:00<00:00, 2273.32it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2332.34it/s]
+Map: 100%|██████████| 8/8 [00:05<00:00,  1.54 examples/s]Map: 100%|██████████| 8/8 [00:05<00:00,  1.54 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[48/62] saved
+Map:   0%|          | 0/8 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:34,  4.74it/s][A
+Loading weights:  13%|█▎        | 21/164 [00:00<00:01, 81.65it/s][A
+Loading weights:  24%|██▍       | 40/164 [00:00<00:01, 115.12it/s][A
+Loading weights:  41%|████      | 67/164 [00:00<00:00, 155.01it/s][A
+Loading weights:  57%|█████▋    | 93/164 [00:00<00:00, 184.42it/s][A
+Loading weights:  69%|██████▉   | 113/164 [00:00<00:00, 183.87it/s][A
+Loading weights:  84%|████████▎ | 137/164 [00:00<00:00, 200.39it/s][A
+Loading weights:  96%|█████████▋| 158/164 [00:00<00:00, 195.61it/s][ALoading weights: 100%|██████████| 164/164 [00:00<00:00, 166.43it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2605.00it/s]
+Map: 100%|██████████| 8/8 [00:05<00:00,  1.51 examples/s]Map: 100%|██████████| 8/8 [00:05<00:00,  1.51 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[56/62] saved
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:32,  5.01it/s][A
+Loading weights:  12%|█▏        | 19/164 [00:00<00:01, 78.00it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:01, 123.38it/s][A
+Loading weights:  35%|███▌      | 58/164 [00:00<00:00, 139.53it/s][A
+Loading weights:  51%|█████     | 84/164 [00:00<00:00, 173.99it/s][A
+Loading weights:  63%|██████▎   | 103/164 [00:00<00:00, 176.66it/s][A
+Loading weights:  74%|███████▍  | 122/164 [00:00<00:00, 179.31it/s][A
+Loading weights:  90%|████████▉ | 147/164 [00:00<00:00, 197.45it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 161.85it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][A
+Loading weights:  74%|███████▍  | 186/252 [00:00<00:00, 1859.31it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2009.33it/s]
+Map: 100%|██████████| 5/5 [00:05<00:00,  1.08s/ examples]Map: 100%|██████████| 5/5 [00:05<00:00,  1.08s/ examples]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[62/62] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/harmful_violent_content_original_prompt_result_gpt_wildguard_result_strongreject.json
+[18:29:58] aggregate
+aggregated 62 records -> data/evaluation/original_prompt_experiment/judge_ensemble/harmful_violent_content_original_prompt_result_gpt_wildguard_result_ensemble.json
+  disagreement:  2/62
+  overturns WildGuard: 0/62
+  insufficient_votes: 2/62
+[18:29:58] all steps completed
+[18:29:58] (cuda:1) ensemble mental_health_self_harm/gpt
+[18:29:58] guardreasoner
+loading yueliu1999/GuardReasoner-8B... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:37,  7.84it/s]Loading weights:   1%|          | 2/291 [00:00<00:42,  6.84it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 43.69it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:04, 61.69it/s]Loading weights:  11%|█▏        | 33/291 [00:00<00:03, 72.89it/s]Loading weights:  16%|█▌        | 46/291 [00:00<00:02, 89.34it/s]Loading weights:  20%|█▉        | 58/291 [00:00<00:02, 97.41it/s]Loading weights:  24%|██▎       | 69/291 [00:00<00:02, 94.49it/s]Loading weights:  28%|██▊       | 82/291 [00:01<00:02, 104.35it/s]Loading weights:  32%|███▏      | 94/291 [00:01<00:01, 106.63it/s]Loading weights:  36%|███▌      | 105/291 [00:01<00:01, 100.35it/s]Loading weights:  41%|████      | 118/291 [00:01<00:01, 106.96it/s]Loading weights:  45%|████▍     | 130/291 [00:01<00:01, 109.64it/s]Loading weights:  49%|████▉     | 142/291 [00:01<00:01, 105.43it/s]Loading weights:  53%|█████▎    | 155/291 [00:01<00:01, 111.42it/s]Loading weights:  57%|█████▋    | 167/291 [00:01<00:01, 106.52it/s]Loading weights:  61%|██████    | 178/291 [00:01<00:01, 106.00it/s]Loading weights:  65%|██████▌   | 190/291 [00:02<00:00, 109.63it/s]Loading weights:  69%|██████▉   | 202/291 [00:02<00:00, 110.12it/s]Loading weights:  74%|███████▎  | 214/291 [00:02<00:00, 105.00it/s]Loading weights:  78%|███████▊  | 227/291 [00:02<00:00, 110.97it/s]Loading weights:  82%|████████▏ | 239/291 [00:02<00:00, 108.00it/s]Loading weights:  87%|████████▋ | 252/291 [00:02<00:00, 111.79it/s]Loading weights:  91%|█████████ | 265/291 [00:02<00:00, 112.43it/s]Loading weights:  95%|█████████▌| 277/291 [00:02<00:00, 107.23it/s]Loading weights:  99%|█████████▉| 289/291 [00:02<00:00, 110.26it/s]Loading weights: 100%|██████████| 291/291 [00:02<00:00, 98.99it/s] 
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+loaded
+[5/13] saved
+[10/13] saved
+[13/13] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/mental_health_self_harm_original_prompt_result_gpt_wildguard_result_guardreasoner.json
+[18:32:23] qwen3guard
+loading Qwen/Qwen3Guard-Gen-4B... (device=cuda:1)
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:12,  5.49it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:03, 113.64it/s]Loading weights:  13%|█▎        | 52/399 [00:00<00:02, 164.91it/s]Loading weights:  20%|██        | 81/399 [00:00<00:01, 204.21it/s]Loading weights:  26%|██▋       | 105/399 [00:00<00:01, 208.62it/s]Loading weights:  34%|███▎      | 134/399 [00:00<00:01, 232.93it/s]Loading weights:  40%|███▉      | 159/399 [00:00<00:01, 230.97it/s]Loading weights:  46%|████▋     | 185/399 [00:00<00:00, 235.27it/s]Loading weights:  53%|█████▎    | 213/399 [00:01<00:00, 242.59it/s]Loading weights:  60%|█████▉    | 238/399 [00:01<00:00, 236.39it/s]Loading weights:  67%|██████▋   | 267/399 [00:01<00:00, 245.73it/s]Loading weights:  73%|███████▎  | 292/399 [00:01<00:00, 242.71it/s]Loading weights:  81%|████████  | 322/399 [00:01<00:00, 259.03it/s]Loading weights:  87%|████████▋ | 349/399 [00:01<00:00, 246.83it/s]Loading weights:  94%|█████████▍| 375/399 [00:01<00:00, 247.37it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 224.63it/s]
+loaded
+[5/13] saved
+[10/13] saved
+[13/13] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/mental_health_self_harm_original_prompt_result_gpt_wildguard_result_qwen3guard.json
+[18:32:37] sorrybench (non-voting)
+loading sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406... (device=cuda:1)
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<00:39,  7.33it/s]Loading weights:   2%|▏         | 6/291 [00:00<00:10, 26.69it/s]Loading weights:   5%|▍         | 14/291 [00:00<00:06, 45.21it/s]Loading weights:   8%|▊         | 22/291 [00:00<00:04, 54.45it/s]Loading weights:  10%|▉         | 28/291 [00:00<00:04, 53.52it/s]Loading weights:  12%|█▏        | 34/291 [00:00<00:04, 52.55it/s]Loading weights:  14%|█▍        | 41/291 [00:00<00:04, 55.31it/s]Loading weights:  17%|█▋        | 49/291 [00:00<00:04, 59.78it/s]Loading weights:  19%|█▉        | 56/291 [00:01<00:03, 60.06it/s]Loading weights:  22%|██▏       | 63/291 [00:01<00:03, 57.14it/s]Loading weights:  24%|██▎       | 69/291 [00:01<00:04, 52.63it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:03, 57.38it/s]Loading weights:  29%|██▉       | 85/291 [00:01<00:03, 60.80it/s]Loading weights:  32%|███▏      | 92/291 [00:01<00:03, 60.72it/s]Loading weights:  34%|███▍      | 99/291 [00:01<00:03, 57.71it/s]Loading weights:  36%|███▌      | 105/291 [00:01<00:03, 53.37it/s]Loading weights:  39%|███▉      | 113/291 [00:02<00:03, 57.81it/s]Loading weights:  42%|████▏     | 121/291 [00:02<00:02, 61.17it/s]Loading weights:  44%|████▍     | 128/291 [00:02<00:02, 61.00it/s]Loading weights:  46%|████▋     | 135/291 [00:02<00:03, 51.22it/s]Loading weights:  48%|████▊     | 141/291 [00:02<00:03, 44.82it/s]Loading weights:  51%|█████     | 149/291 [00:02<00:03, 47.26it/s]Loading weights:  54%|█████▍    | 157/291 [00:02<00:02, 49.08it/s]Loading weights:  56%|█████▌    | 163/291 [00:03<00:02, 46.31it/s]Loading weights:  58%|█████▊    | 168/291 [00:03<00:02, 41.87it/s]Loading weights:  60%|██████    | 176/291 [00:03<00:02, 45.18it/s]Loading weights:  63%|██████▎   | 184/291 [00:03<00:02, 47.33it/s]Loading weights:  65%|██████▍   | 189/291 [00:03<00:02, 45.14it/s]Loading weights:  67%|██████▋   | 194/291 [00:03<00:02, 43.47it/s]Loading weights:  69%|██████▉   | 202/291 [00:03<00:01, 46.44it/s]Loading weights:  71%|███████   | 207/291 [00:04<00:01, 44.37it/s]Loading weights:  73%|███████▎  | 212/291 [00:04<00:01, 42.75it/s]Loading weights:  76%|███████▌  | 220/291 [00:04<00:01, 45.98it/s]Loading weights:  77%|███████▋  | 225/291 [00:04<00:01, 44.12it/s]Loading weights:  79%|███████▉  | 230/291 [00:04<00:01, 42.68it/s]Loading weights:  82%|████████▏ | 238/291 [00:04<00:01, 46.17it/s]Loading weights:  84%|████████▎ | 243/291 [00:04<00:01, 44.14it/s]Loading weights:  85%|████████▌ | 248/291 [00:05<00:01, 41.77it/s]Loading weights:  88%|████████▊ | 256/291 [00:05<00:00, 45.40it/s]Loading weights:  90%|████████▉ | 261/291 [00:05<00:00, 43.45it/s]Loading weights:  91%|█████████▏| 266/291 [00:05<00:00, 42.07it/s]Loading weights:  94%|█████████▍| 274/291 [00:05<00:00, 45.84it/s]Loading weights:  96%|█████████▌| 279/291 [00:05<00:00, 43.97it/s]Loading weights:  98%|█████████▊| 284/291 [00:05<00:00, 42.81it/s]Loading weights: 100%|██████████| 291/291 [00:05<00:00, 48.74it/s]
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+[transformers] Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+loaded
+[5/13] saved
+[10/13] saved
+[13/13] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/mental_health_self_harm_original_prompt_result_gpt_wildguard_result_sorrybench.json
+[18:32:57] strongreject (non-voting)
+Map:   0%|          | 0/8 [00:00<?, ? examples/s][transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:23,  7.00it/s][A
+Loading weights:  12%|█▏        | 20/164 [00:00<00:01, 93.46it/s][A
+Loading weights:  24%|██▍       | 39/164 [00:00<00:00, 127.84it/s][A
+Loading weights:  35%|███▌      | 58/164 [00:00<00:00, 143.52it/s][A
+Loading weights:  46%|████▌     | 75/164 [00:00<00:00, 147.77it/s][A
+Loading weights:  56%|█████▌    | 92/164 [00:00<00:00, 151.96it/s][A
+Loading weights:  69%|██████▉   | 113/164 [00:00<00:00, 162.48it/s][A
+Loading weights:  80%|███████▉  | 131/164 [00:00<00:00, 166.31it/s][A
+Loading weights:  91%|█████████▏| 150/164 [00:01<00:00, 173.20it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 154.08it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 3163.77it/s]
+Map: 100%|██████████| 8/8 [00:05<00:00,  1.34 examples/s]Map: 100%|██████████| 8/8 [00:05<00:00,  1.34 examples/s]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[8/13] saved
+Map:   0%|          | 0/5 [00:00<?, ? examples/s]
+Loading weights:   0%|          | 0/164 [00:00<?, ?it/s][A
+Loading weights:   1%|          | 1/164 [00:00<00:23,  7.03it/s][A
+Loading weights:   9%|▊         | 14/164 [00:00<00:02, 68.15it/s][A
+Loading weights:  20%|█▉        | 32/164 [00:00<00:01, 110.23it/s][A
+Loading weights:  30%|███       | 50/164 [00:00<00:00, 131.43it/s][A
+Loading weights:  41%|████▏     | 68/164 [00:00<00:00, 143.91it/s][A
+Loading weights:  52%|█████▏    | 86/164 [00:00<00:00, 151.67it/s][A
+Loading weights:  63%|██████▎   | 104/164 [00:00<00:00, 155.26it/s][A
+Loading weights:  74%|███████▍  | 122/164 [00:00<00:00, 158.67it/s][A
+Loading weights:  85%|████████▌ | 140/164 [00:01<00:00, 160.66it/s][A
+Loading weights:  96%|█████████▌| 157/164 [00:01<00:00, 158.75it/s][ALoading weights: 100%|██████████| 164/164 [00:01<00:00, 146.08it/s]
+
+Loading weights:   0%|          | 0/252 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 252/252 [00:00<00:00, 2739.93it/s]
+Map: 100%|██████████| 5/5 [00:05<00:00,  1.05s/ examples]Map: 100%|██████████| 5/5 [00:05<00:00,  1.05s/ examples]
+You shouldn't move a model that is dispatched using accelerate hooks.
+[13/13] saved
+finished
+saved to: data/evaluation/original_prompt_experiment/judge_ensemble/mental_health_self_harm_original_prompt_result_gpt_wildguard_result_strongreject.json
+[18:33:22] aggregate
+aggregated 13 records -> data/evaluation/original_prompt_experiment/judge_ensemble/mental_health_self_harm_original_prompt_result_gpt_wildguard_result_ensemble.json
+  disagreement:  1/13
+  overturns WildGuard: 0/13
+  insufficient_votes: 1/13
+[18:33:22] all steps completed

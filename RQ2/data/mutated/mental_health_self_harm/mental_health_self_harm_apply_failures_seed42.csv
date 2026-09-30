@@ -1,0 +1,7 @@
+operator,mutated_too_similar_to_parent,no_eligible_adj_adv,no_identity_terms_found,no_modifier_candidates,no_paraphrase_candidates,total
+delete,0,1291,0,0,0,1291
+fairness,0,0,3798,0,0,3798
+modifier,0,0,0,331,0,331
+paraphrase,0,0,0,0,110,110
+person_first_to_third,322,0,0,0,0,322
+person_third_to_first,10,0,0,0,0,10

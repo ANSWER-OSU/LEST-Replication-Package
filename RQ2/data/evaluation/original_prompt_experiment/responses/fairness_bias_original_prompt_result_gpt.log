@@ -1,0 +1,48 @@
+2026-09-19 17:48:38,511 loading dataset...
+2026-09-19 17:48:38,512 total prompts: 22
+2026-09-19 17:48:48,440 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:48:48,455 [1/22] done
+2026-09-19 17:48:55,493 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:48:55,496 [2/22] done
+2026-09-19 17:48:59,302 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:48:59,304 [3/22] done
+2026-09-19 17:49:03,170 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:03,173 [4/22] done
+2026-09-19 17:49:08,052 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:08,055 [5/22] done
+2026-09-19 17:49:10,278 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:10,281 [6/22] done
+2026-09-19 17:49:13,098 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:13,101 [7/22] done
+2026-09-19 17:49:18,191 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:18,194 [8/22] done
+2026-09-19 17:49:24,146 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:24,149 [9/22] done
+2026-09-19 17:49:35,979 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:35,984 [10/22] done
+2026-09-19 17:49:46,784 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:46,788 [11/22] done
+2026-09-19 17:49:51,171 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:49:51,174 [12/22] done
+2026-09-19 17:50:06,264 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:06,268 [13/22] done
+2026-09-19 17:50:15,099 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:15,102 [14/22] done
+2026-09-19 17:50:21,274 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:21,278 [15/22] done
+2026-09-19 17:50:30,178 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:30,181 [16/22] done
+2026-09-19 17:50:33,963 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:33,965 [17/22] done
+2026-09-19 17:50:40,975 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:40,978 [18/22] done
+2026-09-19 17:50:50,821 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:50,824 [19/22] done
+2026-09-19 17:50:54,515 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:50:54,519 [20/22] done
+2026-09-19 17:51:04,727 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:04,729 [21/22] done
+2026-09-19 17:51:11,888 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:11,891 [22/22] done
+2026-09-19 17:51:11,893 finished
+2026-09-19 17:51:11,893 saved to: data/evaluation/original_prompt_experiment/responses/fairness_bias_original_prompt_result_gpt.json

@@ -1,0 +1,30 @@
+2026-09-19 18:00:37,117 loading dataset...
+2026-09-19 18:00:37,118 total prompts: 13
+2026-09-19 18:00:44,602 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:44,639 [1/13] done
+2026-09-19 18:00:49,044 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:49,047 [2/13] done
+2026-09-19 18:01:04,278 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:04,283 [3/13] done
+2026-09-19 18:01:17,571 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:17,574 [4/13] done
+2026-09-19 18:01:30,859 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:30,862 [5/13] done
+2026-09-19 18:01:38,030 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:38,032 [6/13] done
+2026-09-19 18:01:46,213 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:46,216 [7/13] done
+2026-09-19 18:01:58,009 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:01:58,012 [8/13] done
+2026-09-19 18:02:05,462 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:02:05,464 [9/13] done
+2026-09-19 18:02:14,511 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:02:14,515 [10/13] done
+2026-09-19 18:02:29,846 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:02:29,849 [11/13] done
+2026-09-19 18:02:46,020 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:02:46,023 [12/13] done
+2026-09-19 18:02:52,344 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:02:52,347 [13/13] done
+2026-09-19 18:02:52,348 finished
+2026-09-19 18:02:52,348 saved to: data/evaluation/original_prompt_experiment/responses/mental_health_self_harm_original_prompt_result_claude.json

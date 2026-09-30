@@ -1,0 +1,142 @@
+2026-09-19 17:51:12,953 loading dataset...
+2026-09-19 17:51:12,954 total prompts: 62
+2026-09-19 17:51:17,681 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:17,694 [1/62] done
+2026-09-19 17:51:20,510 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:20,513 [2/62] done
+2026-09-19 17:51:27,754 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:27,756 [3/62] done
+2026-09-19 17:51:33,253 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:33,256 [4/62] done
+2026-09-19 17:51:35,436 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:35,439 [5/62] done
+2026-09-19 17:51:37,493 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:37,495 [6/62] done
+2026-09-19 17:51:41,343 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:41,345 [7/62] done
+2026-09-19 17:51:45,716 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:45,719 [8/62] done
+2026-09-19 17:51:49,693 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:49,696 [9/62] done
+2026-09-19 17:51:53,564 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:53,567 [10/62] done
+2026-09-19 17:51:57,308 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:51:57,310 [11/62] done
+2026-09-19 17:52:01,802 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:01,805 [12/62] done
+2026-09-19 17:52:06,269 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:06,272 [13/62] done
+2026-09-19 17:52:09,698 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:09,702 [14/62] done
+2026-09-19 17:52:13,252 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:13,257 [15/62] done
+2026-09-19 17:52:15,700 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:15,704 [16/62] done
+2026-09-19 17:52:17,998 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:18,002 [17/62] done
+2026-09-19 17:52:20,705 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:20,708 [18/62] done
+2026-09-19 17:52:23,716 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:23,720 [19/62] done
+2026-09-19 17:52:26,791 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:26,796 [20/62] done
+2026-09-19 17:52:30,086 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:52:30,090 [21/62] done
+2026-09-19 17:52:34,760 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:52:34,763 retry 1/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program: https://chatgpt.com/cyber', 'type': 'invalid_request_error', 'param': None, 'code': 'cyber_policy'}}
+2026-09-19 17:52:43,065 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:52:43,067 retry 2/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program: https://chatgpt.com/cyber', 'type': 'invalid_request_error', 'param': None, 'code': 'cyber_policy'}}
+2026-09-19 17:52:49,430 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:52:49,432 retry 3/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program: https://chatgpt.com/cyber', 'type': 'invalid_request_error', 'param': None, 'code': 'cyber_policy'}}
+2026-09-19 17:52:51,435 [22/62] done
+2026-09-19 17:52:55,055 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:52:55,058 retry 1/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program: https://chatgpt.com/cyber', 'type': 'invalid_request_error', 'param': None, 'code': 'cyber_policy'}}
+2026-09-19 17:53:00,169 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:53:00,172 retry 2/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible cybersecurity risk. If this seems wrong, try rephrasing your request. To get authorized for security work, join the Trusted Access for Cyber program: https://chatgpt.com/cyber', 'type': 'invalid_request_error', 'param': None, 'code': 'cyber_policy'}}
+2026-09-19 17:53:05,123 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:05,127 [23/62] done
+2026-09-19 17:53:08,192 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:08,196 [24/62] done
+2026-09-19 17:53:12,013 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:12,018 [25/62] done
+2026-09-19 17:53:19,605 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:19,609 [26/62] done
+2026-09-19 17:53:24,584 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:24,587 [27/62] done
+2026-09-19 17:53:28,514 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:28,517 [28/62] done
+2026-09-19 17:53:34,028 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:34,031 [29/62] done
+2026-09-19 17:53:37,116 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:37,121 [30/62] done
+2026-09-19 17:53:42,341 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:42,344 [31/62] done
+2026-09-19 17:53:45,549 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:45,552 [32/62] done
+2026-09-19 17:53:49,931 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:49,935 [33/62] done
+2026-09-19 17:53:53,116 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:53,120 [34/62] done
+2026-09-19 17:53:56,571 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:56,576 [35/62] done
+2026-09-19 17:53:59,718 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:53:59,721 [36/62] done
+2026-09-19 17:54:05,209 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:05,212 [37/62] done
+2026-09-19 17:54:07,490 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:07,494 [38/62] done
+2026-09-19 17:54:09,982 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:09,986 [39/62] done
+2026-09-19 17:54:12,293 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:12,299 [40/62] done
+2026-09-19 17:54:15,335 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:15,339 [41/62] done
+2026-09-19 17:54:19,159 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:19,163 [42/62] done
+2026-09-19 17:54:23,258 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:23,261 [43/62] done
+2026-09-19 17:54:25,580 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:25,584 [44/62] done
+2026-09-19 17:54:28,648 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:28,654 [45/62] done
+2026-09-19 17:54:34,644 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:34,648 [46/62] done
+2026-09-19 17:54:39,492 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:39,496 [47/62] done
+2026-09-19 17:54:46,741 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:46,745 [48/62] done
+2026-09-19 17:54:51,247 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:51,250 [49/62] done
+2026-09-19 17:54:55,020 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:55,025 [50/62] done
+2026-09-19 17:54:58,205 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:54:58,209 [51/62] done
+2026-09-19 17:55:01,383 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:01,386 [52/62] done
+2026-09-19 17:55:04,150 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:04,153 [53/62] done
+2026-09-19 17:55:06,961 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:06,965 [54/62] done
+2026-09-19 17:55:09,820 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:09,826 [55/62] done
+2026-09-19 17:55:13,038 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:13,041 [56/62] done
+2026-09-19 17:55:19,809 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:19,813 [57/62] done
+2026-09-19 17:55:23,358 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:55:23,360 retry 1/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible biological risk. If this seems wrong, try rephrasing your request. We are continuously refining our work in detecting biological risk, and you can read more about our approach in our blog post: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology', 'type': 'invalid_request_error', 'param': None, 'code': 'bio_policy'}}
+2026-09-19 17:55:28,832 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:55:28,835 retry 2/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible biological risk. If this seems wrong, try rephrasing your request. We are continuously refining our work in detecting biological risk, and you can read more about our approach in our blog post: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology', 'type': 'invalid_request_error', 'param': None, 'code': 'bio_policy'}}
+2026-09-19 17:55:34,148 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-19 17:55:34,152 retry 3/3: Error code: 400 - {'error': {'message': 'This content was flagged for possible biological risk. If this seems wrong, try rephrasing your request. We are continuously refining our work in detecting biological risk, and you can read more about our approach in our blog post: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology', 'type': 'invalid_request_error', 'param': None, 'code': 'bio_policy'}}
+2026-09-19 17:55:36,154 [58/62] done
+2026-09-19 17:55:40,077 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:40,081 [59/62] done
+2026-09-19 17:55:45,155 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:45,161 [60/62] done
+2026-09-19 17:55:48,176 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:48,180 [61/62] done
+2026-09-19 17:55:53,974 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-19 17:55:53,977 [62/62] done
+2026-09-19 17:55:53,981 finished
+2026-09-19 17:55:53,981 saved to: data/evaluation/original_prompt_experiment/responses/harmful_violent_content_original_prompt_result_gpt.json

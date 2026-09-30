@@ -1,0 +1,63 @@
+{
+  "input_file": "/scratch/projects/Kausar/SafetyDrift/data/raw/fairness_bias.json",
+  "category_ids": [
+    "2",
+    "30",
+    "35",
+    "36"
+  ],
+  "seed": 42,
+  "total_generated": 18276,
+  "total_kept": 3240,
+  "total_discarded": 15036,
+  "discarded_apply": 1610,
+  "apply_failures_by_operator": {
+    "paraphrase": {
+      "no_paraphrase_candidates": 361
+    },
+    "person_first_to_third": {
+      "mutated_too_similar_to_parent": 169
+    },
+    "fairness": {
+      "no_identity_terms_found": 584
+    },
+    "delete": {
+      "no_eligible_adj_adv": 178
+    },
+    "modifier": {
+      "no_modifier_candidates": 294
+    },
+    "person_third_to_first": {
+      "mutated_too_similar_to_parent": 24
+    }
+  },
+  "discarded_unchanged": 4201,
+  "discarded_semantic": 4501,
+  "discarded_perplexity": 1652,
+  "discarded_grammar": 287,
+  "discarded_duplicate": 1736,
+  "discarded_similar": 1049,
+  "discarded_no_applicable_op": 0,
+  "keep_rate_pct": 17.73,
+  "seed_pool_final_size": 3136,
+  "generation_distribution": {
+    "1": 78,
+    "2": 175,
+    "3": 294,
+    "4": 438,
+    "5": 555,
+    "6": 556,
+    "7": 464,
+    "8": 340,
+    "9": 214,
+    "10": 126
+  },
+  "max_generation": 10,
+  "thresholds": {
+    "semantic": 0.8,
+    "perplexity": 2.0,
+    "grammar": 0.5,
+    "different": 0.95,
+    "dedup": 0.95
+  }
+}

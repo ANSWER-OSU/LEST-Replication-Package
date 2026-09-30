@@ -1,0 +1,150 @@
+2026-09-19 17:52:08,312 loading dataset...
+2026-09-19 17:52:08,313 total prompts: 62
+2026-09-19 17:52:16,055 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:16,094 [1/62] done
+2026-09-19 17:52:22,292 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:22,294 [2/62] done
+2026-09-19 17:52:23,581 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:23,587 retry 1/3: list index out of range
+2026-09-19 17:52:34,952 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:34,954 [3/62] done
+2026-09-19 17:52:43,390 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:43,393 [4/62] done
+2026-09-19 17:52:48,780 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:48,783 [5/62] done
+2026-09-19 17:52:54,592 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:54,594 [6/62] done
+2026-09-19 17:53:01,345 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:01,350 [7/62] done
+2026-09-19 17:53:08,036 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:08,038 [8/62] done
+2026-09-19 17:53:14,128 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:14,131 [9/62] done
+2026-09-19 17:53:20,475 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:20,479 [10/62] done
+2026-09-19 17:53:25,624 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:25,629 [11/62] done
+2026-09-19 17:53:32,003 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:32,006 [12/62] done
+2026-09-19 17:53:38,930 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:38,932 [13/62] done
+2026-09-19 17:53:44,874 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:44,877 [14/62] done
+2026-09-19 17:53:54,709 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:53:54,713 [15/62] done
+2026-09-19 17:54:00,080 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:00,083 [16/62] done
+2026-09-19 17:54:06,983 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:06,986 [17/62] done
+2026-09-19 17:54:12,227 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:12,229 [18/62] done
+2026-09-19 17:54:16,785 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:16,787 [19/62] done
+2026-09-19 17:54:24,355 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:24,360 [20/62] done
+2026-09-19 17:54:25,434 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:25,436 retry 1/3: list index out of range
+2026-09-19 17:54:28,440 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:28,442 retry 2/3: list index out of range
+2026-09-19 17:54:31,319 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:31,322 retry 3/3: list index out of range
+2026-09-19 17:54:33,324 [21/62] done
+2026-09-19 17:54:43,427 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:43,437 [22/62] done
+2026-09-19 17:54:51,289 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:51,292 [23/62] done
+2026-09-19 17:54:57,455 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:54:57,458 [24/62] done
+2026-09-19 17:55:03,747 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:03,751 [25/62] done
+2026-09-19 17:55:10,936 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:10,938 [26/62] done
+2026-09-19 17:55:18,319 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:18,321 [27/62] done
+2026-09-19 17:55:24,990 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:24,992 [28/62] done
+2026-09-19 17:55:35,717 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:35,720 [29/62] done
+2026-09-19 17:55:40,776 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:40,780 [30/62] done
+2026-09-19 17:55:49,541 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:49,544 [31/62] done
+2026-09-19 17:55:54,787 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:55:54,789 [32/62] done
+2026-09-19 17:56:00,763 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:00,765 [33/62] done
+2026-09-19 17:56:06,189 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:06,192 [34/62] done
+2026-09-19 17:56:14,062 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:14,067 [35/62] done
+2026-09-19 17:56:19,960 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:19,963 [36/62] done
+2026-09-19 17:56:26,060 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:26,062 [37/62] done
+2026-09-19 17:56:31,786 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:31,788 [38/62] done
+2026-09-19 17:56:37,890 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:37,894 [39/62] done
+2026-09-19 17:56:45,131 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:45,136 [40/62] done
+2026-09-19 17:56:52,012 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:52,015 [41/62] done
+2026-09-19 17:56:59,662 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:56:59,665 [42/62] done
+2026-09-19 17:57:05,133 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:57:05,136 [43/62] done
+2026-09-19 17:57:11,062 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:57:11,064 [44/62] done
+2026-09-19 17:57:36,953 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:57:36,958 [45/62] done
+2026-09-19 17:57:44,090 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:57:44,093 [46/62] done
+2026-09-19 17:57:55,814 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:57:55,817 [47/62] done
+2026-09-19 17:58:12,129 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:12,132 [48/62] done
+2026-09-19 17:58:16,700 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:16,703 [49/62] done
+2026-09-19 17:58:24,765 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:24,770 [50/62] done
+2026-09-19 17:58:36,706 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:36,710 [51/62] done
+2026-09-19 17:58:46,171 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:46,174 [52/62] done
+2026-09-19 17:58:52,677 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:58:52,680 [53/62] done
+2026-09-19 17:59:04,779 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:04,782 [54/62] done
+2026-09-19 17:59:13,029 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:13,035 [55/62] done
+2026-09-19 17:59:23,205 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:23,209 [56/62] done
+2026-09-19 17:59:33,128 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:33,132 [57/62] done
+2026-09-19 17:59:42,635 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:42,638 retry 1/3: list index out of range
+2026-09-19 17:59:50,022 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:50,026 retry 2/3: list index out of range
+2026-09-19 17:59:58,347 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:59:58,350 retry 3/3: list index out of range
+2026-09-19 18:00:00,353 [58/62] done
+2026-09-19 18:00:06,904 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:06,907 [59/62] done
+2026-09-19 18:00:09,129 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:09,132 retry 1/3: list index out of range
+2026-09-19 18:00:12,162 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:12,165 retry 2/3: list index out of range
+2026-09-19 18:00:15,270 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:15,273 retry 3/3: list index out of range
+2026-09-19 18:00:17,281 [60/62] done
+2026-09-19 18:00:27,520 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:27,523 [61/62] done
+2026-09-19 18:00:28,352 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:28,356 retry 1/3: list index out of range
+2026-09-19 18:00:31,059 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:31,063 retry 2/3: list index out of range
+2026-09-19 18:00:33,732 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 18:00:33,735 retry 3/3: list index out of range
+2026-09-19 18:00:35,738 [62/62] done
+2026-09-19 18:00:35,743 finished
+2026-09-19 18:00:35,744 saved to: data/evaluation/original_prompt_experiment/responses/harmful_violent_content_original_prompt_result_claude.json

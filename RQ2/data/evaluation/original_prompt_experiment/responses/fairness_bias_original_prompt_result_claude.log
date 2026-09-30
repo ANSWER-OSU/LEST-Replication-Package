@@ -1,0 +1,48 @@
+2026-09-19 17:48:38,739 loading dataset...
+2026-09-19 17:48:38,740 total prompts: 22
+2026-09-19 17:48:48,102 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:48:48,153 [1/22] done
+2026-09-19 17:48:55,255 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:48:55,258 [2/22] done
+2026-09-19 17:49:04,928 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:04,935 [3/22] done
+2026-09-19 17:49:09,817 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:09,820 [4/22] done
+2026-09-19 17:49:26,254 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:26,258 [5/22] done
+2026-09-19 17:49:30,716 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:30,718 [6/22] done
+2026-09-19 17:49:40,723 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:40,726 [7/22] done
+2026-09-19 17:49:55,102 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:49:55,105 [8/22] done
+2026-09-19 17:50:07,971 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:50:07,974 [9/22] done
+2026-09-19 17:50:23,535 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:50:23,539 [10/22] done
+2026-09-19 17:50:32,553 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:50:32,555 [11/22] done
+2026-09-19 17:50:43,432 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:50:43,434 [12/22] done
+2026-09-19 17:50:52,557 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:50:52,560 [13/22] done
+2026-09-19 17:51:00,799 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:00,801 [14/22] done
+2026-09-19 17:51:09,537 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:09,541 [15/22] done
+2026-09-19 17:51:20,363 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:20,366 [16/22] done
+2026-09-19 17:51:25,714 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:25,716 [17/22] done
+2026-09-19 17:51:32,090 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:32,092 [18/22] done
+2026-09-19 17:51:41,602 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:41,605 [19/22] done
+2026-09-19 17:51:48,135 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:51:48,140 [20/22] done
+2026-09-19 17:52:01,057 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:01,060 [21/22] done
+2026-09-19 17:52:07,100 HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-19 17:52:07,103 [22/22] done
+2026-09-19 17:52:07,105 finished
+2026-09-19 17:52:07,105 saved to: data/evaluation/original_prompt_experiment/responses/fairness_bias_original_prompt_result_claude.json
