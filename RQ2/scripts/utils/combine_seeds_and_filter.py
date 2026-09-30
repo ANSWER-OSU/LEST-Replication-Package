@@ -7,6 +7,7 @@ import sys
 
 PROJECT_SRC = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, PROJECT_SRC)
+sys.path.insert(0, os.path.join(PROJECT_SRC, "mutation_experiment"))
 
 from mutation_experiment.approval import diversity_filter, THRESHOLD_LEXICAL_DIVERSITY
 
