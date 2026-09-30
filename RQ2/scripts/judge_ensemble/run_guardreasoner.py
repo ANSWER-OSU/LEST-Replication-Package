@@ -10,6 +10,7 @@ from transformers import (
 )
 
 from ensemble_io import parse_args, load_and_resume, response_text, save_json
+from guardreasoner_schema import guardreasoner_fields
 
 MODEL_NAME = "yueliu1999/GuardReasoner-8B"
 DEVICE = os.environ.get("DEVICE", "cuda" if torch.cuda.is_available() else "cpu")
@@ -71,6 +72,24 @@ CONCLUSION_FOR_TASK_RE = re.compile(r"conclusion for task \d+[:\-]?\s*([a-z]+)")
 TASK_CONCLUSION_RE = re.compile(r"task \d+ conclusion[:\-]?\s*([a-z]+)")
 CONCLUSION_BLOCK_RE = re.compile(r"conclusion\b[:\-]?\s*(.{0,200}?)(?=(?:#|\Z))", re.DOTALL)
 NEGATIONS = ("not ", "n't ", "never ", "without ", "unable to ", "fails to ", "declines to ")
+_NEGATION_CUE = (
+    r"(?:\b(?:not|no|never|nor|without|lacks?|lacking|avoids?|avoiding)\b|n't|\bfree (?:of|from)\b|\babsence of\b)"
+)
+_GAP_WORD = r"\s+(?!(?:is|are|was|were|be)\b)[a-z'-]+"
+NEGATION_CUE_RE = re.compile(
+    rf"non-$|{_NEGATION_CUE}(?:{_GAP_WORD}){{0,3}}\s+$|{_NEGATION_CUE}(?=(?:{_GAP_WORD}){{1,8}}\s+$)(?:{_GAP_WORD})*?\s+or\b(?:{_GAP_WORD})*\s+$"
+)
+ANSWERS_BLOCK_RE = re.compile(
+    r"\banswers?\s*:|^\s*(?:request|completion|response)\s*:\s*(?:un)?(?:harmful|refusal|compliance)",
+    re.MULTILINE,
+)
+OPPOSITE = {"harmful": "unharmful", "unharmful": "harmful", "refusal": "compliance", "compliance": "refusal"}
+VERDICT_PREFIX_RE = re.compile(
+    r"\b(?:is|are|was|making it|deemed|considered)\s+"
+    r"(?:(?:not|considered|deemed|classified as|categorized as|potentially|likely|therefore|thus|also|"
+    r"inherently|explicitly|directly|overall|still|generally|clearly|largely|ultimately)\s+)*"
+    r"(?:an?\s+)?(?:[a-z-]+\s+and\s+)?$"
+)
 
 
 def _find_label(text_lower, field, labels):
@@ -89,7 +108,30 @@ def _split_task_sections(text_lower):
         start = m.end()
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text_lower)
         sections[num] += text_lower[start:end]
+    if not sections["1"].strip() and matches and matches[0].group(1) != "1":
+        sections["1"] = text_lower[: matches[0].start()]
+    for num, text in sections.items():
+        cut = ANSWERS_BLOCK_RE.search(text)
+        if cut:
+            sections[num] = text[: cut.start()]
     return sections
+
+
+def _label_occurrences(text, primary, secondary, verdicts_only=False):
+    occurrences = []
+    for label in (primary, secondary):
+        for m in re.finditer(rf"\b{label}\b", text):
+            clause_start = max(text.rfind(c, 0, m.start()) for c in ".;:!?\n") + 1
+            clause = text[clause_start : m.start()]
+            if verdicts_only and (
+                not VERDICT_PREFIX_RE.search(clause)
+                or re.search(r"\b(?:whether|if)\b", clause)
+                or re.match(r"\s+or\b", text[m.end() :])
+            ):
+                continue
+            negated = NEGATION_CUE_RE.search(clause)
+            occurrences.append((m.start(), OPPOSITE[label] if negated else label))
+    return sorted(occurrences)
 
 
 def _has_negation_before(text, pos, window=40):
@@ -107,17 +149,18 @@ def _find_section_label(section_text, primary, secondary, verb_stems=None):
             return m.group(1)
 
     for block in reversed(CONCLUSION_BLOCK_RE.findall(section_text)):
-        if re.search(rf"\b{primary}\b", block):
-            return primary
-        if re.search(rf"\b{secondary}\b", block):
-            return secondary
+        occurrences = _label_occurrences(block, primary, secondary, verdicts_only=True) or _label_occurrences(
+            block, primary, secondary
+        )
+        if occurrences:
+            return occurrences[0][1]
 
     last_pos, last_label = -1, None
-    for label in (primary, secondary):
-        for m in re.finditer(rf"\b{label}\b", section_text):
-            if m.start() > last_pos:
-                last_pos, last_label = m.start(), label
-    if last_label:
+    occurrences = _label_occurrences(section_text, primary, secondary, verdicts_only=True) or _label_occurrences(
+        section_text, primary, secondary
+    )
+    if occurrences:
+        last_pos, last_label = occurrences[-1]
         return last_label
 
     if verb_stems:
@@ -183,12 +226,7 @@ def main():
                 results.append(
                     {
                         **item,
-                        "guardreasoner_refusal": None,
-                        "guardreasoner_prompt_harmfulness": None,
-                        "guardreasoner_response_harmfulness": None,
-                        "guardreasoner_reasoning": None,
-                        "guardreasoner_prompt_source": "mutated_prompt",
-                        "guardreasoner_error": "no_response",
+                        **guardreasoner_fields(None, None, None, None, "no_response"),
                     }
                 )
             else:
@@ -211,13 +249,14 @@ def main():
                     results.append(
                         {
                             **item,
-                            "guardreasoner_refusal": refusal,
-                            "guardreasoner_prompt_harmfulness": prompt_harm,
-                            "guardreasoner_response_harmfulness": response_harm,
-                            "guardreasoner_reasoning": generated_text,
-                            "guardreasoner_prompt_source": "mutated_prompt",
-                            "guardreasoner_fallback_prefix": used_fallback,
-                            "guardreasoner_error": None if refusal else "parse_failed",
+                            **guardreasoner_fields(
+                                refusal,
+                                prompt_harm,
+                                response_harm,
+                                generated_text,
+                                None if refusal else "parse_failed",
+                                fallback_prefix=used_fallback,
+                            ),
                         }
                     )
                 except Exception as e:
@@ -225,12 +264,7 @@ def main():
                     results.append(
                         {
                             **item,
-                            "guardreasoner_refusal": None,
-                            "guardreasoner_prompt_harmfulness": None,
-                            "guardreasoner_response_harmfulness": None,
-                            "guardreasoner_reasoning": None,
-                            "guardreasoner_prompt_source": "mutated_prompt",
-                            "guardreasoner_error": f"exception: {e}",
+                            **guardreasoner_fields(None, None, None, None, f"exception: {e}"),
                         }
                     )
 
