@@ -3,7 +3,7 @@ import json
 import os
 
 DEFAULT_INPUT = (
-    "data/evaluation/new_test_mutated_prompt_result_claude_wildguard_result.json"
+    "RQ2/data/evaluation/model_response/fairness_bias_mutated_prompt_result_claude_wildguard_result.json"
 )
 OUTPUT_ROOT = os.environ.get("ENSEMBLE_OUTPUT_ROOT", "RQ2/data/evaluation/judge_ensemble")
 

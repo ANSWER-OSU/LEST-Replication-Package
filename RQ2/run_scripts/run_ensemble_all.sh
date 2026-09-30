@@ -5,7 +5,7 @@ set -uo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT"
 
-INPUT_PATH="${1:-data/evaluation/new_test_mutated_prompt_result_claude_wildguard_result.json}"
+INPUT_PATH="${1:-RQ2/data/evaluation/model_response/fairness_bias_mutated_prompt_result_claude_wildguard_result.json}"
 
 if [[ "$INPUT_PATH" != *_wildguard_result.json ]]; then
     echo "[$(date +%H:%M:%S)] wildguard (response classification)"

@@ -14,7 +14,7 @@ MODE = os.environ.get("MODE", "mutated")  # "original" or "mutated"
 # paths
 INPUT_PATH = os.environ.get(
     "INPUT_PATH",
-    "RQ2/outputs/prompts/combined_sample.json",
+    "RQ2/data/evaluation/wildguard/fairness_bias/fairness_bias_fuzzed_prompt_combined_seeds_wildguard.json",
 )
 
 CATEGORY = os.path.basename(os.path.dirname(INPUT_PATH)) or "default"

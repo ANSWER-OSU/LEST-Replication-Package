@@ -4,6 +4,8 @@ import json
 import os
 from collections import defaultdict
 
+from tested_prompt_filter import is_tested_prompt
+
 ORIGINAL_DIR = os.path.join(
     os.path.dirname(__file__),
     "..",
@@ -61,7 +63,7 @@ def load_records(dir_path):
 
 
 def filter_harmful(records):
-    return [r for r in records if r.get("wildguard_prompt_harmfulness") == "harmful"]
+    return [r for r in records if is_tested_prompt(r, r["dataset_category"])]
 
 
 def filter_guardreasoner_ok(records):

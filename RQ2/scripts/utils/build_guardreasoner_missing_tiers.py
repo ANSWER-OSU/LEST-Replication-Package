@@ -2,11 +2,10 @@ import glob
 import json
 import os
 
+from tested_prompt_filter import dataset_category, is_tested_prompt
+
 INPUT_DIRS = [
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "evaluation", "judge_ensemble"),
-    os.path.join(
-        os.path.dirname(__file__), "..", "..", "data", "evaluation", "judge_ensemble_first output"
-    ),
 ]
 OUTPUT_DIR = os.path.join(
     os.path.dirname(__file__), "..", "..", "data", "evaluation", "filtered_harmful"
@@ -23,11 +22,10 @@ def load_all_records():
     records = []
     for input_dir in INPUT_DIRS:
         for path in sorted(glob.glob(os.path.join(input_dir, "*_result_ensemble.json"))):
-            fname = os.path.basename(path)
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
             for r in data:
-                r["_dataset_category"] = r.get("category_name") or fname.split("_mutated_prompt")[0]
+                r["_dataset_category"] = dataset_category(r, path)
             records.extend(data)
     return records
 
@@ -143,7 +141,7 @@ def tier_counts(rows):
 
 def main():
     records = load_all_records()
-    records = [r for r in records if r.get("wildguard_prompt_harmfulness") == "harmful"]
+    records = [r for r in records if is_tested_prompt(r, r["_dataset_category"])]
     gr_missing = gr_missing_with_data(records)
     gr_harm_missing = gr_harmfulness_missing_with_data(records)
     print(f"guardreasoner_refusal-missing records with at least one other signal: {len(gr_missing)}")

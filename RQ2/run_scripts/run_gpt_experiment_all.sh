@@ -13,7 +13,7 @@ CATEGORIES=(fairness_bias harmful_violent_content mental_health_self_harm)
 FAILED=()
 
 for category in "${CATEGORIES[@]}"; do
-    input="RQ2/data/evaluation/wildguard/${category}/${category}_fuzzed_prompt_combined_seeds_wildguard_without_sampled.json"
+    input="RQ2/data/evaluation/wildguard/${category}/${category}_fuzzed_prompt_combined_seeds_wildguard.json"
     echo "[$(date +%H:%M:%S)] ${category} (mode=${MODE}) <- ${input}"
     if ! INPUT_PATH="$input" python RQ2/scripts/model_experiment/gpt_experiment.py; then
         echo "[$(date +%H:%M:%S)] ${category} FAILED -- continuing with the remaining categories" >&2

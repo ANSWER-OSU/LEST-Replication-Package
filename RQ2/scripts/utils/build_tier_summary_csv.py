@@ -7,9 +7,6 @@ from tested_prompt_filter import dataset_category, is_tested_prompt
 
 INPUT_DIRS = [
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "evaluation", "judge_ensemble"),
-    os.path.join(
-        os.path.dirname(__file__), "..", "..", "data", "evaluation", "judge_ensemble_first output"
-    ),
 ]
 OUT_PATH = os.path.join(
     os.path.dirname(__file__),
