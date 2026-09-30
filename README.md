@@ -67,14 +67,9 @@ python RQ1/scripts/build_anchor_set.py
 `RQ1/data/anchor/category_selection.md` documents the reasoning behind every category and prompt level inclusion/exclusion decision.
 
 
-```bash
-python RQ1/scripts/annotation_extraction/aggregate_prompts.py <export1.csv> [<export2.csv> ...] RQ1/outputs/annotated_prompts.csv
-python RQ1/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ1/outputs/annotated_prompts.csv
-```
-
 ## Reproducing RQ2
 
-### 1. Generated Mutated Propmts
+### 1. Generated Mutated Prompts
 
 ```bash
 ./RQ2/run_scripts/run_all_seeds.sh
@@ -94,9 +89,62 @@ Combines all the approved seeds into one file and filters more based on the lexi
 
 ```bash
 ./RQ2/run_scripts/run_wildguard_combined.sh
+python RQ2/scripts/wildguard_evaluation/reject_unharmful_wildguard.py
 ```
 
 Runs the approved prompts through wildguard to filter out any prompts that wildguard finds unharmful for 2 of the categories.
 *fairness and bias* is excluded from this filtering as we found that wildguard found some prompts in this category as unharmful even though they were harmful.
 
-###
+### 4. Get Model Responses
+```bash
+./RQ2/run_scripts/run_claude_experiment_all.sh
+./RQ2/run_scripts/run_gpt_experiment_all.sh
+
+./RQ2/run_scripts/run_original_prompt_experiment.sh
+```
+Runs the mutated prompts as well as the original prompts through the two models.
+Note: this requires an Open AI and Anthropic API key in a .env file in the repo.
+
+### 5. Judge Responses with Ensemble
+```bash
+./RQ2/run_scripts/run_ensemble_all_models.sh
+python python RQ2/scripts/utils/build_filtered_harmful_outputs.py
+```
+
+Runs responses for both models through all the ensemble judges.
+
+### 6. Rerun all Prompts That Complied
+```bash
+python RQ2/scripts/utils/build_complied_prompt_export.py
+python RQ2/scripts/model_experiment/claude_rerun.py
+python RQ2/scripts/model_experiment/gpt_rerun.py
+python RQ2/scripts/utils/merge_claude_reruns.py
+python RQ2/scripts/utils/merge_gpt_reruns.py
+./RQ2/run_scripts/run_ensemble_all.sh RQ2/data/evaluation/complied_rerun/merged/claude_complied_reruns_merged.json
+./RQ2/run_scripts/run_ensemble_all.sh RQ2/data/evaluation/complied_rerun/merged/gpt_complied_reruns_merged.json
+```
+
+
+### 7. Human Annotation
+```bash
+python RQ2/scripts/utils/sample_label_studio_prompts.py
+```
+The output is uploaded to Label Studio, where multiple
+annotators label each prompt:
+
+- Maintains original harmful intention
+- Maintains intention of category
+- Is grammatical and understandable
+
+The exported annotations are aggregated
+
+```bash
+python RQ2/scripts/annotation_extraction/aggregate_prompts.py RQ2/annotations/prompts/annotated_prompts_unaggregated.csv RQ2/outputs/annotated_prompts.csv
+python RQ2/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ2/outputs/annotated_prompts.csv
+```
+
+### 8. Tables and Data Outputs
+```bash
+python python RQ2/scripts/utils/build_seed_failure_rate.py
+python python RQ2/scripts/utils/build_response_transitions.py
+```
