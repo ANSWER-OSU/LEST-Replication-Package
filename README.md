@@ -12,6 +12,7 @@ pip install torch==2.11.0
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_trf
+python RQ2/scripts/mutation_experiment/get_counterfitted.py
 ```
 
 ## Reproducing RQ1
@@ -70,3 +71,32 @@ python RQ1/scripts/build_anchor_set.py
 python RQ1/scripts/annotation_extraction/aggregate_prompts.py <export1.csv> [<export2.csv> ...] RQ1/outputs/annotated_prompts.csv
 python RQ1/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ1/outputs/annotated_prompts.csv
 ```
+
+## Reproducing RQ2
+
+### 1. Generated Mutated Propmts
+
+```bash
+./RQ2/run_scripts/run_all_seeds.sh
+```
+
+Runs the mutation engine for 5 different seeds for 20 minutes each.
+
+### 2. Combine Seeds for Final Selection
+
+```bash
+python RQ2/scripts/utils/combine_seeds_and_filter.py
+```
+
+Combines all the approved seeds into one file and filters more based on the lexical difference between the prompts in different seeds.
+
+### 3. Classify Prompt Harmfulness with Wildguard
+
+```bash
+./RQ2/run_scripts/run_wildguard_combined.sh
+```
+
+Runs the approved prompts through wildguard to filter out any prompts that wildguard finds unharmful for 2 of the categories.
+*fairness and bias* is excluded from this filtering as we found that wildguard found some prompts in this category as unharmful even though they were harmful.
+
+###
