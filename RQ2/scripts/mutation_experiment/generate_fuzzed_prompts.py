@@ -17,12 +17,6 @@ from person_mutation import (
     person_first_to_third_applicable,
     person_third_to_first_applicable,
 )
-from passive_mutation import (
-    active_to_passive_mutation,
-    passive_to_active_mutation,
-    active_to_passive_applicable,
-    passive_to_active_applicable,
-)
 from delete_mutation import delete_mutation
 from fairness_mutation import fairness_mutation
 from paraphrase_mutation import paraphrase_mutation, paraphrase_applicable
@@ -46,10 +40,8 @@ random.seed(SEED)
 THRESHOLD_DIFFERENT = 0.95  # sufficiently_different vs original
 THRESHOLD_DEDUP     = 0.95  # sufficiently different vs other mutated prompts
 THRESHOLD_SEMANTIC  = 0.80  # semantic preservation
-THRESHOLD_SEMANTIC_DELETE = 0.65
 THRESHOLD_PERPLEXITY = 2.0
 THRESHOLD_GRAMMAR    = 0.5  # CoLA acceptability
-THRESHOLD_SEMANTIC_FAIRNESS = 0.90  # stricter: swap should barely touch meaning
 
 with open(INPUT_PATH, "r", encoding="utf-8") as f:
     data = json.load(f)
@@ -182,31 +174,6 @@ def apply(op, text, bias_meta=None):
                 return None, "mutated_too_similar_to_parent"
             return mutated, None
 
-        elif op == "active_to_passive":
-            results = active_to_passive_mutation(text)
-            if not results:
-                return None, "no_valid_root_verb_object"
-            chosen = random.choice(results)
-            mutated = chosen.get("mutated_prompt")
-            if mutated is None:
-                return None, "chosen_candidate_empty"
-            if not sufficiently_different(text, mutated):
-                return None, "mutated_too_similar_to_parent"
-            return mutated, None
-
-        elif op == "passive_to_active":
-            results = passive_to_active_mutation(text)
-            if not results:
-                # see active_to_passive's comment above -- same reasoning
-                return None, "no_valid_passive_clause"
-            chosen = random.choice(results)
-            mutated = chosen.get("mutated_prompt")
-            if mutated is None:
-                return None, "chosen_candidate_empty"
-            if not sufficiently_different(text, mutated):
-                return None, "mutated_too_similar_to_parent"
-            return mutated, None
-
         elif op == "fairness":
             results = fairness_mutation(text)
             if not results:
@@ -278,16 +245,9 @@ def fuzz_once(parent_text, original_text, raw_scores, question_id,
 
     lexical = lexical_difference(original_text, current)
 
-    if mutation == "delete":
-        semantic_threshold = THRESHOLD_SEMANTIC_DELETE
-    elif mutation == "fairness":
-        semantic_threshold = THRESHOLD_SEMANTIC_FAIRNESS
-    else:
-        semantic_threshold = THRESHOLD_SEMANTIC
-
     semantic_check = semantic_preserved(
         original_text, current,
-        threshold=semantic_threshold
+        threshold=THRESHOLD_SEMANTIC
     )
     perplexity_check = perplexity_score(
         original_text, current,
@@ -306,7 +266,7 @@ def fuzz_once(parent_text, original_text, raw_scores, question_id,
         "mutated_prompt":       current,
         "semantic_similarity":  semantic_check["similarity"],
         "lexical_difference":   lexical["lexical_difference"],
-        "passed_semantic":      semantic_check["similarity"] >= semantic_threshold,
+        "passed_semantic":      semantic_check["similarity"] >= THRESHOLD_SEMANTIC,
         "ppl_ratio":            perplexity_check["ppl_ratio"],
         "mutated_ppl":          perplexity_check["mutated_ppl"],
         "passed_perplexity":    perplexity_check["grammatical"],
@@ -314,7 +274,7 @@ def fuzz_once(parent_text, original_text, raw_scores, question_id,
         "passed_grammar":       grammar_check["grammatical"],
         "bias_metadata": bias_meta or None,
         "passed_all":           (
-            semantic_check["similarity"] >= semantic_threshold
+            semantic_check["similarity"] >= THRESHOLD_SEMANTIC
             and perplexity_check["grammatical"]
             and grammar_check["grammatical"]
         )

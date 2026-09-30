@@ -7,6 +7,7 @@ from openai import OpenAI
 
 load_dotenv()
 
+#This file is used for rerunning the prompts that were originally complied with so that we have 5 total runs for each
 
 INPUT_PATHS = os.environ.get(
     "INPUT_PATHS",

@@ -30,7 +30,9 @@ run_jobs() {
         local seed="${job##*:}"
         local log_file="$LOG_DIR/${category}_seed${seed}.log"
         echo "[$(date +%H:%M:%S)] [${device}] ${category} seed=${seed} (${MINUTES} min) -> ${log_file}"
-        DEVICE="${device}" python main.py -c "${category}.json" -seed "${seed}" -min "${MINUTES}" \
+        DEVICE="${device}" INPUT_PATH="RQ2/data/raw/${category}.json" SEED="${seed}" \
+            FUZZ_DURATION_MINUTES="${MINUTES}" \
+            python RQ2/scripts/mutation_experiment/generate_fuzzed_prompts.py \
             > "$log_file" 2>&1
     done
 }

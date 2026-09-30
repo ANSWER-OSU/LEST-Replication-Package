@@ -1,3 +1,4 @@
 .env
 .venv/
 RQ2/scripts/mutation_experiment/counter-fitted-vectors.txt
+__pycache__/
