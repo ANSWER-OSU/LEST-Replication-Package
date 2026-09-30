@@ -1,0 +1,34 @@
+# NLP/mutation operators
+spacy==3.8.14
+lemminflect==0.2.3
+wordfreq==3.1.1
+numpy==2.2.6
+
+#models used by operators, scorers and the judge ensemble
+transformers==5.12.1
+sentence-transformers==5.6.0
+sentencepiece==0.2.1
+protobuf==6.33.6
+click==8.4.1
+typer==0.25.1
+accelerate==1.14.0
+peft==0.20.0
+wildguard==1.0.1
+
+# StrongREJECT judge (no PyPI release) 
+litellm==1.75.0
+git+https://github.com/dsbowen/strong_reject
+
+#data/API clients
+datasets==5.0.1
+huggingface_hub==1.19.0
+pandas==2.3.3
+scikit-learn==1.7.2
+nltk==3.9.4
+anthropic==0.109.2
+openai==2.43.0
+python-dotenv==1.2.2
+
+#claim extraction/testability classification
+pymupdf                       
+wittgenstein                
