@@ -32,3 +32,8 @@ python-dotenv==1.2.2
 #claim extraction/testability classification
 pymupdf                       
 wittgenstein                
+
+#RQ1: claim extraction / testability classification
+pymupdf==1.28.2             
+wittgenstein==0.3.5  
+
