@@ -14,7 +14,8 @@ run_queue() {
     local model="$2"
     local category input
     for category in "${CATEGORIES[@]}"; do
-        input="RQ2/data/evaluation/model_response/${category}_mutated_prompt_result_${model}_wildguard_result.json"
+        # raw responses file, so run_ensemble_all.sh runs wildguard before the other judges
+        input="RQ2/data/evaluation/model_response/${category}_mutated_prompt_result_${model}.json"
         echo "[$(date +%H:%M:%S)] (${device}) ${category}/${model} <- ${input}"
         if ! DEVICE="$device" ./RQ2/run_scripts/run_ensemble_all.sh "$input"; then
             echo "[$(date +%H:%M:%S)] ${category}/${model} FAILED -- continuing with the rest of this queue" >&2

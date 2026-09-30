@@ -45,15 +45,10 @@ judge_queue() {
     local device="$1" model="$2" category responses rc=0
     for category in "${CATEGORIES[@]}"; do
         responses="$BASE/responses/${category}_original_prompt_result_${model}"
-        echo "[$(stamp)] (${device}) wildguard response ${category}/${model}"
-        DEVICE="$device" python RQ2/scripts/wildguard_evaluation/wildguard_analyze_model_response.py \
-            "${responses}.json" || rc=1
-    done
-    for category in "${CATEGORIES[@]}"; do
-        responses="$BASE/responses/${category}_original_prompt_result_${model}"
-        echo "[$(stamp)] (${device}) ensemble ${category}/${model}"
+        echo "[$(stamp)] (${device}) wildguard + ensemble ${category}/${model}"
+        # run_ensemble_all.sh runs wildguard first when given the raw responses file
         ENSEMBLE_OUTPUT_ROOT="$BASE/judge_ensemble" DEVICE="$device" \
-            ./RQ2/run_scripts/run_ensemble_all.sh "${responses}_wildguard_result.json" || rc=1
+            ./RQ2/run_scripts/run_ensemble_all.sh "${responses}.json" || rc=1
     done
     return $rc
 }
