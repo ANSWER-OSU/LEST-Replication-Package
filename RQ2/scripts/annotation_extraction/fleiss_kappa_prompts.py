@@ -2,9 +2,10 @@ import csv
 import sys
 from collections import Counter
 
-from fleiss_kappa import fleiss_kappa, parse_votes, report
+sys.path.insert(0, "RQ1/scripts/annotation_extraction")
+from fleiss_kappa import fleiss_kappa, parse_votes, report  # noqa: E402
 
-LABEL_FIELDS = ["grammatical", "preserves_category", "preserves_intent", "harmful"]
+LABEL_FIELDS = ["grammatical", "preserves_category", "harmful"]
 CATEGORIES = ["Yes", "No"]
 
 

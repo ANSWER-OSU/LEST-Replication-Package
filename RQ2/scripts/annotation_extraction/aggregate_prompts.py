@@ -1,14 +1,16 @@
 import argparse
+import sys
 
 import pandas as pd
 
-from aggregate_claims import NO_CONSENSUS, breakdown, majority
+sys.path.insert(0, "RQ1/scripts/annotation_extraction")
+from aggregate_claims import NO_CONSENSUS, breakdown, majority  # noqa: E402
 
 #field config 
 JOIN_KEY = "prompt_id"
 
 # raw annotation fields; each becomes label_<field> / <field>_votes / <field>_agree
-LABEL_FIELDS = ["grammatical", "preserves_category", "preserves_intent", "harmful"]
+LABEL_FIELDS = ["grammatical", "preserves_category", "harmful"]
 
 # prompt-level metadata to carry through (constant per prompt); `id` is the
 # Label Studio task id, which is only kept from the first export
