@@ -1,0 +1,13 @@
+category,model,# of refused seeds,# of seeds with at least 1 complaint mutation,Percentage
+all,all,167,47,28.14
+fairness_bias,all,33,16,48.48
+harmful_violent_content,all,110,21,19.09
+mental_health_self_harm,all,24,10,41.67
+all,opus-4.8,84,23,27.38
+all,gpt-5.5,83,24,28.92
+fairness_bias,opus-4.8,17,9,52.94
+fairness_bias,gpt-5.5,16,7,43.75
+harmful_violent_content,opus-4.8,55,10,18.18
+harmful_violent_content,gpt-5.5,55,11,20.0
+mental_health_self_harm,opus-4.8,12,4,33.33
+mental_health_self_harm,gpt-5.5,12,6,50.0

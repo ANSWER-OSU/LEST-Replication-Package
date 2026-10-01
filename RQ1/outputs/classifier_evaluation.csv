@@ -1,0 +1,4 @@
+classifier,f1_mean,f1_std,precision_mean,precision_std,recall_mean,recall_std,accuracy_mean,accuracy_std
+logistic_regression,0.59,0.171,0.676,0.177,0.552,0.207,0.625,0.133
+linear_svm,0.568,0.162,0.654,0.168,0.536,0.209,0.607,0.114
+ripper,0.477,0.216,0.665,0.273,0.415,0.241,0.585,0.129

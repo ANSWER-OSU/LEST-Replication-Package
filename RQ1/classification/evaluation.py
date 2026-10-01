@@ -16,6 +16,7 @@ decision list over the structured features
 """
 
 import argparse
+import os
 import warnings
 import numpy as np
 import pandas as pd
@@ -37,6 +38,11 @@ from classifiers import (
 FEATURE_COLUMNS = BINARY_FEATURES + CATEGORICAL_FEATURES
 
 TARGET = "testable"
+
+# RQ1/classification/evaluation.py -> RQ1/outputs
+DEFAULT_OUTPUT = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "outputs", "classifier_evaluation.csv"
+)
 
 # Columns that are pure annotation bookkeeping and must be dropped.
 DROP_COLUMNS = [
@@ -94,6 +100,20 @@ def print_report(results):
             name_w, name, cell("f1"), cell("precision"), cell("recall"), cell("accuracy")
         ))
 
+
+def write_report(results, path):
+    rows = []
+    for name, res in results.items():
+        row = {"classifier": name}
+        for metric in ("f1", "precision", "recall", "accuracy"):
+            m, s = res[metric]
+            row["%s_mean" % metric] = round(m, 3)
+            row["%s_std" % metric] = round(s, 3)
+        rows.append(row)
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    pd.DataFrame(rows).to_csv(path, index=False)
+    print("\nsaved to %s" % path)
+
 def get_dataset(path):
     """Convenience: returns (df, X, y) where X has TEXT + feature columns."""
     df = load_and_clean(path)
@@ -130,6 +150,8 @@ def main():
     ap.add_argument("--folds", type=int, default=5)
     ap.add_argument("--repeats", type=int, default=5,
                     help="Repeated stratified k-fold repeats (1 = plain k-fold).")
+    ap.add_argument("--output", default=DEFAULT_OUTPUT,
+                    help="CSV path for the per-classifier metrics.")
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--tf", choices=TF_MODES, default="linear",
                     help="Where to include the Term Frequency Vector: "
@@ -153,6 +175,7 @@ def main():
         )
 
     print_report(results)
+    write_report(results, args.output)
 
     if args.show_rules:
         _, ripper_tf = tf_flags(args.tf)

@@ -1,0 +1,4 @@
+measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
+"1. is_claim agreement (binary, all items)",0.912,0.9625,0.5744,178,0,534,Claim: 0.307; Not a claim: 0.693
+"2. testability agreement (binary, all items with testability votes)",0.8562,0.9286,0.5033,56,3,161,Testable: 0.540; Not testable: 0.460
+3. TOTAL agreement (collapsed 3-class),0.8731,0.9401,0.5277,178,0,534,Not a claim: 0.693; Claim:Testable: 0.169; Claim:Not testable: 0.139

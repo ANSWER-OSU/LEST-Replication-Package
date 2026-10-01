@@ -1,4 +1,5 @@
 import csv
+import os
 import sys
 from collections import Counter
 
@@ -116,10 +117,33 @@ def report(title, res, categories):
         print(f"      {c:<22}: {res['marginals'][c]:.3f}")
 
 
+def result_row(title, res, categories):
+    return {
+        "measure": title,
+        "kappa": round(res["kappa"], 4),
+        "observed_agreement": round(res["P_bar"], 4),
+        "chance_agreement": round(res["P_e"], 4),
+        "items_scored": res["n_items_used"],
+        "items_skipped": res["n_items_skipped"],
+        "total_ratings": res["total_ratings"],
+        "category_marginals": "; ".join(f"{c}: {res['marginals'][c]:.3f}" for c in categories),
+    }
+
+
+def write_csv(path, rows):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"\nsaved to {path}")
+
+
 def main():
     TESTABILITY_UNANIMOUS_CLAIMS_ONLY = False
 
     path = sys.argv[1] if len(sys.argv) > 1 else "labeled_claims.csv"
+    output_path = sys.argv[2] if len(sys.argv) > 2 else "RQ1/outputs/claims_fleiss_kappa.csv"
     with open(path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
@@ -139,20 +163,22 @@ def main():
           + ("unanimous-claim items only" if TESTABILITY_UNANIMOUS_CLAIMS_ONLY
              else "all items with testability votes (ragged)"))
 
-    r1 = fleiss_kappa(is_claim_counts, ["Claim", "Not a claim"])
-    report("1. is_claim agreement (binary, all items)", r1,
-           ["Claim", "Not a claim"])
-
     testable_label = ("unanimous-claim items only" if TESTABILITY_UNANIMOUS_CLAIMS_ONLY
                       else "all items with testability votes")
-    r2 = fleiss_kappa(testable_counts, ["Testable", "Not testable"])
-    report(f"2. testability agreement (binary, {testable_label})", r2,
-           ["Testable", "Not testable"])
-
-    r3 = fleiss_kappa(collapsed_counts,
-                      ["Not a claim", "Claim:Testable", "Claim:Not testable"])
-    report("3. TOTAL agreement (collapsed 3-class)", r3,
-           ["Not a claim", "Claim:Testable", "Claim:Not testable"])
+    measures = [
+        ("1. is_claim agreement (binary, all items)",
+         is_claim_counts, ["Claim", "Not a claim"]),
+        (f"2. testability agreement (binary, {testable_label})",
+         testable_counts, ["Testable", "Not testable"]),
+        ("3. TOTAL agreement (collapsed 3-class)",
+         collapsed_counts, ["Not a claim", "Claim:Testable", "Claim:Not testable"]),
+    ]
+    out_rows = []
+    for title, counts, categories in measures:
+        res = fleiss_kappa(counts, categories)
+        report(title, res, categories)
+        out_rows.append(result_row(title, res, categories))
+    write_csv(output_path, out_rows)
 
 
 if __name__ == "__main__":
