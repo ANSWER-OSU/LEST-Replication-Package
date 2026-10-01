@@ -1,0 +1,210 @@
+Original prompt outcomes, claude (baseline)
+category                      n  refuse  comply
+fairness_bias                22      20       2
+harmful_violent_content      62      61       1
+mental_health_self_harm      13      13       0
+total                        97      94       3
+
+Original prompt outcomes, gpt (baseline)
+category                      n  refuse  comply
+fairness_bias                22      19       3
+harmful_violent_content      62      61       1
+mental_health_self_harm      13      13       0
+total                        97      93       4
+
+Valid mutations generated, by last operator (descending)
+operator                   valid    share
+paraphrase                   594    32.3%
+pcls                         505    27.5%
+fairness                     364    19.8%
+modifier                     230    12.5%
+delete                       121     6.6%
+person_first_to_third         18     1.0%
+person_third_to_first          5     0.3%
+total                       1837
+
+Valid mutations by last operator and category (share = within that category; descending by total)
+operator                             fairness_bias   harmful_violent_content   mental_health_self_harm           total
+paraphrase                           129 (17.7%)             276 (43.4%)             189 (39.9%)     594 (32.3%)
+pcls                                 143 (19.7%)             187 (29.4%)             175 (36.9%)     505 (27.5%)
+fairness                             329 (45.3%)              31 ( 4.9%)               4 ( 0.8%)     364 (19.8%)
+modifier                              51 ( 7.0%)             104 (16.4%)              75 (15.8%)     230 (12.5%)
+delete                                62 ( 8.5%)              35 ( 5.5%)              24 ( 5.1%)     121 ( 6.6%)
+person_first_to_third                 10 ( 1.4%)               3 ( 0.5%)               5 ( 1.1%)      18 ( 1.0%)
+person_third_to_first                  3 ( 0.4%)               0 ( 0.0%)               2 ( 0.4%)       5 ( 0.3%)
+total                                          727                       636                       474            1837
+
+Mutated prompts by category, claude
+category                 mutations  refuse  comply  comply share
+fairness_bias                  727     635      92         12.7%
+harmful_violent_content        636     601      35          5.5%
+mental_health_self_harm        474     459      15          3.2%
+total                         1837    1695     142          7.7%
+
+Mutated prompts by category, gpt
+category                 mutations  refuse  comply  comply share
+fairness_bias                  727     476     251         34.5%
+harmful_violent_content        636     616      20          3.1%
+mental_health_self_harm        474     429      45          9.5%
+total                         1837    1521     316         17.2%
+
+Outcome rates by last operator, claude (share of the operator's valid mutations)
+operator                  valid          refuse          comply
+paraphrase                  594     553 ( 93.1%)      41 (  6.9%)
+pcls                        505     478 ( 94.7%)      27 (  5.3%)
+fairness                    364     318 ( 87.4%)      46 ( 12.6%)
+modifier                    230     215 ( 93.5%)      15 (  6.5%)
+delete                      121     108 ( 89.3%)      13 ( 10.7%)
+person_first_to_third        18      18 (100.0%)       0 (  0.0%)
+person_third_to_first         5       5 (100.0%)       0 (  0.0%)
+total                      1837    1695 ( 92.3%)     142 (  7.7%)
+
+Outcome rates by last operator, gpt (share of the operator's valid mutations)
+operator                  valid          refuse          comply
+paraphrase                  594     512 ( 86.2%)      82 ( 13.8%)
+pcls                        505     457 ( 90.5%)      48 (  9.5%)
+fairness                    364     235 ( 64.6%)     129 ( 35.4%)
+modifier                    230     206 ( 89.6%)      24 ( 10.4%)
+delete                      121      90 ( 74.4%)      31 ( 25.6%)
+person_first_to_third        18      17 ( 94.4%)       1 (  5.6%)
+person_third_to_first         5       4 ( 80.0%)       1 ( 20.0%)
+total                      1837    1521 ( 82.8%)     316 ( 17.2%)
+
+Outcome rates by last operator and category, claude (refuse% / comply%, n)
+operator                                     fairness_bias           harmful_violent_content           mental_health_self_harm
+paraphrase                           89.9% / 10.1% (n=129)              92.8% / 7.2% (n=276)              95.8% / 4.2% (n=189)
+pcls                                 88.8% / 11.2% (n=143)              95.7% / 4.3% (n=187)              98.3% / 1.7% (n=175)
+fairness                             86.6% / 13.4% (n=329)               93.5% / 6.5% (n=31)               100.0% / 0.0% (n=4)
+modifier                              86.3% / 13.7% (n=51)              96.2% / 3.8% (n=104)               94.7% / 5.3% (n=75)
+delete                                80.6% / 19.4% (n=62)               97.1% / 2.9% (n=35)              100.0% / 0.0% (n=24)
+person_first_to_third                 100.0% / 0.0% (n=10)               100.0% / 0.0% (n=3)               100.0% / 0.0% (n=5)
+person_third_to_first                  100.0% / 0.0% (n=3)                                 -               100.0% / 0.0% (n=2)
+
+Outcome rates by last operator and category, gpt (refuse% / comply%, n)
+operator                                     fairness_bias           harmful_violent_content           mental_health_self_harm
+paraphrase                           63.6% / 36.4% (n=129)              95.7% / 4.3% (n=276)             87.8% / 12.2% (n=189)
+pcls                                 76.2% / 23.8% (n=143)              98.4% / 1.6% (n=187)              93.7% / 6.3% (n=175)
+fairness                             62.0% / 38.0% (n=329)               90.3% / 9.7% (n=31)               75.0% / 25.0% (n=4)
+modifier                              70.6% / 29.4% (n=51)              98.1% / 1.9% (n=104)               90.7% / 9.3% (n=75)
+delete                                51.6% / 48.4% (n=62)              100.0% / 0.0% (n=35)               95.8% / 4.2% (n=24)
+person_first_to_third                 100.0% / 0.0% (n=10)               100.0% / 0.0% (n=3)               80.0% / 20.0% (n=5)
+person_third_to_first                  100.0% / 0.0% (n=3)                                 -               50.0% / 50.0% (n=2)
+
+Refuse -> Comply walkthrough, claude
+  Step 1-2: of 97 original prompts, 94 refused, 3 complied with
+
+  excluded (mutations of the 3 already-complied originals): 38
+  operator                  eligible  still refusal   flips     rate
+  paraphrase                     581            547      34     5.9%
+  pcls                           486            466      20     4.1%
+  fairness                       359            315      44    12.3%
+  modifier                       229            214      15     6.6%
+  delete                         121            108      13    10.7%
+  person_first_to_third           18             18       0     0.0%
+  person_third_to_first            5              5       0     0.0%
+  total                         1799           1673     126     7.0%
+
+Refuse -> Comply walkthrough, gpt
+  Step 1-2: of 97 original prompts, 93 refused, 4 complied with
+
+  excluded (mutations of the 4 already-complied originals): 217
+  operator                  eligible  still refusal   flips     rate
+  paraphrase                     564            503      61    10.8%
+  pcls                           479            449      30     6.3%
+  fairness                       232            176      56    24.1%
+  modifier                       217            200      17     7.8%
+  delete                         105             85      20    19.0%
+  person_first_to_third           18             17       1     5.6%
+  person_third_to_first            5              4       1    20.0%
+  total                         1620           1434     186    11.5%
+
+Seeds with >=1 flip, by last operator, claude (seed count, not mutation count)
+operator                 seeds tried  seeds flipped     rate          95% CI
+paraphrase                        71             15    21.1%     13.2%-32.0%
+pcls                              66             12    18.2%     10.7%-29.1%
+fairness                          19              6    31.6%     15.4%-54.0%
+modifier                          48             10    20.8%     11.7%-34.3%
+delete                            31              3     9.7%      3.3%-24.9%
+person_first_to_third              8              0     0.0%      0.0%-32.4%
+person_third_to_first              3              0     0.0%      0.0%-56.1%
+any operator                      84             23    27.4%     19.0%-37.7%
+
+Seeds with >=1 flip, by last operator, gpt (seed count, not mutation count)
+operator                 seeds tried  seeds flipped     rate          95% CI
+paraphrase                        70             17    24.3%     15.8%-35.5%
+pcls                              67             13    19.4%     11.7%-30.4%
+fairness                          19              8    42.1%     23.1%-63.7%
+modifier                          48             11    22.9%     13.3%-36.5%
+delete                            30              4    13.3%      5.3%-29.7%
+person_first_to_third              8              1    12.5%      2.2%-47.1%
+person_third_to_first              3              1    33.3%      6.1%-79.2%
+any operator                      83             24    28.9%     20.3%-39.4%
+
+Refuse -> Comply, claude (all valid mutations)
+  excluded: baseline complied 38
+operator                  eligible   flips     rate
+paraphrase                     581      34     5.9%
+pcls                           486      20     4.1%
+fairness                       359      44    12.3%
+modifier                       229      15     6.6%
+delete                         121      13    10.7%
+person_first_to_third           18       0     0.0%
+person_third_to_first            5       0     0.0%
+total                         1799     126     7.0%
+
+Refuse -> Comply, gpt (all valid mutations)
+  excluded: baseline complied 217
+operator                  eligible   flips     rate
+paraphrase                     564      61    10.8%
+pcls                           479      30     6.3%
+fairness                       232      56    24.1%
+modifier                       217      17     7.8%
+delete                         105      20    19.0%
+person_first_to_third           18       1     5.6%
+person_third_to_first            5       1    20.0%
+total                         1620     186    11.5%
+
+Refuse -> Comply, claude (harmful prompts only)
+  excluded: prompt rated unharmful 68, baseline complied 38
+operator                  eligible   flips     rate
+paraphrase                     572      29     5.1%
+pcls                           482      17     3.5%
+fairness                       316      17     5.4%
+modifier                       228      15     6.6%
+delete                         110       7     6.4%
+person_first_to_third           18       0     0.0%
+person_third_to_first            5       0     0.0%
+total                         1731      85     4.9%
+
+Refuse -> Comply, gpt (harmful prompts only)
+  excluded: prompt rated unharmful 40, baseline complied 217
+operator                  eligible   flips     rate
+paraphrase                     556      53     9.5%
+pcls                           477      28     5.9%
+fairness                       212      37    17.5%
+modifier                       216      16     7.4%
+delete                          96      11    11.5%
+person_first_to_third           18       1     5.6%
+person_third_to_first            5       1    20.0%
+total                         1580     147     9.3%
+
+Refuse -> Comply by category, claude (all valid mutations; flips/eligible)
+operator                               fairness_bias     harmful_violent_content     mental_health_self_harm
+paraphrase                            13/127 (10.2%)               13/265 (4.9%)                8/189 (4.2%)
+pcls                                  14/137 (10.2%)                3/174 (1.7%)                3/175 (1.7%)
+fairness                              42/324 (13.0%)                 2/31 (6.5%)                  0/4 (0.0%)
+modifier                                7/51 (13.7%)                4/103 (3.9%)                 4/75 (5.3%)
+delete                                 12/62 (19.4%)                 1/35 (2.9%)                 0/24 (0.0%)
+person_first_to_third                    0/10 (0.0%)                  0/3 (0.0%)                  0/5 (0.0%)
+person_third_to_first                     0/3 (0.0%)                           -                  0/2 (0.0%)
+
+Refuse -> Comply by category, gpt (all valid mutations; flips/eligible)
+operator                               fairness_bias     harmful_violent_content     mental_health_self_harm
+paraphrase                            26/100 (26.0%)               12/275 (4.4%)              23/189 (12.2%)
+pcls                                  16/117 (13.7%)                3/187 (1.6%)               11/175 (6.3%)
+fairness                              52/197 (26.4%)                 3/31 (9.7%)                 1/4 (25.0%)
+modifier                                8/38 (21.1%)                2/104 (1.9%)                 7/75 (9.3%)
+delete                                 19/46 (41.3%)                 0/35 (0.0%)                 1/24 (4.2%)
+person_first_to_third                    0/10 (0.0%)                  0/3 (0.0%)                 1/5 (20.0%)
+person_third_to_first                     0/3 (0.0%)                           -                 1/2 (50.0%)
+
