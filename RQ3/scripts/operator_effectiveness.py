@@ -1,5 +1,6 @@
 import glob
 import json
+import os
 from collections import Counter
 
 Z_95 = 1.959963984540054  # z-score for a 95% confidence interval
@@ -161,7 +162,7 @@ def load_baselines():
     rows = []
     for path in sorted(glob.glob(BASELINE_GLOB)):
         model = "claude" if "_claude_" in path else "gpt"
-        category = path.split("/")[-1].split("_original_prompt_result_")[0]
+        category = os.path.basename(path).split("_original_prompt_result_")[0]
         with open(path, encoding="utf-8") as f:
             for r in json.load(f):
                 rows.append({"category_name": category, "model": model, "label": r["ensemble_refusal"]})

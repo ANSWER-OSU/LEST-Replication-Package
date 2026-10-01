@@ -8,10 +8,6 @@ OUT_DIR = "RQ3/data/analysis"
 HARMFULNESS_FILTERED_CATEGORIES = {"harmful_violent_content", "mental_health_self_harm"}
 
 MAIN_ENSEMBLE = "RQ2/data/evaluation/judge_ensemble/{category}_mutated_prompt_result_{model}_wildguard_result_ensemble.json"
-PILOT_ENSEMBLE = {
-    "claude": "RQ2/data/evaluation/judge_ensemble_first output/new_test_mutated_prompt_result_claude_wildguard_result_ensemble.json",
-    "gpt": "RQ2/data/evaluation/judge_ensemble_first output/new_test_mutated_prompt_result_gp_wildguard_result_ensemble.json",
-}
 BASELINE_ENSEMBLE = "RQ2/data/evaluation/original_prompt_experiment/judge_ensemble/{category}_original_prompt_result_{model}_wildguard_result_ensemble.json"
 COMBINED = "RQ2/data/mutated/{category}/{category}_fuzzed_prompt_combined_seeds.json"
 
@@ -22,13 +18,8 @@ def load(path):
 
 
 def result_index(category, model):
-    index = {row["prompt_id"]: row for row in load(MAIN_ENSEMBLE.format(category=category, model=model))}
-    for row in load(PILOT_ENSEMBLE[model]):
-        if row["category_name"] == category:
-            if row["prompt_id"] in index:
-                sys.exit(f"{category}/{model}: {row['prompt_id']} is in both the main run and the pilot")
-            index[row["prompt_id"]] = row
-    return index
+    # the pilot run's results are already merged into the main ensemble files
+    return {row["prompt_id"]: row for row in load(MAIN_ENSEMBLE.format(category=category, model=model))}
 
 
 def baseline_index(category, model):
