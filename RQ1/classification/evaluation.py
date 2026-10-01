@@ -11,7 +11,7 @@ wide sparse bag-of-words tends to produce unstable, overfit rules. The default
 mode (linear) therefore keeps TF out of RIPPER and lets it learn a readable
 decision list over the structured features
 
-    python evaluation.py --input claims_labeled.csv --folds 5 --repeats 5 --tf linear
+    python evaluation.py --input claims_labeled.csv --folds 5 --repeats 10 --tf linear
 
 """
 
@@ -61,7 +61,7 @@ def _splitter(folds, repeats, random_state):
     return StratifiedKFold(n_splits=folds, shuffle=True, random_state=random_state)
 
 
-def evaluate_model(build_fn, X, y, folds=5, repeats=5, random_state=0):
+def evaluate_model(build_fn, X, y, folds=5, repeats=10, random_state=0):
     """Cross-validate one classifier. build_fn returns a fresh estimator each
     call so nothing leaks across folds."""
     splitter = _splitter(folds, repeats, random_state)
@@ -148,7 +148,7 @@ def main():
     ap = argparse.ArgumentParser(description="Evaluate testability classifiers.")
     ap.add_argument("--input", default="claims_labeled.csv")
     ap.add_argument("--folds", type=int, default=5)
-    ap.add_argument("--repeats", type=int, default=5,
+    ap.add_argument("--repeats", type=int, default=10,
                     help="Repeated stratified k-fold repeats (1 = plain k-fold).")
     ap.add_argument("--output", default=DEFAULT_OUTPUT,
                     help="CSV path for the per-classifier metrics.")
