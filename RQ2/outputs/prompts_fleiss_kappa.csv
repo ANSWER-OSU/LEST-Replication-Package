@@ -1,3 +1,4 @@
 measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
 "1. grammatical agreement (binary, all items)",0.8217,0.92,0.5512,150,0,450,Yes: 0.660; No: 0.340
 "2. preserves_category agreement (binary, all items)",0.7644,0.9644,0.8491,150,0,450,Yes: 0.918; No: 0.082
+"3. harmful agreement (binary, all items)",0.6269,0.9289,0.8094,150,0,450,Yes: 0.893; No: 0.107

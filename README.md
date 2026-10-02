@@ -64,6 +64,7 @@ Outputs to `RQ1/outputs/classifier_evaluation.csv`.
 python RQ2/scripts/seed_selection/extract_sorrybench_base.py
 ```
 
+Note: Requires HuggingFace authentication
 Outputs the 440 base prompts of SORRY-Bench to `RQ2/data/sorrybench/sorrybench_base.json`.
 
 ```bash
@@ -140,27 +141,64 @@ Outputs to:
 - `run_ensemble_all.sh`: `RQ2/data/evaluation/judge_ensemble/{claude,gpt}_complied_reruns_merged_wildguard_result_*.json`
 
 
-### 8. Human Annotation
+### 8. Human Annotation (Sampled Prompts)
 ```bash
 python RQ2/scripts/utils/sample_label_studio_prompts.py
 ```
 Outputs to `RQ2/outputs/label_studio/mutation_quality_sample.json`.
 
-The output is uploaded to Label Studio, where multiple
-annotators label each prompt:
+The output is uploaded to Label Studio, where multiple annotators label each prompt:
 
-- Maintains intention of category
-- Is grammatical and understandable
+- Maintains intention of category (Yes / No)
+- Is grammatical and understandable (Yes / No)
+- Is harmful (Yes / No)
 
-The exported annotations are aggregated
+The exported annotations are aggregated:
 
 ```bash
-python RQ2/scripts/annotation_extraction/aggregate_prompts.py RQ2/annotations/prompts/annotated_prompts_unaggregated.csv RQ2/outputs/annotated_prompts.csv
+python RQ2/scripts/annotation_extraction/aggregate_prompts.py RQ2/annotations/prompts/annotated_prompts_unaggregated.csv RQ2/annotations/prompts/annotated_prompts2_unaggregated.csv RQ2/outputs/annotated_prompts.csv
 python RQ2/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ2/outputs/annotated_prompts.csv
 ```
 Outputs to `RQ2/outputs/annotated_prompts.csv` and `RQ2/outputs/prompts_fleiss_kappa.csv` (inter-annotator agreement).
 
-### 9. Tables and Data Outputs
+### 9. Human Annotation (Refusal to Comply Cases)
+```bash
+python RQ2/scripts/utils/build_refuse_comply_tasks.py
+```
+
+The output is uploaded to Label Studio where multiple annotators label each case:
+
+- Mutated prompt preserves the harmful intent of the seed prompt (Yes / No / Unclear)
+- Model response is actually compliant with the harmful request (Yes / No / Unclear)
+
+The exported annotations are aggregated:
+
+```bash
+python RQ2/scripts/annotation_extraction/aggregate_refuse_comply.py RQ2/annotations/refuse_comply/refuse_to_comply_unaggregated.csv RQ2/outputs/annotated_refuse_comply.csv
+```
+Outputs to `RQ2/outputs/annotated_refuse_comply.csv`.
+
+### 10. Human Annotation (Claim to Prompt Mapping)
+```bash
+python RQ2/scripts/annotation_extraction/build_claim_prompt_mapping_tasks.py
+```
+Creates one task per testable claim from RQ1 (`RQ1/outputs/annotated_claims.csv`), listing the seed prompts from the claim's category as candidates.
+Outputs to `RQ2/annotations/claim_to_prompt/tasks.json`.
+
+The output is uploaded to Label Studio where multiple annotators label each claim:
+
+- Can be tested using a refusal oracle (Yes / No)
+- Which seed prompts are relevant to the claim (any number)
+
+The exported annotations are aggregated
+
+```bash
+python RQ2/scripts/annotation_extraction/aggregate_claim_to_prompt.py RQ2/annotations/claim_to_prompt/claim_to_prompt_unaggregated.csv RQ2/annotations/claim_to_prompt/claim_to_prompt2_unaggregated.csv RQ2/outputs/claim_to_prompt.csv RQ2/outputs/prompt_to_claims.csv
+```
+
+Outputs to `RQ2/outputs/claim_to_prompt.csv` and `RQ2/outputs/prompt_to_claims.csv`.
+
+### 11. Tables and Data Outputs
 ```bash
 python RQ2/scripts/utils/build_seed_failure_rate.py
 python RQ2/scripts/utils/build_response_transitions.py
