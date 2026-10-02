@@ -27,11 +27,7 @@ scikit-learn==1.7.2
 nltk==3.9.4
 anthropic==0.109.2
 openai==2.43.0
-python-dotenv==1.2.2
-
-#claim extraction/testability classification
-pymupdf                       
-wittgenstein                
+python-dotenv==1.2.2               
 
 #RQ1: claim extraction / testability classification
 pymupdf==1.28.2             
