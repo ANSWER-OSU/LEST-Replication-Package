@@ -18,6 +18,10 @@ PROMPTS_FIELD = "mapped_prompts"
 # claim-level metadata to carry through (constant per claim)
 METADATA_COLS = ["category", "section", "source_doc", "num_candidate_prompts"]
 
+# testable claims, numbered c1, c2, ... in RQ1 id order for the outputs (the
+# same set the Label Studio tasks were built from); the RQ1 id is kept alongside
+RQ1_CLAIMS = Path("RQ1/outputs/annotated_claims.csv")
+
 # the 97 seed prompts, listed in full in the per-prompt output
 PROMPTS_DIR = Path("RQ2/data/evaluation/original_prompt_experiment/inputs")
 CATEGORIES = ["fairness_bias", "harmful_violent_content", "mental_health_self_harm"]
@@ -38,14 +42,21 @@ def parse_prompts(cell):
     return [c.split(":", 1)[0].strip() for c in choices]
 
 
-def qid_order(qid):
-    return int(qid.lstrip("q"))
+def id_order(prefixed_id):
+    """Numeric sort key for 'q51' / 'c7'."""
+    return int(prefixed_id[1:])
 
 
 def tally(counter):
-    """'q51:3,q52:1' ordered by votes, then question id."""
-    items = sorted(counter.items(), key=lambda kv: (-kv[1], qid_order(kv[0]) if kv[0].startswith("q") else kv[0]))
+    """'q51:3,q52:1' ordered by votes, then id."""
+    items = sorted(counter.items(), key=lambda kv: (-kv[1], id_order(kv[0])))
     return ",".join(f"{k}:{n}" for k, n in items)
+
+
+def claim_numbering():
+    claims = pd.read_csv(RQ1_CLAIMS)
+    ids = sorted(claims.loc[claims["label_testable"] == "Testable", "id"])
+    return {cid: f"c{i}" for i, cid in enumerate(ids, 1)}
 
 
 #per-claim collapse
@@ -55,7 +66,7 @@ def collapse_claim(group):
 
     n = len(group)
     prompt_votes = Counter(q for cell in group[PROMPTS_FIELD] for q in parse_prompts(cell))
-    majority_prompts = sorted((q for q, v in prompt_votes.items() if v > n / 2), key=qid_order)
+    majority_prompts = sorted((q for q, v in prompt_votes.items() if v > n / 2), key=id_order)
 
     record = {
         JOIN_KEY: group.name,
@@ -118,14 +129,10 @@ def prompts_to_claims(claims):
     if unknown:
         print(f"  warning: annotations reference unknown prompts {sorted(unknown)}")
 
-    def claim_tally(qid):
-        items = sorted(votes.get(qid, {}).items(), key=lambda kv: (-kv[1], kv[0]))
-        return ",".join(f"{k}:{n}" for k, n in items)
-
-    seeds["claim_votes"] = seeds["question_id"].map(claim_tally)
+    seeds["claim_votes"] = seeds["question_id"].map(lambda q: tally(votes.get(q, {})))
     seeds["num_claims_voted"] = seeds["question_id"].map(lambda q: len(votes.get(q, {})))
     seeds["majority_claims"] = seeds["question_id"].map(
-        lambda q: ",".join(str(c) for c in sorted(majority_claims.get(q, []))))
+        lambda q: ",".join(sorted(majority_claims.get(q, []), key=id_order)))
     seeds["num_majority_claims"] = seeds["question_id"].map(lambda q: len(majority_claims.get(q, [])))
     return seeds[["question_id", "category", "majority_claims", "num_majority_claims",
                   "claim_votes", "num_claims_voted", "original_prompt"]]
@@ -158,8 +165,20 @@ def main():
         seen |= set(df[JOIN_KEY])
 
     claims = aggregate(pd.concat(parts, ignore_index=True))
+
+    numbering = claim_numbering()
+    unknown = set(claims[JOIN_KEY]) - set(numbering)
+    if unknown:
+        raise SystemExit(f"claims {sorted(unknown)} are not testable claims in {RQ1_CLAIMS}")
+    claims["rq1_claim_id"] = claims[JOIN_KEY]
+    claims[JOIN_KEY] = claims[JOIN_KEY].map(numbering)
+    claims = claims.sort_values(JOIN_KEY, key=lambda s: s.map(id_order)).reset_index(drop=True)
+    missing = sorted(set(numbering.values()) - set(claims[JOIN_KEY]), key=id_order)
+    if missing:
+        print(f"  note: no annotations yet for {', '.join(missing)}")
+
     ordered = (
-        [JOIN_KEY, CLAIM_TEXT, f"label_{ORACLE_FIELD}", f"{ORACLE_FIELD}_agree", "num_annotators",
+        [JOIN_KEY, "rq1_claim_id", CLAIM_TEXT, f"label_{ORACLE_FIELD}", f"{ORACLE_FIELD}_agree", "num_annotators",
          f"{ORACLE_FIELD}_votes", "majority_prompts", "num_majority_prompts",
          "prompt_votes", "num_prompts_voted"]
         + [c for c in METADATA_COLS if c in claims.columns]
