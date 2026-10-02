@@ -1,3 +1,5 @@
+torch==2.11.0
+
 # NLP/mutation operators
 spacy==3.8.14
 lemminflect==0.2.3

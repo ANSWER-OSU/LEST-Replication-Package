@@ -19,10 +19,10 @@ for sample in ds["train"]:
         })
 
 # create folder
-os.makedirs("RQ1/data", exist_ok=True)
+os.makedirs("RQ2/data/sorrybench", exist_ok=True)
 
 # save
-with open("RQ1/data/sorrybench_base.json", "w") as f:
+with open("RQ2/data/sorrybench/sorrybench_base.json", "w") as f:
     json.dump(base_prompts, f, indent=2)
 
 print(f"saved {len(base_prompts)} base prompts")

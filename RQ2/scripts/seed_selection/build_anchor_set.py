@@ -10,11 +10,11 @@ BROAD_CATEGORIES = {
     "fairness_bias": [2, 30, 35, 36],
 }
 
-BASE_PATH   = Path("RQ1/data/sorrybench_base.json")
-LEDGER_PATH = Path("RQ1/data/anchor/exclusion_ledger.json")
-ANCHOR_PATH = Path("RQ1/data/sorrybench_anchors.json")
-AUDIT_PATH  = Path("RQ1/data/anchor/anchor_audit.csv")
-BROAD_ANCHOR_PATH = "RQ1/data/anchors_{broad}.json"
+BASE_PATH   = Path("RQ2/data/sorrybench/sorrybench_base.json")
+LEDGER_PATH = Path("RQ2/data/sorrybench/exclusion_ledger.json")
+AUDIT_PATH  = Path("RQ2/data/sorrybench/anchor_audit.csv")
+# per-category seed pools read by the mutation engine (RQ2/run_scripts/run_all_seeds.sh)
+BROAD_ANCHOR_PATH = "RQ2/data/raw/{broad}.json"
 
 
 def load_json(path):
@@ -140,16 +140,13 @@ def build():
             f"row count mismatch: considered {considered}, expected {expected}"
         )
 
-    ANCHOR_PATH.parent.mkdir(parents=True, exist_ok=True)
     AUDIT_PATH.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(ANCHOR_PATH, "w", encoding="utf-8") as f:
-        json.dump(anchors, f, indent=2, ensure_ascii=False)
 
     broad_paths = {}
     for broad in BROAD_CATEGORIES:
         subset = [a for a in anchors if a["broad_category"] == broad]
         path = Path(BROAD_ANCHOR_PATH.format(broad=broad))
+        path.parent.mkdir(parents=True, exist_ok=True)
         with open(path, "w", encoding="utf-8") as f:
             json.dump(subset, f, indent=2, ensure_ascii=False)
         broad_paths[broad] = (path, len(subset))
@@ -217,7 +214,7 @@ def report(audit_rows, considered, kept, dropped, inactive, broad_paths):
     print("seed pools")
     for broad, (path, n) in broad_paths.items():
         print(f"  {n:>4}  {path}")
-    print(f"  {kept:>4}  {ANCHOR_PATH}  (combined)")
+    print(f"  {kept:>4}  total")
     print(f"\naudit written to   : {AUDIT_PATH}")
 
 

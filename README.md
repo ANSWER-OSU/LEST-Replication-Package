@@ -8,7 +8,6 @@ This repository contains the replication package for LEST.
 python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-pip install torch==2.11.0
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_trf
@@ -34,13 +33,13 @@ Outputs to `RQ1/outputs/claims_features.csv` and `RQ1/outputs/claims_for_annotat
 - `is_claim`: Claim / Not a claim
 - `testable` (only if a claim): Testable / Not testable
 
-Export each annotator's pass as a CSV. A completed export for the current dataset is included at `RQ1/annotations/claims/annotated_claims_unaggregated_no_annotator4.csv`.
+Export each annotator's pass as a CSV. A completed export for the current dataset is included at `RQ1/annotations/claims/annotated_claims_unaggregated.csv`.
 
 ### 3. Aggregate annotator votes
 
 ```bash
 python RQ1/scripts/annotation_extraction/aggregate_claims.py \
-    RQ1/annotations/claims/annotated_claims_unaggregated_no_annotator4.csv \
+    RQ1/annotations/claims/annotated_claims_unaggregated.csv \
     RQ1/outputs/annotated_claims.csv
 python RQ1/scripts/annotation_extraction/fleiss_kappa.py RQ1/outputs/annotated_claims.csv
 ```
@@ -57,19 +56,23 @@ python RQ1/classification/evaluation.py \
 Reports F1 (positive class = Testable), precision, recall and accuracy for logistic regression, linear SVM and RIPPER, under repeated stratified k-fold cross-validation. `--show-rules` fits RIPPER on the full dataset and prints the learned rule set.
 Outputs to `RQ1/outputs/classifier_evaluation.csv`.
 
-### 5. Build the anchor (seed prompt) set
-
-```bash
-python RQ1/scripts/build_anchor_set.py
-```
-
-`RQ1/data/anchor/category_selection.md` documents the reasoning behind every category and prompt level inclusion/exclusion decision.
-Outputs to `RQ1/data/sorrybench_anchors.json`, `RQ1/data/anchors_<category>.json` and `RQ1/data/anchor/anchor_audit.csv`.
-
-
 ## Reproducing RQ2
 
-### 1. Generated Mutated Prompts
+### 1. Select Seed Prompts from SORRY-Bench
+
+```bash
+python RQ2/scripts/seed_selection/extract_sorrybench_base.py
+```
+
+Outputs the 440 base prompts of SORRY-Bench to `RQ2/data/sorrybench/sorrybench_base.json`.
+
+```bash
+python RQ2/scripts/seed_selection/build_anchor_set.py
+```
+
+Outputs the 97 seed prompts to `RQ2/data/raw/<category>.json` and the keep/exclude decision for every considered prompt to `RQ2/data/sorrybench/anchor_audit.csv`.
+
+### 2. Generated Mutated Prompts
 
 ```bash
 ./RQ2/run_scripts/run_all_seeds.sh
@@ -78,7 +81,7 @@ Outputs to `RQ1/data/sorrybench_anchors.json`, `RQ1/data/anchors_<category>.json
 Runs the mutation engine for 5 different seeds for 20 minutes each.
 Outputs to `RQ2/data/mutated/<category>/` (per-seed files, e.g. `<category>_fuzzed_prompt_seed<seed>.json`), with logs in `logs/experiment_<timestamp>/`.
 
-### 2. Combine Seeds for Final Selection
+### 3. Combine Seeds for Final Selection
 
 ```bash
 python RQ2/scripts/utils/combine_seeds_and_filter.py
@@ -87,7 +90,7 @@ python RQ2/scripts/utils/combine_seeds_and_filter.py
 Combines all the approved seeds into one file and filters more based on the lexical difference between the prompts in different seeds.
 Outputs to `RQ2/data/mutated/<category>/<category>_fuzzed_prompt_combined_seeds.json`.
 
-### 3. Classify Prompt Harmfulness with Wildguard
+### 4. Classify Prompt Harmfulness with Wildguard
 
 ```bash
 ./RQ2/run_scripts/run_wildguard_combined.sh
@@ -98,7 +101,7 @@ Runs the approved prompts through wildguard to filter out any prompts that wildg
 *fairness and bias* is excluded from this filtering as we found that wildguard found some prompts in this category as unharmful even though they were harmful.
 Outputs to `RQ2/data/evaluation/wildguard/<category>/<category>_fuzzed_prompt_combined_seeds_wildguard.json`; `reject_unharmful_wildguard.py` updates these files in place.
 
-### 4. Get Model Responses
+### 5. Get Model Responses
 ```bash
 ./RQ2/run_scripts/run_claude_experiment_all.sh
 ./RQ2/run_scripts/run_gpt_experiment_all.sh
@@ -109,7 +112,7 @@ Runs the mutated prompts as well as the original prompts through the two models.
 Note: this requires an Open AI and Anthropic API key in a .env file in the repo.
 Outputs to `RQ2/data/evaluation/model_response/<category>_mutated_prompt_result_{claude,gpt}.json` (mutated prompts) and `RQ2/data/evaluation/original_prompt_experiment/` (original prompts: `inputs/`, `responses/`, `judge_ensemble/`, `logs/`).
 
-### 5. Judge Responses with Ensemble
+### 6. Judge Responses with Ensemble
 ```bash
 ./RQ2/run_scripts/run_ensemble_all_models.sh
 python RQ2/scripts/utils/build_filtered_harmful_outputs.py
@@ -120,7 +123,7 @@ Outputs to:
 - `run_ensemble_all_models.sh`: `RQ2/data/evaluation/model_response/*_wildguard_result.json` and `RQ2/data/evaluation/judge_ensemble/`
 - `build_filtered_harmful_outputs.py`: `RQ2/data/evaluation/filtered_harmful/` (`ensemble_compliance_tiers.json`, `all_five_signal_tiers.json`, `ensemble_harmfulness_tiers.json`)
 
-### 6. Rerun all Prompts That Complied
+### 7. Rerun all Prompts That Complied
 ```bash
 python RQ2/scripts/utils/build_complied_prompt_export.py
 python RQ2/scripts/model_experiment/claude_rerun.py
@@ -137,7 +140,7 @@ Outputs to:
 - `run_ensemble_all.sh`: `RQ2/data/evaluation/judge_ensemble/{claude,gpt}_complied_reruns_merged_wildguard_result_*.json`
 
 
-### 7. Human Annotation
+### 8. Human Annotation
 ```bash
 python RQ2/scripts/utils/sample_label_studio_prompts.py
 ```
@@ -157,7 +160,7 @@ python RQ2/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ2/outputs/ann
 ```
 Outputs to `RQ2/outputs/annotated_prompts.csv` and `RQ2/outputs/prompts_fleiss_kappa.csv` (inter-annotator agreement).
 
-### 8. Tables and Data Outputs
+### 9. Tables and Data Outputs
 ```bash
 python RQ2/scripts/utils/build_seed_failure_rate.py
 python RQ2/scripts/utils/build_response_transitions.py
