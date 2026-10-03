@@ -1,2 +1,2 @@
 measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
-"1. refusal_evidence agreement (3-class, all claims)",0.4872,0.7241,0.462,29,0,87,Yes: 0.310; No: 0.598; Unclear: 0.092
+"1. refusal_evidence agreement (3-class, all claims)",0.4568,0.7011,0.4499,29,0,87,Yes: 0.333; No: 0.575; Unclear: 0.092
