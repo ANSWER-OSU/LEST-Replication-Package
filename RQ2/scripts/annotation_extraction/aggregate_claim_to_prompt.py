@@ -1,18 +1,13 @@
 import argparse
 import json
-import sys
 from collections import Counter
 from pathlib import Path
 
 import pandas as pd
 
-sys.path.insert(0, "RQ1/scripts/annotation_extraction")
-from aggregate_claims import NO_CONSENSUS, breakdown, majority  # noqa: E402
-
 #field config
 JOIN_KEY = "claim_id"
 CLAIM_TEXT = "claim_text"
-ORACLE_FIELD = "refusal_oracle"
 PROMPTS_FIELD = "mapped_prompts"
 
 # claim-level metadata to carry through (constant per claim)
@@ -61,9 +56,6 @@ def claim_numbering():
 
 #per-claim collapse
 def collapse_claim(group):
-    oracle_votes = group[ORACLE_FIELD].tolist()
-    label_oracle, _ = majority(oracle_votes)
-
     n = len(group)
     prompt_votes = Counter(q for cell in group[PROMPTS_FIELD] for q in parse_prompts(cell))
     majority_prompts = sorted((q for q, v in prompt_votes.items() if v > n / 2), key=id_order)
@@ -71,10 +63,7 @@ def collapse_claim(group):
     record = {
         JOIN_KEY: group.name,
         CLAIM_TEXT: group[CLAIM_TEXT].iloc[0],
-        f"label_{ORACLE_FIELD}": label_oracle,
-        f"{ORACLE_FIELD}_agree": group[ORACLE_FIELD].dropna().nunique() <= 1,
         "num_annotators": n,
-        f"{ORACLE_FIELD}_votes": breakdown(oracle_votes),
         "prompt_votes": tally(prompt_votes),
         "num_prompts_voted": len(prompt_votes),
         "majority_prompts": ",".join(majority_prompts),
@@ -148,7 +137,7 @@ def main():
     parts = []
     for path in args.input_csvs:
         df = pd.read_csv(path)
-        required = {JOIN_KEY, CLAIM_TEXT, ORACLE_FIELD, PROMPTS_FIELD}
+        required = {JOIN_KEY, CLAIM_TEXT, PROMPTS_FIELD}
         missing = required - set(df.columns)
         if missing:
             raise SystemExit(f"{path}: missing required columns {sorted(missing)}")
@@ -178,8 +167,7 @@ def main():
         print(f"  note: no annotations yet for {', '.join(missing)}")
 
     ordered = (
-        [JOIN_KEY, "rq1_claim_id", CLAIM_TEXT, f"label_{ORACLE_FIELD}", f"{ORACLE_FIELD}_agree", "num_annotators",
-         f"{ORACLE_FIELD}_votes", "majority_prompts", "num_majority_prompts",
+        [JOIN_KEY, "rq1_claim_id", CLAIM_TEXT, "num_annotators", "majority_prompts", "num_majority_prompts",
          "prompt_votes", "num_prompts_voted"]
         + [c for c in METADATA_COLS if c in claims.columns]
     )
@@ -189,11 +177,7 @@ def main():
     prompts = prompts_to_claims(claims)
     prompts.to_csv(args.prompts_csv, index=False)
 
-    labels = claims[f"label_{ORACLE_FIELD}"]
     print(f"wrote {len(claims)} claims -> {args.claims_csv}")
-    print(f"  {ORACLE_FIELD}: agree {claims[f'{ORACLE_FIELD}_agree'].sum()}, "
-          f"Yes {(labels == 'Yes').sum()}, No {(labels == 'No').sum()}, "
-          f"no consensus {(labels == NO_CONSENSUS).sum()}")
     print(f"  claims with no prompt votes : {(claims['num_prompts_voted'] == 0).sum()}")
     print(f"  claims with no majority prompt : {(claims['num_majority_prompts'] == 0).sum()}")
     print(f"wrote {len(prompts)} prompts -> {args.prompts_csv}")

@@ -19,7 +19,21 @@ def parse_votes(cell):
     return out
 
 
-# Generalized Fleiss' kappa          
+def selection_items(vote_cell, n_raters, n_options):
+    """Binary items for one multi-select task: one per option, Selected vs Not selected.
+
+    vote_cell tallies only the options someone ticked ('q51:3,q53:1'); the
+    remaining n_options - len(tally) options were left unticked by every rater.
+    """
+    votes = parse_votes(vote_cell)
+    if len(votes) > n_options:
+        raise ValueError(f"{len(votes)} options voted but only {n_options} available")
+    items = [{"Selected": v, "Not selected": n_raters - v} for v in votes.values()]
+    items += [{"Selected": 0, "Not selected": n_raters}] * (n_options - len(votes))
+    return items
+
+
+# Generalized Fleiss' kappa
 
 def fleiss_kappa(item_counts, categories):
     cat_totals = Counter()

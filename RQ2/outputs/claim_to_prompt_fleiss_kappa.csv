@@ -1,0 +1,5 @@
+measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
+1. prompt selection agreement (all claims),0.6368,0.931,0.8099,1072,0,3216,Selected: 0.106; Not selected: 0.894
+2. prompt selection agreement (mental_health_self_harm),0.6594,0.8535,0.5698,182,0,546,Selected: 0.313; Not selected: 0.687
+3. prompt selection agreement (harmful_violent_content),0.4626,0.9524,0.9114,868,0,2604,Selected: 0.046; Not selected: 0.954
+4. prompt selection agreement (fairness_bias),0.2575,0.7273,0.6327,22,0,66,Selected: 0.758; Not selected: 0.242
