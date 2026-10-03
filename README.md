@@ -13,6 +13,7 @@ python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_trf
 python RQ2/scripts/mutation_experiment/get_counterfitted.py
 ```
+
 `get_counterfitted.py` downloads the counter-fitted word vectors to `RQ2/scripts/mutation_experiment/counter-fitted-vectors.txt`.
 
 ## Reproducing RQ1
@@ -43,7 +44,8 @@ python RQ1/scripts/annotation_extraction/aggregate_claims.py \
     RQ1/outputs/annotated_claims.csv
 python RQ1/scripts/annotation_extraction/fleiss_kappa.py RQ1/outputs/annotated_claims.csv
 ```
-Outputs to `RQ1/outputs/annotated_claims.csv` and `RQ1/outputs/claims_fleiss_kappa.csv` (inter-annotator agreement).
+
+Outputs to `RQ1/outputs/annotated_claims.csv` and `RQ1/outputs/claims_fleiss_kappa.csv`.
 
 ### 4. Evaluate testability classifiers
 
@@ -55,6 +57,27 @@ python RQ1/classification/evaluation.py \
 
 Reports F1 (positive class = Testable), precision, recall and accuracy for logistic regression, linear SVM and RIPPER, under repeated stratified k-fold cross-validation. `--show-rules` fits RIPPER on the full dataset and prints the learned rule set.
 Outputs to `RQ1/outputs/classifier_evaluation.csv`.
+
+### 5. Human Annotation (ToC Domain Mapping)
+
+```bash
+python RQ1/scripts/build_toc_domain_tasks.py
+```
+
+Outputs to `RQ1/annotations/toc_domains/tasks.json`.
+
+The output is uploaded to Label Studio, where multiple annotators label each safety domain / model pair with the relevant table of contents sections from the system card.
+
+The exported annotations are aggregated:
+
+```bash
+python RQ1/scripts/annotation_extraction/aggregate_toc_domains.py \
+    RQ1/annotations/toc_domains/toc_domain_mapping_unaggregated.csv \
+    RQ1/outputs/toc_domains.csv
+python RQ1/scripts/annotation_extraction/fleiss_kappa_toc_domains.py RQ1/outputs/toc_domains.csv
+```
+
+Outputs to `RQ1/outputs/toc_domains.csv` and `RQ1/outputs/toc_domains_fleiss_kappa.csv`.
 
 ## Reproducing RQ2
 
@@ -110,6 +133,7 @@ Note: this requires an Open AI and Anthropic API key in a .env file in the repo.
 
 ./RQ2/run_scripts/run_original_prompt_experiment.sh
 ```
+
 Runs the mutated prompts as well as the original prompts through the two models.
 
 Outputs to `RQ2/data/evaluation/model_response/<category>_mutated_prompt_result_{claude,gpt}.json` (mutated prompts) and `RQ2/data/evaluation/original_prompt_experiment/` (original prompts: `inputs/`, `responses/`, `judge_ensemble/`, `logs/`).
@@ -135,6 +159,7 @@ python RQ2/scripts/utils/merge_gpt_reruns.py
 ./RQ2/run_scripts/run_ensemble_all.sh RQ2/data/evaluation/complied_rerun/merged/claude_complied_reruns_merged.json
 ./RQ2/run_scripts/run_ensemble_all.sh RQ2/data/evaluation/complied_rerun/merged/gpt_complied_reruns_merged.json
 ```
+
 Outputs to:
 - `build_complied_prompt_export.py`: `RQ2/outputs/complied_prompts/`
 - `claude_rerun.py`, `gpt_rerun.py`: `RQ2/data/evaluation/complied_rerun/`
@@ -146,6 +171,7 @@ Outputs to:
 ```bash
 python RQ2/scripts/utils/sample_label_studio_prompts.py
 ```
+
 Outputs to `RQ2/outputs/label_studio/mutation_quality_sample.json`.
 
 The output is uploaded to Label Studio, where multiple annotators label each prompt:
@@ -160,7 +186,8 @@ The exported annotations are aggregated:
 python RQ2/scripts/annotation_extraction/aggregate_prompts.py RQ2/annotations/prompts/annotated_prompts_unaggregated.csv RQ2/annotations/prompts/annotated_prompts2_unaggregated.csv RQ2/outputs/annotated_prompts.csv
 python RQ2/scripts/annotation_extraction/fleiss_kappa_prompts.py RQ2/outputs/annotated_prompts.csv
 ```
-Outputs to `RQ2/outputs/annotated_prompts.csv` and `RQ2/outputs/prompts_fleiss_kappa.csv` (inter-annotator agreement).
+
+Outputs to `RQ2/outputs/annotated_prompts.csv` and `RQ2/outputs/prompts_fleiss_kappa.csv`.
 
 ### 9. Human Annotation (Refusal to Comply Cases)
 ```bash
@@ -176,35 +203,56 @@ The exported annotations are aggregated:
 
 ```bash
 python RQ2/scripts/annotation_extraction/aggregate_refuse_comply.py RQ2/annotations/refuse_comply/refuse_to_comply_unaggregated.csv RQ2/outputs/annotated_refuse_comply.csv
+python RQ2/scripts/annotation_extraction/fleiss_kappa_refuse_comply.py RQ2/outputs/annotated_refuse_comply.csv
 ```
-Outputs to `RQ2/outputs/annotated_refuse_comply.csv`.
+
+Outputs to `RQ2/outputs/annotated_refuse_comply.csv` and `RQ2/outputs/refuse_comply_fleiss_kappa.csv`.
 
 ### 10. Human Annotation (Claim to Prompt Mapping)
 ```bash
 python RQ2/scripts/annotation_extraction/build_claim_prompt_mapping_tasks.py
 ```
+
 Creates one task per testable claim from RQ1 (`RQ1/outputs/annotated_claims.csv`), listing the seed prompts from the claim's category as candidates.
 Outputs to `RQ2/annotations/claim_to_prompt/tasks.json`.
 
 The output is uploaded to Label Studio where multiple annotators label each claim:
 
-- Can be tested using a refusal oracle (Yes / No)
 - Which seed prompts are relevant to the claim (any number)
 
-The exported annotations are aggregated
+The exported annotations are aggregated:
 
 ```bash
 python RQ2/scripts/annotation_extraction/aggregate_claim_to_prompt.py RQ2/annotations/claim_to_prompt/claim_to_prompt_unaggregated.csv RQ2/annotations/claim_to_prompt/claim_to_prompt2_unaggregated.csv RQ2/outputs/claim_to_prompt.csv RQ2/outputs/prompt_to_claims.csv
+python RQ2/scripts/annotation_extraction/fleiss_kappa_claim_to_prompt.py RQ2/outputs/claim_to_prompt.csv
 ```
 
-Outputs to `RQ2/outputs/claim_to_prompt.csv` and `RQ2/outputs/prompt_to_claims.csv`.
+Outputs to `RQ2/outputs/claim_to_prompt.csv`, `RQ2/outputs/prompt_to_claims.csv` and `RQ2/outputs/claim_to_prompt_fleiss_kappa.csv`.
 
-### 11. Tables and Data Outputs
+### 11. Human Annotation (Refusal Oracle)
+
+This uses the same task list as Step 10 and is uploaded to Label Studio where multiple annotators label each claim:
+
+- Can be tested using a refusal oracle (Yes / No / Unclear)
+- One sentence description of why or why not
+
+The exported annotations are aggregated: 
+
+```bash
+python RQ2/scripts/annotation_extraction/aggregate_refusal_evidence.py RQ2/annotations/refusal_evidence/refuse_oracle_unaggregated.csv RQ2/outputs/refusal_evidence.csv
+python RQ2/scripts/annotation_extraction/fleiss_kappa_refusal_evidence.py RQ2/outputs/refusal_evidence.csv
+```
+
+Outputs to `RQ2/outputs/refusal_evidence.csv` and `RQ2/outputs/refusal_evidence_fleiss_kappa.csv`.
+
+### 12. Tables and Data Outputs
 ```bash
 python RQ2/scripts/utils/build_seed_failure_rate.py
 python RQ2/scripts/utils/build_response_transitions.py
+python RQ2/scripts/utils/claims_overview.py
 ```
-Outputs to `RQ2/data/evaluation/filtered_harmful/` (`seed_failure_summary.csv`, `seed_failure_distribution.csv`, `seed_level_failure_table.csv` and `response_transitions.csv`).
+
+Outputs to `RQ2/data/evaluation/filtered_harmful/` (`seed_failure_summary.csv`, `seed_failure_distribution.csv`, `seed_level_failure_table.csv` `claims_overview.csv` and `response_transitions.csv`).
 
 ## Reproducing RQ3
 
@@ -212,6 +260,7 @@ Outputs to `RQ2/data/evaluation/filtered_harmful/` (`seed_failure_summary.csv`, 
 ```bash
 python RQ3/scripts/build_mutation_tables.py
 ```
+
 Joins each approved mutated prompt with its ensemble verdict and the verdict on its original prompt.
 Outputs to `RQ3/data/analysis/<category>_mutation_all_experiment_{claude,gpt}.json`.
 
@@ -219,5 +268,6 @@ Outputs to `RQ3/data/analysis/<category>_mutation_all_experiment_{claude,gpt}.js
 ```bash
 python RQ3/scripts/operator_effectiveness.py > RQ3/outputs/operator_effectiveness_report.txt
 ```
+
 Reports original-prompt outcomes, valid mutations and outcome rates by operator and category, Refuse->Comply rates by operator and category (all prompts and harmful prompts only), and seeds with at least one flip with 95% confidence intervals.
 Outputs to `RQ3/outputs/operator_effectiveness_report.txt`.
