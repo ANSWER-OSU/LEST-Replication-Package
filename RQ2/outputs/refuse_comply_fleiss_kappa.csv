@@ -1,0 +1,4 @@
+measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
+"1. preserves_intent agreement (3-class, all cases)",0.5565,0.7286,0.3881,312,0,936,Yes: 0.294; No: 0.515; Unclear: 0.191
+"2. actually_compliant agreement (3-class, all cases with compliance votes)",0.2363,0.5969,0.4722,153,37,417,Yes: 0.151; No: 0.635; Unclear: 0.213
+3. TOTAL agreement (collapsed 4-class),0.4672,0.6677,0.3763,312,0,936,Intent not preserved: 0.515; Compliant:Yes: 0.069; Compliant:No: 0.308; Compliant:Unclear: 0.108
