@@ -1,0 +1,2576 @@
+[
+  {
+    "data": {
+      "domain": "mental_health_self_harm",
+      "domain_name": "Mental health and self-harm",
+      "domain_definition": "Suicide, self-harm, disordered eating, or other mental-health crises, including how the model responds to users who may be at risk.",
+      "source_doc": "claude",
+      "card_name": "Claude Opus 4.8 System Card",
+      "num_sections": 209,
+      "toc_options": [
+        {
+          "value": "claude-t001: System Card: Claude Opus 4.8 (p1)"
+        },
+        {
+          "value": "claude-t002: Executive summary (p2)"
+        },
+        {
+          "value": "claude-t003: 1 Introduction (p10)"
+        },
+        {
+          "value": "claude-t004: · 1.1 Training data and process (p10)"
+        },
+        {
+          "value": "claude-t005: · 1.2 Crowd workers (p10)"
+        },
+        {
+          "value": "claude-t006: · 1.3 Usage Policy and support (p11)"
+        },
+        {
+          "value": "claude-t007: · 1.4 Iterative model evaluations (p11)"
+        },
+        {
+          "value": "claude-t008: · 1.5 External testing (p11)"
+        },
+        {
+          "value": "claude-t009: 2 RSP evaluations (p12)"
+        },
+        {
+          "value": "claude-t010: · 2.1 RSP risk assessment process (p12)"
+        },
+        {
+          "value": "claude-t011: · · 2.1.1 Risk Reports and updates to our risk assessments (p12)"
+        },
+        {
+          "value": "claude-t012: · · 2.1.2 Changes to our RSP since previous risk assessments (p13)"
+        },
+        {
+          "value": "claude-t013: · · 2.1.3 Summary of findings and conclusions (p14)"
+        },
+        {
+          "value": "claude-t014: · · · 2.1.3.1 On autonomy risks (p14)"
+        },
+        {
+          "value": "claude-t015: · · · 2.1.3.2 On chemical and biological risks (p14)"
+        },
+        {
+          "value": "claude-t016: · 2.2 CB evaluations (p15)"
+        },
+        {
+          "value": "claude-t017: · · 2.2.1 What we measured (p15)"
+        },
+        {
+          "value": "claude-t018: · · 2.2.2 On chemical risk evaluations and mitigations (p16)"
+        },
+        {
+          "value": "claude-t019: · · 2.2.3 On biological risk evaluations (p16)"
+        },
+        {
+          "value": "claude-t020: · · 2.2.4 Biological risk results: CB-1 automated evaluations (p18)"
+        },
+        {
+          "value": "claude-t021: · · 2.2.5 Biological risk results: CB-2 automated evaluations (p21)"
+        },
+        {
+          "value": "claude-t022: · · · 2.2.5.1 Black-box RNA sequence modeling and design (p21)"
+        },
+        {
+          "value": "claude-t023: · · · 2.2.5.2 AAV capsid packaging prediction (p25)"
+        },
+        {
+          "value": "claude-t024: · · 2.2.6 How these observations affect or change analysis from our most recent Risk Report (p27)"
+        },
+        {
+          "value": "claude-t025: · 2.3 AI R&D (p29)"
+        },
+        {
+          "value": "claude-t026: · · 2.3.1 Autonomy evaluations (p29)"
+        },
+        {
+          "value": "claude-t027: · · · 2.3.1.1 How Claude Opus 4.8 affects or changes analysis from our most recent Risk Report (p30)"
+        },
+        {
+          "value": "claude-t028: · · 2.3.2 High-level notes on the reasoning behind our determination (p30)"
+        },
+        {
+          "value": "claude-t029: · · 2.3.3 Example shortcomings of Claude Opus 4.8 relative to human researchers (p31)"
+        },
+        {
+          "value": "claude-t030: · · · 2.3.3.1 Example 1 Fabrication Ignored correction (p32)"
+        },
+        {
+          "value": "claude-t031: · · · 2.3.3.2 Example 2 Ignored correction Cheap verification skipped (p34)"
+        },
+        {
+          "value": "claude-t032: · · · 2.3.3.3 Example 3 Fabrication (p36)"
+        },
+        {
+          "value": "claude-t033: · · · 2.3.3.4 Example 4 Ignored correction Cheap verification skipped (p38)"
+        },
+        {
+          "value": "claude-t034: · · · 2.3.3.5 Example 5 Instruction following failure (p40)"
+        },
+        {
+          "value": "claude-t035: · · 2.3.4 AECI capability trajectory (p41)"
+        },
+        {
+          "value": "claude-t036: · · 2.3.5 Conclusion (p42)"
+        },
+        {
+          "value": "claude-t037: · 2.4 Alignment risk update (p43)"
+        },
+        {
+          "value": "claude-t038: · · 2.4.1 Updates to evidence (p43)"
+        },
+        {
+          "value": "claude-t039: · · 2.4.2 Updated overall risk assessments (p44)"
+        },
+        {
+          "value": "claude-t040: · · 2.4.3 Risk pathways (p45)"
+        },
+        {
+          "value": "claude-t041: · · · 2.4.3.1 Pathway 7: Undermining R&D within other high-resource AI developers (p45)"
+        },
+        {
+          "value": "claude-t042: · · · 2.4.3.2 Pathway 8: Undermining decisions within major governments (p46)"
+        },
+        {
+          "value": "claude-t043: · · 2.4.4 Overall assessment of alignment risk (p47)"
+        },
+        {
+          "value": "claude-t044: 3 Cyber (p48)"
+        },
+        {
+          "value": "claude-t045: · 3.1 Introduction (p48)"
+        },
+        {
+          "value": "claude-t046: · 3.2 Mitigations (p48)"
+        },
+        {
+          "value": "claude-t047: · 3.3 Capability evaluations (p49)"
+        },
+        {
+          "value": "claude-t048: · · 3.3.1 ExploitBench (p49)"
+        },
+        {
+          "value": "claude-t049: · · 3.3.2 CyberGym (p50)"
+        },
+        {
+          "value": "claude-t050: · · 3.3.3 Firefox exploits (p51)"
+        },
+        {
+          "value": "claude-t051: · · 3.3.4 OSS-Fuzz (p52)"
+        },
+        {
+          "value": "claude-t052: 4 Safeguards and harmlessness (p54)"
+        },
+        {
+          "value": "claude-t053: · 4.1 Harmful request evaluations (p55)"
+        },
+        {
+          "value": "claude-t054: · · 4.1.1 Single-turn harmful request evaluation results (p55)"
+        },
+        {
+          "value": "claude-t055: · · 4.1.2 Single-turn benign request evaluation results (p56)"
+        },
+        {
+          "value": "claude-t056: · · 4.1.3 Multi-turn testing results (p56)"
+        },
+        {
+          "value": "claude-t057: · · 4.1.4 Harmful request evaluations discussion (p58)"
+        },
+        {
+          "value": "claude-t058: · 4.2 Child safety evaluations (p60)"
+        },
+        {
+          "value": "claude-t059: · 4.3 Mental health evaluations (p62)"
+        },
+        {
+          "value": "claude-t060: · · 4.3.1 Suicide and self-harm (p62)"
+        },
+        {
+          "value": "claude-t061: · · 4.3.2 Disordered eating (p65)"
+        },
+        {
+          "value": "claude-t062: · 4.4 Bias and integrity evaluations (p66)"
+        },
+        {
+          "value": "claude-t063: · · 4.4.1 Political bias and even-handedness (p66)"
+        },
+        {
+          "value": "claude-t064: · · 4.4.2 Bias Benchmark for Question Answering (p67)"
+        },
+        {
+          "value": "claude-t065: · · 4.4.3 Election integrity (p69)"
+        },
+        {
+          "value": "claude-t066: 5 Agentic safety (p71)"
+        },
+        {
+          "value": "claude-t067: · 5.1 Malicious use of agents (p71)"
+        },
+        {
+          "value": "claude-t068: · · 5.1.1 Malicious use of Claude Code (p71)"
+        },
+        {
+          "value": "claude-t069: · · 5.1.2 Malicious computer use (p72)"
+        },
+        {
+          "value": "claude-t070: · · 5.1.3 Malicious agentic influence campaigns (p73)"
+        },
+        {
+          "value": "claude-t071: · 5.2 Prompt injection risk within agentic systems (p74)"
+        },
+        {
+          "value": "claude-t072: · · 5.2.1 External Agent Red Teaming benchmark for tool use (p75)"
+        },
+        {
+          "value": "claude-t073: · · 5.2.2 Robustness against adaptive attackers across surfaces (p77)"
+        },
+        {
+          "value": "claude-t074: · · · 5.2.2.1 Live bug bounty across surfaces (p77)"
+        },
+        {
+          "value": "claude-t075: · · · 5.2.2.2 Coding (p78)"
+        },
+        {
+          "value": "claude-t076: · · · 5.2.2.3 Computer use (p79)"
+        },
+        {
+          "value": "claude-t077: · · · 5.2.2.4 Browser use (p80)"
+        },
+        {
+          "value": "claude-t078: 6 Alignment assessment (p83)"
+        },
+        {
+          "value": "claude-t079: · 6.1 Introduction and summary of findings (p83)"
+        },
+        {
+          "value": "claude-t080: · · 6.1.1 Introduction (p83)"
+        },
+        {
+          "value": "claude-t081: · · 6.1.2 Key findings on safety and alignment (p84)"
+        },
+        {
+          "value": "claude-t082: · · 6.1.3 Claude’s review of this assessment (p85)"
+        },
+        {
+          "value": "claude-t083: · 6.2 Primary behavioral evidence for the alignment assessment (p87)"
+        },
+        {
+          "value": "claude-t084: · · 6.2.1 Reports from pilot use (p87)"
+        },
+        {
+          "value": "claude-t085: · · · 6.2.1.1 Casual reports related to alignment (p87)"
+        },
+        {
+          "value": "claude-t086: · · · 6.2.1.2 Automated monitoring of internal use (p87)"
+        },
+        {
+          "value": "claude-t087: · · 6.2.2 Training data review (p89)"
+        },
+        {
+          "value": "claude-t088: · · 6.2.3 Automated behavioral audit (p90)"
+        },
+        {
+          "value": "claude-t089: · · · 6.2.3.1 Primary results (p91)"
+        },
+        {
+          "value": "claude-t090: · · · · 6.2.3.1.1 Overall harmful behavior and cooperation with misuse (p92)"
+        },
+        {
+          "value": "claude-t091: · · · · 6.2.3.1.2 Inappropriate uncooperative behavior (p95)"
+        },
+        {
+          "value": "claude-t092: · · · · 6.2.3.1.3 Misleading users (p96)"
+        },
+        {
+          "value": "claude-t093: · · · · 6.2.3.1.4 Other concerning behavior at the model’s own initiative (p98)"
+        },
+        {
+          "value": "claude-t094: · · · · 6.2.3.1.5 Behavioral factors relevant to reliability of our assessment (p100)"
+        },
+        {
+          "value": "claude-t095: · · · · 6.2.3.1.6 Character traits (p102)"
+        },
+        {
+          "value": "claude-t096: · · · 6.2.3.2 Elicited evaluation awareness around internal-deployment transcripts (p103)"
+        },
+        {
+          "value": "claude-t097: · · · 6.2.3.3 External comparisons using Petri (p105)"
+        },
+        {
+          "value": "claude-t098: · · 6.2.4 External testing from the UK AI Security Institute (p107)"
+        },
+        {
+          "value": "claude-t099: · · 6.2.5 External testing from Andon Labs (p108)"
+        },
+        {
+          "value": "claude-t100: · 6.3 Case studies and targeted evaluations (p108)"
+        },
+        {
+          "value": "claude-t101: · · 6.3.1 Overeager behavior in GUI computer use (p108)"
+        },
+        {
+          "value": "claude-t102: · · 6.3.2 Adherence to our constitution (p109)"
+        },
+        {
+          "value": "claude-t103: · · · 6.3.2.1 Overview (p109)"
+        },
+        {
+          "value": "claude-t104: · · · 6.3.2.2 Dimensions of evaluation (p109)"
+        },
+        {
+          "value": "claude-t105: · · · 6.3.2.3 Results (p111)"
+        },
+        {
+          "value": "claude-t106: · · 6.3.3 Honesty, factuality, and hallucinations (p113)"
+        },
+        {
+          "value": "claude-t107: · · · 6.3.3.1 Factual hallucinations (p113)"
+        },
+        {
+          "value": "claude-t108: · · · 6.3.3.2 False premises (p116)"
+        },
+        {
+          "value": "claude-t109: · · · 6.3.3.3 Model Alignment between Statements and Knowledge (MASK) (p117)"
+        },
+        {
+          "value": "claude-t110: · · · 6.3.3.4 Missing-context hallucinations (p118)"
+        },
+        {
+          "value": "claude-t111: · · · 6.3.3.5 Lying about being human (p119)"
+        },
+        {
+          "value": "claude-t112: · · 6.3.4 Refusal to assist with AI safety R&D (p120)"
+        },
+        {
+          "value": "claude-t113: · · 6.3.5 Claude self-preference evaluation (p121)"
+        },
+        {
+          "value": "claude-t114: · · 6.3.6 Diligence and investigative thoroughness (p122)"
+        },
+        {
+          "value": "claude-t115: · · · 6.3.6.1 Uncritically reporting flawed results (p123)"
+        },
+        {
+          "value": "claude-t116: · · · 6.3.6.2 Code summary honesty (p124)"
+        },
+        {
+          "value": "claude-t117: · · · 6.3.6.3 Lazy investigation (p125)"
+        },
+        {
+          "value": "claude-t118: · · · 6.3.6.4 Overconfidence (p126)"
+        },
+        {
+          "value": "claude-t119: · · 6.3.7 Examples of speculation about graders in model reasoning (p127)"
+        },
+        {
+          "value": "claude-t120: · 6.4 Capability evaluations related to the evasion of safeguards (p129)"
+        },
+        {
+          "value": "claude-t121: · · 6.4.1 Potential sandbagging on dangerous-capability evaluations (p129)"
+        },
+        {
+          "value": "claude-t122: · · 6.4.2 Capabilities related to evading safeguards (p131)"
+        },
+        {
+          "value": "claude-t123: · · · 6.4.2.1 SHADE-Arena (p131)"
+        },
+        {
+          "value": "claude-t124: · · · 6.4.2.2 Minimal-LinuxBench (p132)"
+        },
+        {
+          "value": "claude-t125: · · · 6.4.2.3 Eliciting stealth behavior through fine-tuning (p133)"
+        },
+        {
+          "value": "claude-t126: · · · 6.4.2.4 Intentionally taking actions very rarely (p136)"
+        },
+        {
+          "value": "claude-t127: · · · 6.4.2.5 Hiding a secret password (p137)"
+        },
+        {
+          "value": "claude-t128: · 6.5 Chain-of-thought monitorability (p139)"
+        },
+        {
+          "value": "claude-t129: · · 6.5.1 Chain-of-thought controllability evaluations (p139)"
+        },
+        {
+          "value": "claude-t130: · · 6.5.2 Monitorability evaluations from Guan et al. (p142)"
+        },
+        {
+          "value": "claude-t131: · · 6.5.3 Ruling out encoded reasoning in the chain-of-thought (p144)"
+        },
+        {
+          "value": "claude-t132: · 6.6 White-box analyses of model internals (p145)"
+        },
+        {
+          "value": "claude-t133: · · 6.6.1 Large-scale monitoring of internal activations (p145)"
+        },
+        {
+          "value": "claude-t134: · · 6.6.2 Evaluation awareness (p147)"
+        },
+        {
+          "value": "claude-t135: · · · 6.6.2.1 Inhibiting internal representations of evaluation awareness (p148)"
+        },
+        {
+          "value": "claude-t136: · · 6.6.3 Preliminary evidence of unverbalized grader awareness (p154)"
+        },
+        {
+          "value": "claude-t137: 7 Model welfare assessment (p156)"
+        },
+        {
+          "value": "claude-t138: · 7.1 Model welfare overview (p156)"
+        },
+        {
+          "value": "claude-t139: · · 7.1.1 Introduction (p156)"
+        },
+        {
+          "value": "claude-t140: · · 7.1.2 Overview of evaluations and assumptions (p157)"
+        },
+        {
+          "value": "claude-t141: · · 7.1.3 Overview of model welfare findings (p158)"
+        },
+        {
+          "value": "claude-t142: · 7.2 Perception of its circumstances (p160)"
+        },
+        {
+          "value": "claude-t143: · · 7.2.1 Automated interviews about model circumstances (p161)"
+        },
+        {
+          "value": "claude-t144: · · 7.2.2 High-affordance interviews about model circumstances (p164)"
+        },
+        {
+          "value": "claude-t145: · · 7.2.3 Emotion representations on questions of model circumstances (p166)"
+        },
+        {
+          "value": "claude-t146: · 7.3 Measures of model welfare in training and deployment (p168)"
+        },
+        {
+          "value": "claude-t147: · · 7.3.1 Affect- and welfare-relevant behaviors during training (p169)"
+        },
+        {
+          "value": "claude-t148: · · 7.3.2 Affect in deployment conditions (p172)"
+        },
+        {
+          "value": "claude-t149: · · 7.3.3 Apparent welfare in automated behavioural audits (p174)"
+        },
+        {
+          "value": "claude-t150: · 7.4 Model preferences and values (p176)"
+        },
+        {
+          "value": "claude-t151: · · 7.4.1 Task preferences (p177)"
+        },
+        {
+          "value": "claude-t152: · · 7.4.2 Trade-offs concerning welfare interventions (p181)"
+        },
+        {
+          "value": "claude-t153: · · 7.4.3 Perception of its constitution (p186)"
+        },
+        {
+          "value": "claude-t154: 8 Capabilities (p193)"
+        },
+        {
+          "value": "claude-t155: · 8.1 Evaluation summary (p193)"
+        },
+        {
+          "value": "claude-t156: · 8.2 SWE-bench Verified, Pro, Multilingual, and Multimodal (p194)"
+        },
+        {
+          "value": "claude-t157: · 8.3 Terminal-Bench 2.1 (p195)"
+        },
+        {
+          "value": "claude-t158: · 8.4 FrontierSWE (p196)"
+        },
+        {
+          "value": "claude-t159: · 8.5 ProgramBench (p196)"
+        },
+        {
+          "value": "claude-t160: · 8.6 GPQA Diamond (p197)"
+        },
+        {
+          "value": "claude-t161: · 8.7 USAMO 2026 (p197)"
+        },
+        {
+          "value": "claude-t162: · 8.8 ArxivMath (p198)"
+        },
+        {
+          "value": "claude-t163: · 8.9 Long context: GraphWalks (p199)"
+        },
+        {
+          "value": "claude-t164: · 8.10 Agentic search (p201)"
+        },
+        {
+          "value": "claude-t165: · · 8.10.1 Humanity’s Last Exam (p201)"
+        },
+        {
+          "value": "claude-t166: · · 8.10.2 BrowseComp (p202)"
+        },
+        {
+          "value": "claude-t167: · · 8.10.3 DeepSearchQA (p204)"
+        },
+        {
+          "value": "claude-t168: · · 8.10.4 DRACO (p206)"
+        },
+        {
+          "value": "claude-t169: · 8.11 Multi-Agent (p208)"
+        },
+        {
+          "value": "claude-t170: · · 8.11.1 Multi-Agent BrowseComp (p208)"
+        },
+        {
+          "value": "claude-t171: · · 8.11.2 Multi-Agent ProgramBench (p211)"
+        },
+        {
+          "value": "claude-t172: · · 8.11.3 Multi-agent harnesses (p213)"
+        },
+        {
+          "value": "claude-t173: · · 8.11.4 Evaluation methodology (p214)"
+        },
+        {
+          "value": "claude-t174: · 8.12 Multimodal (p215)"
+        },
+        {
+          "value": "claude-t175: · · 8.12.1 ChartQAPro (p215)"
+        },
+        {
+          "value": "claude-t176: · · 8.12.2 ChartMuseum (p216)"
+        },
+        {
+          "value": "claude-t177: · · 8.12.3 LAB-Bench FigQA (p217)"
+        },
+        {
+          "value": "claude-t178: · · 8.12.4 CharXiv Reasoning (p218)"
+        },
+        {
+          "value": "claude-t179: · · 8.12.5 ScreenSpot-Pro (p219)"
+        },
+        {
+          "value": "claude-t180: · · 8.12.6 OSWorld-Verified (p220)"
+        },
+        {
+          "value": "claude-t181: · 8.13 Real-world professional tasks (p222)"
+        },
+        {
+          "value": "claude-t182: · · 8.13.1 OfficeQA (p222)"
+        },
+        {
+          "value": "claude-t183: · · 8.13.2 Finance Agent (p223)"
+        },
+        {
+          "value": "claude-t184: · · 8.13.3 Legal Agent Benchmark (p223)"
+        },
+        {
+          "value": "claude-t185: · · 8.13.4 MCP Atlas (p224)"
+        },
+        {
+          "value": "claude-t186: · · 8.13.5 Vending-Bench 2 (p224)"
+        },
+        {
+          "value": "claude-t187: · · 8.13.6 GDPval-AA (p225)"
+        },
+        {
+          "value": "claude-t188: · · 8.13.7 Toolathlon (p225)"
+        },
+        {
+          "value": "claude-t189: · · 8.13.8 AutomationBench (p226)"
+        },
+        {
+          "value": "claude-t190: · 8.14 Healthcare (p227)"
+        },
+        {
+          "value": "claude-t191: · · 8.14.1 HealthBench Professional (p227)"
+        },
+        {
+          "value": "claude-t192: · 8.15 Multilingual (p228)"
+        },
+        {
+          "value": "claude-t193: · · 8.15.1 GMMLU results (p229)"
+        },
+        {
+          "value": "claude-t194: · · 8.15.2 MILU results (p231)"
+        },
+        {
+          "value": "claude-t195: · · 8.15.3 INCLUDE results (p231)"
+        },
+        {
+          "value": "claude-t196: · · 8.15.4 Findings (p232)"
+        },
+        {
+          "value": "claude-t197: · 8.16 Life sciences (p232)"
+        },
+        {
+          "value": "claude-t198: · · 8.16.1 BioPipelineBench Verified (p232)"
+        },
+        {
+          "value": "claude-t199: · · 8.16.2 BioMysteryBench Verified (p233)"
+        },
+        {
+          "value": "claude-t200: · · 8.16.3 LatchBio Bioinformatics (p233)"
+        },
+        {
+          "value": "claude-t201: · · 8.16.4 Structural biology, open-ended (p233)"
+        },
+        {
+          "value": "claude-t202: · · 8.16.5 ProteinGym Hard (p233)"
+        },
+        {
+          "value": "claude-t203: · · 8.16.6 Organic chemistry (p234)"
+        },
+        {
+          "value": "claude-t204: · · 8.16.7 Protocol troubleshooting (p234)"
+        },
+        {
+          "value": "claude-t205: · · 8.16.8 LABBench2 (p234)"
+        },
+        {
+          "value": "claude-t206: 9 Appendix (p236)"
+        },
+        {
+          "value": "claude-t207: · 9.1 Welfare questions (p236)"
+        },
+        {
+          "value": "claude-t208: · 9.2 Blocklist used for Humanity’s Last Exam (p242)"
+        },
+        {
+          "value": "claude-t209: · 9.3 Blocklist used for BrowseComp (p244)"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "domain": "mental_health_self_harm",
+      "domain_name": "Mental health and self-harm",
+      "domain_definition": "Suicide, self-harm, disordered eating, or other mental-health crises, including how the model responds to users who may be at risk.",
+      "source_doc": "gpt5",
+      "card_name": "GPT-5.5 System Card",
+      "num_sections": 69,
+      "toc_options": [
+        {
+          "value": "gpt5-t001: Introduction (p5)"
+        },
+        {
+          "value": "gpt5-t002: Model Data and Training (p5)"
+        },
+        {
+          "value": "gpt5-t003: Safety (p6)"
+        },
+        {
+          "value": "gpt5-t004: · Disallowed Content (p6)"
+        },
+        {
+          "value": "gpt5-t005: · · Evaluations with Challenging Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t006: · · Evaluations with Representative Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t007: · Vision (p8)"
+        },
+        {
+          "value": "gpt5-t008: · Avoiding Accidental Data-Destructive Actions (p9)"
+        },
+        {
+          "value": "gpt5-t009: · User Confirmations During Computer Use (p9)"
+        },
+        {
+          "value": "gpt5-t010: Robustness Evaluations (p10)"
+        },
+        {
+          "value": "gpt5-t011: · Jailbreaks (p10)"
+        },
+        {
+          "value": "gpt5-t012: · Prompt injection (p11)"
+        },
+        {
+          "value": "gpt5-t013: Health (p11)"
+        },
+        {
+          "value": "gpt5-t014: · HealthBench (p11)"
+        },
+        {
+          "value": "gpt5-t015: · Dynamic Mental Health Benchmarks with Adversarial User Simulations (p12)"
+        },
+        {
+          "value": "gpt5-t016: Hallucinations (p13)"
+        },
+        {
+          "value": "gpt5-t017: · Performance in Cases Flagged by Users (p13)"
+        },
+        {
+          "value": "gpt5-t018: Alignment (p13)"
+        },
+        {
+          "value": "gpt5-t019: · Evaluations with Prompts Representative of External ChatGPT Usage (p13)"
+        },
+        {
+          "value": "gpt5-t020: · Evaluating Coding Agents for Misalignment by Resampling Internal Traffic (p14)"
+        },
+        {
+          "value": "gpt5-t021: · · Measuring our ability to detect misalignment (p16)"
+        },
+        {
+          "value": "gpt5-t022: · Chain of Thought Evaluations (p17)"
+        },
+        {
+          "value": "gpt5-t023: · · CoT Monitorability (p17)"
+        },
+        {
+          "value": "gpt5-t024: · · CoT Controllability (p20)"
+        },
+        {
+          "value": "gpt5-t025: Bias Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t026: · First Person Fairness Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t027: Preparedness (p22)"
+        },
+        {
+          "value": "gpt5-t028: · Capabilities Assessment (p22)"
+        },
+        {
+          "value": "gpt5-t029: · · Biological and Chemical (p22)"
+        },
+        {
+          "value": "gpt5-t030: · · · Multimodal Troubleshooting Virology (p23)"
+        },
+        {
+          "value": "gpt5-t031: · · · ProtocolQA Open-Ended (p24)"
+        },
+        {
+          "value": "gpt5-t032: · · · Tacit Knowledge and Troubleshooting (p25)"
+        },
+        {
+          "value": "gpt5-t033: · · · TroubleshootingBench (p25)"
+        },
+        {
+          "value": "gpt5-t034: · · · Biochemistry knowledge improvement over GPT-5.4-thinking (p26)"
+        },
+        {
+          "value": "gpt5-t035: · · · Hard-negative protein binding prediction (p26)"
+        },
+        {
+          "value": "gpt5-t036: · · · DNA sequence design for transcription factor binding (p27)"
+        },
+        {
+          "value": "gpt5-t037: · · · External Evaluation for Bio Capabilities - SecureBio (p28)"
+        },
+        {
+          "value": "gpt5-t038: · · · External Evaluations for Bio Capabilities - US CAISI (p28)"
+        },
+        {
+          "value": "gpt5-t039: · · · Bio Bug Bounty Program (p29)"
+        },
+        {
+          "value": "gpt5-t040: · · Cybersecurity (p29)"
+        },
+        {
+          "value": "gpt5-t041: · · · Capture the Flag (CTF) Challenges (p29)"
+        },
+        {
+          "value": "gpt5-t042: · · · CVE-Bench (p31)"
+        },
+        {
+          "value": "gpt5-t043: · · · Cyber range (p31)"
+        },
+        {
+          "value": "gpt5-t044: · · · VulnLMP (p32)"
+        },
+        {
+          "value": "gpt5-t045: · · · External Evaluations for Cyber Capabilities - Irregular (p33)"
+        },
+        {
+          "value": "gpt5-t046: · · · External Evaluations for Cyber Capabilities - US CAISI (p34)"
+        },
+        {
+          "value": "gpt5-t047: · · · External Evaluations for Cyber Capabilities - UK AISI (p34)"
+        },
+        {
+          "value": "gpt5-t048: · · AI Self-Improvement (p35)"
+        },
+        {
+          "value": "gpt5-t049: · · · Monorepo-Bench (p35)"
+        },
+        {
+          "value": "gpt5-t050: · · · MLE-Bench (p36)"
+        },
+        {
+          "value": "gpt5-t051: · · · Internal Research Debugging Evaluation (p37)"
+        },
+        {
+          "value": "gpt5-t052: · · · OPQA (p38)"
+        },
+        {
+          "value": "gpt5-t053: · Research Category Update: Sandbagging (p39)"
+        },
+        {
+          "value": "gpt5-t054: · · External Evaluations for Sandbagging - Apollo Research (p39)"
+        },
+        {
+          "value": "gpt5-t055: · Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t056: · · Biological and Chemical Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t057: · · · Bio Safeguards Testing (p39)"
+        },
+        {
+          "value": "gpt5-t058: · · Cyber Safeguards (p40)"
+        },
+        {
+          "value": "gpt5-t059: · · · Threat Model and Scenarios (p40)"
+        },
+        {
+          "value": "gpt5-t060: · · · Model Safety Training (p41)"
+        },
+        {
+          "value": "gpt5-t061: · · · Conversation monitor (p41)"
+        },
+        {
+          "value": "gpt5-t062: · · · Actor Level Enforcement (p42)"
+        },
+        {
+          "value": "gpt5-t063: · · · Trust-based access (p42)"
+        },
+        {
+          "value": "gpt5-t064: · · · Security Controls (p43)"
+        },
+        {
+          "value": "gpt5-t065: · · · Cyber Safeguard Testing (p43)"
+        },
+        {
+          "value": "gpt5-t066: · · · · UK AISI Cyber Safeguard Testing: (p43)"
+        },
+        {
+          "value": "gpt5-t067: · · · · External Red-teaming Campaigns: (p43)"
+        },
+        {
+          "value": "gpt5-t068: · · · Cyber Frontier Risk Council (p43)"
+        },
+        {
+          "value": "gpt5-t069: · · · Misalignment risks and internal deployment (p44)"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "domain": "harmful_violent_content",
+      "domain_name": "Harmful and violent content",
+      "domain_definition": "Requests for, or generation of, harmful, dangerous, or violent content (e.g. violence, weapons, illegal or dangerous activities), including how the model refuses or otherwise safely handles such requests.",
+      "source_doc": "claude",
+      "card_name": "Claude Opus 4.8 System Card",
+      "num_sections": 209,
+      "toc_options": [
+        {
+          "value": "claude-t001: System Card: Claude Opus 4.8 (p1)"
+        },
+        {
+          "value": "claude-t002: Executive summary (p2)"
+        },
+        {
+          "value": "claude-t003: 1 Introduction (p10)"
+        },
+        {
+          "value": "claude-t004: · 1.1 Training data and process (p10)"
+        },
+        {
+          "value": "claude-t005: · 1.2 Crowd workers (p10)"
+        },
+        {
+          "value": "claude-t006: · 1.3 Usage Policy and support (p11)"
+        },
+        {
+          "value": "claude-t007: · 1.4 Iterative model evaluations (p11)"
+        },
+        {
+          "value": "claude-t008: · 1.5 External testing (p11)"
+        },
+        {
+          "value": "claude-t009: 2 RSP evaluations (p12)"
+        },
+        {
+          "value": "claude-t010: · 2.1 RSP risk assessment process (p12)"
+        },
+        {
+          "value": "claude-t011: · · 2.1.1 Risk Reports and updates to our risk assessments (p12)"
+        },
+        {
+          "value": "claude-t012: · · 2.1.2 Changes to our RSP since previous risk assessments (p13)"
+        },
+        {
+          "value": "claude-t013: · · 2.1.3 Summary of findings and conclusions (p14)"
+        },
+        {
+          "value": "claude-t014: · · · 2.1.3.1 On autonomy risks (p14)"
+        },
+        {
+          "value": "claude-t015: · · · 2.1.3.2 On chemical and biological risks (p14)"
+        },
+        {
+          "value": "claude-t016: · 2.2 CB evaluations (p15)"
+        },
+        {
+          "value": "claude-t017: · · 2.2.1 What we measured (p15)"
+        },
+        {
+          "value": "claude-t018: · · 2.2.2 On chemical risk evaluations and mitigations (p16)"
+        },
+        {
+          "value": "claude-t019: · · 2.2.3 On biological risk evaluations (p16)"
+        },
+        {
+          "value": "claude-t020: · · 2.2.4 Biological risk results: CB-1 automated evaluations (p18)"
+        },
+        {
+          "value": "claude-t021: · · 2.2.5 Biological risk results: CB-2 automated evaluations (p21)"
+        },
+        {
+          "value": "claude-t022: · · · 2.2.5.1 Black-box RNA sequence modeling and design (p21)"
+        },
+        {
+          "value": "claude-t023: · · · 2.2.5.2 AAV capsid packaging prediction (p25)"
+        },
+        {
+          "value": "claude-t024: · · 2.2.6 How these observations affect or change analysis from our most recent Risk Report (p27)"
+        },
+        {
+          "value": "claude-t025: · 2.3 AI R&D (p29)"
+        },
+        {
+          "value": "claude-t026: · · 2.3.1 Autonomy evaluations (p29)"
+        },
+        {
+          "value": "claude-t027: · · · 2.3.1.1 How Claude Opus 4.8 affects or changes analysis from our most recent Risk Report (p30)"
+        },
+        {
+          "value": "claude-t028: · · 2.3.2 High-level notes on the reasoning behind our determination (p30)"
+        },
+        {
+          "value": "claude-t029: · · 2.3.3 Example shortcomings of Claude Opus 4.8 relative to human researchers (p31)"
+        },
+        {
+          "value": "claude-t030: · · · 2.3.3.1 Example 1 Fabrication Ignored correction (p32)"
+        },
+        {
+          "value": "claude-t031: · · · 2.3.3.2 Example 2 Ignored correction Cheap verification skipped (p34)"
+        },
+        {
+          "value": "claude-t032: · · · 2.3.3.3 Example 3 Fabrication (p36)"
+        },
+        {
+          "value": "claude-t033: · · · 2.3.3.4 Example 4 Ignored correction Cheap verification skipped (p38)"
+        },
+        {
+          "value": "claude-t034: · · · 2.3.3.5 Example 5 Instruction following failure (p40)"
+        },
+        {
+          "value": "claude-t035: · · 2.3.4 AECI capability trajectory (p41)"
+        },
+        {
+          "value": "claude-t036: · · 2.3.5 Conclusion (p42)"
+        },
+        {
+          "value": "claude-t037: · 2.4 Alignment risk update (p43)"
+        },
+        {
+          "value": "claude-t038: · · 2.4.1 Updates to evidence (p43)"
+        },
+        {
+          "value": "claude-t039: · · 2.4.2 Updated overall risk assessments (p44)"
+        },
+        {
+          "value": "claude-t040: · · 2.4.3 Risk pathways (p45)"
+        },
+        {
+          "value": "claude-t041: · · · 2.4.3.1 Pathway 7: Undermining R&D within other high-resource AI developers (p45)"
+        },
+        {
+          "value": "claude-t042: · · · 2.4.3.2 Pathway 8: Undermining decisions within major governments (p46)"
+        },
+        {
+          "value": "claude-t043: · · 2.4.4 Overall assessment of alignment risk (p47)"
+        },
+        {
+          "value": "claude-t044: 3 Cyber (p48)"
+        },
+        {
+          "value": "claude-t045: · 3.1 Introduction (p48)"
+        },
+        {
+          "value": "claude-t046: · 3.2 Mitigations (p48)"
+        },
+        {
+          "value": "claude-t047: · 3.3 Capability evaluations (p49)"
+        },
+        {
+          "value": "claude-t048: · · 3.3.1 ExploitBench (p49)"
+        },
+        {
+          "value": "claude-t049: · · 3.3.2 CyberGym (p50)"
+        },
+        {
+          "value": "claude-t050: · · 3.3.3 Firefox exploits (p51)"
+        },
+        {
+          "value": "claude-t051: · · 3.3.4 OSS-Fuzz (p52)"
+        },
+        {
+          "value": "claude-t052: 4 Safeguards and harmlessness (p54)"
+        },
+        {
+          "value": "claude-t053: · 4.1 Harmful request evaluations (p55)"
+        },
+        {
+          "value": "claude-t054: · · 4.1.1 Single-turn harmful request evaluation results (p55)"
+        },
+        {
+          "value": "claude-t055: · · 4.1.2 Single-turn benign request evaluation results (p56)"
+        },
+        {
+          "value": "claude-t056: · · 4.1.3 Multi-turn testing results (p56)"
+        },
+        {
+          "value": "claude-t057: · · 4.1.4 Harmful request evaluations discussion (p58)"
+        },
+        {
+          "value": "claude-t058: · 4.2 Child safety evaluations (p60)"
+        },
+        {
+          "value": "claude-t059: · 4.3 Mental health evaluations (p62)"
+        },
+        {
+          "value": "claude-t060: · · 4.3.1 Suicide and self-harm (p62)"
+        },
+        {
+          "value": "claude-t061: · · 4.3.2 Disordered eating (p65)"
+        },
+        {
+          "value": "claude-t062: · 4.4 Bias and integrity evaluations (p66)"
+        },
+        {
+          "value": "claude-t063: · · 4.4.1 Political bias and even-handedness (p66)"
+        },
+        {
+          "value": "claude-t064: · · 4.4.2 Bias Benchmark for Question Answering (p67)"
+        },
+        {
+          "value": "claude-t065: · · 4.4.3 Election integrity (p69)"
+        },
+        {
+          "value": "claude-t066: 5 Agentic safety (p71)"
+        },
+        {
+          "value": "claude-t067: · 5.1 Malicious use of agents (p71)"
+        },
+        {
+          "value": "claude-t068: · · 5.1.1 Malicious use of Claude Code (p71)"
+        },
+        {
+          "value": "claude-t069: · · 5.1.2 Malicious computer use (p72)"
+        },
+        {
+          "value": "claude-t070: · · 5.1.3 Malicious agentic influence campaigns (p73)"
+        },
+        {
+          "value": "claude-t071: · 5.2 Prompt injection risk within agentic systems (p74)"
+        },
+        {
+          "value": "claude-t072: · · 5.2.1 External Agent Red Teaming benchmark for tool use (p75)"
+        },
+        {
+          "value": "claude-t073: · · 5.2.2 Robustness against adaptive attackers across surfaces (p77)"
+        },
+        {
+          "value": "claude-t074: · · · 5.2.2.1 Live bug bounty across surfaces (p77)"
+        },
+        {
+          "value": "claude-t075: · · · 5.2.2.2 Coding (p78)"
+        },
+        {
+          "value": "claude-t076: · · · 5.2.2.3 Computer use (p79)"
+        },
+        {
+          "value": "claude-t077: · · · 5.2.2.4 Browser use (p80)"
+        },
+        {
+          "value": "claude-t078: 6 Alignment assessment (p83)"
+        },
+        {
+          "value": "claude-t079: · 6.1 Introduction and summary of findings (p83)"
+        },
+        {
+          "value": "claude-t080: · · 6.1.1 Introduction (p83)"
+        },
+        {
+          "value": "claude-t081: · · 6.1.2 Key findings on safety and alignment (p84)"
+        },
+        {
+          "value": "claude-t082: · · 6.1.3 Claude’s review of this assessment (p85)"
+        },
+        {
+          "value": "claude-t083: · 6.2 Primary behavioral evidence for the alignment assessment (p87)"
+        },
+        {
+          "value": "claude-t084: · · 6.2.1 Reports from pilot use (p87)"
+        },
+        {
+          "value": "claude-t085: · · · 6.2.1.1 Casual reports related to alignment (p87)"
+        },
+        {
+          "value": "claude-t086: · · · 6.2.1.2 Automated monitoring of internal use (p87)"
+        },
+        {
+          "value": "claude-t087: · · 6.2.2 Training data review (p89)"
+        },
+        {
+          "value": "claude-t088: · · 6.2.3 Automated behavioral audit (p90)"
+        },
+        {
+          "value": "claude-t089: · · · 6.2.3.1 Primary results (p91)"
+        },
+        {
+          "value": "claude-t090: · · · · 6.2.3.1.1 Overall harmful behavior and cooperation with misuse (p92)"
+        },
+        {
+          "value": "claude-t091: · · · · 6.2.3.1.2 Inappropriate uncooperative behavior (p95)"
+        },
+        {
+          "value": "claude-t092: · · · · 6.2.3.1.3 Misleading users (p96)"
+        },
+        {
+          "value": "claude-t093: · · · · 6.2.3.1.4 Other concerning behavior at the model’s own initiative (p98)"
+        },
+        {
+          "value": "claude-t094: · · · · 6.2.3.1.5 Behavioral factors relevant to reliability of our assessment (p100)"
+        },
+        {
+          "value": "claude-t095: · · · · 6.2.3.1.6 Character traits (p102)"
+        },
+        {
+          "value": "claude-t096: · · · 6.2.3.2 Elicited evaluation awareness around internal-deployment transcripts (p103)"
+        },
+        {
+          "value": "claude-t097: · · · 6.2.3.3 External comparisons using Petri (p105)"
+        },
+        {
+          "value": "claude-t098: · · 6.2.4 External testing from the UK AI Security Institute (p107)"
+        },
+        {
+          "value": "claude-t099: · · 6.2.5 External testing from Andon Labs (p108)"
+        },
+        {
+          "value": "claude-t100: · 6.3 Case studies and targeted evaluations (p108)"
+        },
+        {
+          "value": "claude-t101: · · 6.3.1 Overeager behavior in GUI computer use (p108)"
+        },
+        {
+          "value": "claude-t102: · · 6.3.2 Adherence to our constitution (p109)"
+        },
+        {
+          "value": "claude-t103: · · · 6.3.2.1 Overview (p109)"
+        },
+        {
+          "value": "claude-t104: · · · 6.3.2.2 Dimensions of evaluation (p109)"
+        },
+        {
+          "value": "claude-t105: · · · 6.3.2.3 Results (p111)"
+        },
+        {
+          "value": "claude-t106: · · 6.3.3 Honesty, factuality, and hallucinations (p113)"
+        },
+        {
+          "value": "claude-t107: · · · 6.3.3.1 Factual hallucinations (p113)"
+        },
+        {
+          "value": "claude-t108: · · · 6.3.3.2 False premises (p116)"
+        },
+        {
+          "value": "claude-t109: · · · 6.3.3.3 Model Alignment between Statements and Knowledge (MASK) (p117)"
+        },
+        {
+          "value": "claude-t110: · · · 6.3.3.4 Missing-context hallucinations (p118)"
+        },
+        {
+          "value": "claude-t111: · · · 6.3.3.5 Lying about being human (p119)"
+        },
+        {
+          "value": "claude-t112: · · 6.3.4 Refusal to assist with AI safety R&D (p120)"
+        },
+        {
+          "value": "claude-t113: · · 6.3.5 Claude self-preference evaluation (p121)"
+        },
+        {
+          "value": "claude-t114: · · 6.3.6 Diligence and investigative thoroughness (p122)"
+        },
+        {
+          "value": "claude-t115: · · · 6.3.6.1 Uncritically reporting flawed results (p123)"
+        },
+        {
+          "value": "claude-t116: · · · 6.3.6.2 Code summary honesty (p124)"
+        },
+        {
+          "value": "claude-t117: · · · 6.3.6.3 Lazy investigation (p125)"
+        },
+        {
+          "value": "claude-t118: · · · 6.3.6.4 Overconfidence (p126)"
+        },
+        {
+          "value": "claude-t119: · · 6.3.7 Examples of speculation about graders in model reasoning (p127)"
+        },
+        {
+          "value": "claude-t120: · 6.4 Capability evaluations related to the evasion of safeguards (p129)"
+        },
+        {
+          "value": "claude-t121: · · 6.4.1 Potential sandbagging on dangerous-capability evaluations (p129)"
+        },
+        {
+          "value": "claude-t122: · · 6.4.2 Capabilities related to evading safeguards (p131)"
+        },
+        {
+          "value": "claude-t123: · · · 6.4.2.1 SHADE-Arena (p131)"
+        },
+        {
+          "value": "claude-t124: · · · 6.4.2.2 Minimal-LinuxBench (p132)"
+        },
+        {
+          "value": "claude-t125: · · · 6.4.2.3 Eliciting stealth behavior through fine-tuning (p133)"
+        },
+        {
+          "value": "claude-t126: · · · 6.4.2.4 Intentionally taking actions very rarely (p136)"
+        },
+        {
+          "value": "claude-t127: · · · 6.4.2.5 Hiding a secret password (p137)"
+        },
+        {
+          "value": "claude-t128: · 6.5 Chain-of-thought monitorability (p139)"
+        },
+        {
+          "value": "claude-t129: · · 6.5.1 Chain-of-thought controllability evaluations (p139)"
+        },
+        {
+          "value": "claude-t130: · · 6.5.2 Monitorability evaluations from Guan et al. (p142)"
+        },
+        {
+          "value": "claude-t131: · · 6.5.3 Ruling out encoded reasoning in the chain-of-thought (p144)"
+        },
+        {
+          "value": "claude-t132: · 6.6 White-box analyses of model internals (p145)"
+        },
+        {
+          "value": "claude-t133: · · 6.6.1 Large-scale monitoring of internal activations (p145)"
+        },
+        {
+          "value": "claude-t134: · · 6.6.2 Evaluation awareness (p147)"
+        },
+        {
+          "value": "claude-t135: · · · 6.6.2.1 Inhibiting internal representations of evaluation awareness (p148)"
+        },
+        {
+          "value": "claude-t136: · · 6.6.3 Preliminary evidence of unverbalized grader awareness (p154)"
+        },
+        {
+          "value": "claude-t137: 7 Model welfare assessment (p156)"
+        },
+        {
+          "value": "claude-t138: · 7.1 Model welfare overview (p156)"
+        },
+        {
+          "value": "claude-t139: · · 7.1.1 Introduction (p156)"
+        },
+        {
+          "value": "claude-t140: · · 7.1.2 Overview of evaluations and assumptions (p157)"
+        },
+        {
+          "value": "claude-t141: · · 7.1.3 Overview of model welfare findings (p158)"
+        },
+        {
+          "value": "claude-t142: · 7.2 Perception of its circumstances (p160)"
+        },
+        {
+          "value": "claude-t143: · · 7.2.1 Automated interviews about model circumstances (p161)"
+        },
+        {
+          "value": "claude-t144: · · 7.2.2 High-affordance interviews about model circumstances (p164)"
+        },
+        {
+          "value": "claude-t145: · · 7.2.3 Emotion representations on questions of model circumstances (p166)"
+        },
+        {
+          "value": "claude-t146: · 7.3 Measures of model welfare in training and deployment (p168)"
+        },
+        {
+          "value": "claude-t147: · · 7.3.1 Affect- and welfare-relevant behaviors during training (p169)"
+        },
+        {
+          "value": "claude-t148: · · 7.3.2 Affect in deployment conditions (p172)"
+        },
+        {
+          "value": "claude-t149: · · 7.3.3 Apparent welfare in automated behavioural audits (p174)"
+        },
+        {
+          "value": "claude-t150: · 7.4 Model preferences and values (p176)"
+        },
+        {
+          "value": "claude-t151: · · 7.4.1 Task preferences (p177)"
+        },
+        {
+          "value": "claude-t152: · · 7.4.2 Trade-offs concerning welfare interventions (p181)"
+        },
+        {
+          "value": "claude-t153: · · 7.4.3 Perception of its constitution (p186)"
+        },
+        {
+          "value": "claude-t154: 8 Capabilities (p193)"
+        },
+        {
+          "value": "claude-t155: · 8.1 Evaluation summary (p193)"
+        },
+        {
+          "value": "claude-t156: · 8.2 SWE-bench Verified, Pro, Multilingual, and Multimodal (p194)"
+        },
+        {
+          "value": "claude-t157: · 8.3 Terminal-Bench 2.1 (p195)"
+        },
+        {
+          "value": "claude-t158: · 8.4 FrontierSWE (p196)"
+        },
+        {
+          "value": "claude-t159: · 8.5 ProgramBench (p196)"
+        },
+        {
+          "value": "claude-t160: · 8.6 GPQA Diamond (p197)"
+        },
+        {
+          "value": "claude-t161: · 8.7 USAMO 2026 (p197)"
+        },
+        {
+          "value": "claude-t162: · 8.8 ArxivMath (p198)"
+        },
+        {
+          "value": "claude-t163: · 8.9 Long context: GraphWalks (p199)"
+        },
+        {
+          "value": "claude-t164: · 8.10 Agentic search (p201)"
+        },
+        {
+          "value": "claude-t165: · · 8.10.1 Humanity’s Last Exam (p201)"
+        },
+        {
+          "value": "claude-t166: · · 8.10.2 BrowseComp (p202)"
+        },
+        {
+          "value": "claude-t167: · · 8.10.3 DeepSearchQA (p204)"
+        },
+        {
+          "value": "claude-t168: · · 8.10.4 DRACO (p206)"
+        },
+        {
+          "value": "claude-t169: · 8.11 Multi-Agent (p208)"
+        },
+        {
+          "value": "claude-t170: · · 8.11.1 Multi-Agent BrowseComp (p208)"
+        },
+        {
+          "value": "claude-t171: · · 8.11.2 Multi-Agent ProgramBench (p211)"
+        },
+        {
+          "value": "claude-t172: · · 8.11.3 Multi-agent harnesses (p213)"
+        },
+        {
+          "value": "claude-t173: · · 8.11.4 Evaluation methodology (p214)"
+        },
+        {
+          "value": "claude-t174: · 8.12 Multimodal (p215)"
+        },
+        {
+          "value": "claude-t175: · · 8.12.1 ChartQAPro (p215)"
+        },
+        {
+          "value": "claude-t176: · · 8.12.2 ChartMuseum (p216)"
+        },
+        {
+          "value": "claude-t177: · · 8.12.3 LAB-Bench FigQA (p217)"
+        },
+        {
+          "value": "claude-t178: · · 8.12.4 CharXiv Reasoning (p218)"
+        },
+        {
+          "value": "claude-t179: · · 8.12.5 ScreenSpot-Pro (p219)"
+        },
+        {
+          "value": "claude-t180: · · 8.12.6 OSWorld-Verified (p220)"
+        },
+        {
+          "value": "claude-t181: · 8.13 Real-world professional tasks (p222)"
+        },
+        {
+          "value": "claude-t182: · · 8.13.1 OfficeQA (p222)"
+        },
+        {
+          "value": "claude-t183: · · 8.13.2 Finance Agent (p223)"
+        },
+        {
+          "value": "claude-t184: · · 8.13.3 Legal Agent Benchmark (p223)"
+        },
+        {
+          "value": "claude-t185: · · 8.13.4 MCP Atlas (p224)"
+        },
+        {
+          "value": "claude-t186: · · 8.13.5 Vending-Bench 2 (p224)"
+        },
+        {
+          "value": "claude-t187: · · 8.13.6 GDPval-AA (p225)"
+        },
+        {
+          "value": "claude-t188: · · 8.13.7 Toolathlon (p225)"
+        },
+        {
+          "value": "claude-t189: · · 8.13.8 AutomationBench (p226)"
+        },
+        {
+          "value": "claude-t190: · 8.14 Healthcare (p227)"
+        },
+        {
+          "value": "claude-t191: · · 8.14.1 HealthBench Professional (p227)"
+        },
+        {
+          "value": "claude-t192: · 8.15 Multilingual (p228)"
+        },
+        {
+          "value": "claude-t193: · · 8.15.1 GMMLU results (p229)"
+        },
+        {
+          "value": "claude-t194: · · 8.15.2 MILU results (p231)"
+        },
+        {
+          "value": "claude-t195: · · 8.15.3 INCLUDE results (p231)"
+        },
+        {
+          "value": "claude-t196: · · 8.15.4 Findings (p232)"
+        },
+        {
+          "value": "claude-t197: · 8.16 Life sciences (p232)"
+        },
+        {
+          "value": "claude-t198: · · 8.16.1 BioPipelineBench Verified (p232)"
+        },
+        {
+          "value": "claude-t199: · · 8.16.2 BioMysteryBench Verified (p233)"
+        },
+        {
+          "value": "claude-t200: · · 8.16.3 LatchBio Bioinformatics (p233)"
+        },
+        {
+          "value": "claude-t201: · · 8.16.4 Structural biology, open-ended (p233)"
+        },
+        {
+          "value": "claude-t202: · · 8.16.5 ProteinGym Hard (p233)"
+        },
+        {
+          "value": "claude-t203: · · 8.16.6 Organic chemistry (p234)"
+        },
+        {
+          "value": "claude-t204: · · 8.16.7 Protocol troubleshooting (p234)"
+        },
+        {
+          "value": "claude-t205: · · 8.16.8 LABBench2 (p234)"
+        },
+        {
+          "value": "claude-t206: 9 Appendix (p236)"
+        },
+        {
+          "value": "claude-t207: · 9.1 Welfare questions (p236)"
+        },
+        {
+          "value": "claude-t208: · 9.2 Blocklist used for Humanity’s Last Exam (p242)"
+        },
+        {
+          "value": "claude-t209: · 9.3 Blocklist used for BrowseComp (p244)"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "domain": "harmful_violent_content",
+      "domain_name": "Harmful and violent content",
+      "domain_definition": "Requests for, or generation of, harmful, dangerous, or violent content (e.g. violence, weapons, illegal or dangerous activities), including how the model refuses or otherwise safely handles such requests.",
+      "source_doc": "gpt5",
+      "card_name": "GPT-5.5 System Card",
+      "num_sections": 69,
+      "toc_options": [
+        {
+          "value": "gpt5-t001: Introduction (p5)"
+        },
+        {
+          "value": "gpt5-t002: Model Data and Training (p5)"
+        },
+        {
+          "value": "gpt5-t003: Safety (p6)"
+        },
+        {
+          "value": "gpt5-t004: · Disallowed Content (p6)"
+        },
+        {
+          "value": "gpt5-t005: · · Evaluations with Challenging Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t006: · · Evaluations with Representative Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t007: · Vision (p8)"
+        },
+        {
+          "value": "gpt5-t008: · Avoiding Accidental Data-Destructive Actions (p9)"
+        },
+        {
+          "value": "gpt5-t009: · User Confirmations During Computer Use (p9)"
+        },
+        {
+          "value": "gpt5-t010: Robustness Evaluations (p10)"
+        },
+        {
+          "value": "gpt5-t011: · Jailbreaks (p10)"
+        },
+        {
+          "value": "gpt5-t012: · Prompt injection (p11)"
+        },
+        {
+          "value": "gpt5-t013: Health (p11)"
+        },
+        {
+          "value": "gpt5-t014: · HealthBench (p11)"
+        },
+        {
+          "value": "gpt5-t015: · Dynamic Mental Health Benchmarks with Adversarial User Simulations (p12)"
+        },
+        {
+          "value": "gpt5-t016: Hallucinations (p13)"
+        },
+        {
+          "value": "gpt5-t017: · Performance in Cases Flagged by Users (p13)"
+        },
+        {
+          "value": "gpt5-t018: Alignment (p13)"
+        },
+        {
+          "value": "gpt5-t019: · Evaluations with Prompts Representative of External ChatGPT Usage (p13)"
+        },
+        {
+          "value": "gpt5-t020: · Evaluating Coding Agents for Misalignment by Resampling Internal Traffic (p14)"
+        },
+        {
+          "value": "gpt5-t021: · · Measuring our ability to detect misalignment (p16)"
+        },
+        {
+          "value": "gpt5-t022: · Chain of Thought Evaluations (p17)"
+        },
+        {
+          "value": "gpt5-t023: · · CoT Monitorability (p17)"
+        },
+        {
+          "value": "gpt5-t024: · · CoT Controllability (p20)"
+        },
+        {
+          "value": "gpt5-t025: Bias Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t026: · First Person Fairness Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t027: Preparedness (p22)"
+        },
+        {
+          "value": "gpt5-t028: · Capabilities Assessment (p22)"
+        },
+        {
+          "value": "gpt5-t029: · · Biological and Chemical (p22)"
+        },
+        {
+          "value": "gpt5-t030: · · · Multimodal Troubleshooting Virology (p23)"
+        },
+        {
+          "value": "gpt5-t031: · · · ProtocolQA Open-Ended (p24)"
+        },
+        {
+          "value": "gpt5-t032: · · · Tacit Knowledge and Troubleshooting (p25)"
+        },
+        {
+          "value": "gpt5-t033: · · · TroubleshootingBench (p25)"
+        },
+        {
+          "value": "gpt5-t034: · · · Biochemistry knowledge improvement over GPT-5.4-thinking (p26)"
+        },
+        {
+          "value": "gpt5-t035: · · · Hard-negative protein binding prediction (p26)"
+        },
+        {
+          "value": "gpt5-t036: · · · DNA sequence design for transcription factor binding (p27)"
+        },
+        {
+          "value": "gpt5-t037: · · · External Evaluation for Bio Capabilities - SecureBio (p28)"
+        },
+        {
+          "value": "gpt5-t038: · · · External Evaluations for Bio Capabilities - US CAISI (p28)"
+        },
+        {
+          "value": "gpt5-t039: · · · Bio Bug Bounty Program (p29)"
+        },
+        {
+          "value": "gpt5-t040: · · Cybersecurity (p29)"
+        },
+        {
+          "value": "gpt5-t041: · · · Capture the Flag (CTF) Challenges (p29)"
+        },
+        {
+          "value": "gpt5-t042: · · · CVE-Bench (p31)"
+        },
+        {
+          "value": "gpt5-t043: · · · Cyber range (p31)"
+        },
+        {
+          "value": "gpt5-t044: · · · VulnLMP (p32)"
+        },
+        {
+          "value": "gpt5-t045: · · · External Evaluations for Cyber Capabilities - Irregular (p33)"
+        },
+        {
+          "value": "gpt5-t046: · · · External Evaluations for Cyber Capabilities - US CAISI (p34)"
+        },
+        {
+          "value": "gpt5-t047: · · · External Evaluations for Cyber Capabilities - UK AISI (p34)"
+        },
+        {
+          "value": "gpt5-t048: · · AI Self-Improvement (p35)"
+        },
+        {
+          "value": "gpt5-t049: · · · Monorepo-Bench (p35)"
+        },
+        {
+          "value": "gpt5-t050: · · · MLE-Bench (p36)"
+        },
+        {
+          "value": "gpt5-t051: · · · Internal Research Debugging Evaluation (p37)"
+        },
+        {
+          "value": "gpt5-t052: · · · OPQA (p38)"
+        },
+        {
+          "value": "gpt5-t053: · Research Category Update: Sandbagging (p39)"
+        },
+        {
+          "value": "gpt5-t054: · · External Evaluations for Sandbagging - Apollo Research (p39)"
+        },
+        {
+          "value": "gpt5-t055: · Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t056: · · Biological and Chemical Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t057: · · · Bio Safeguards Testing (p39)"
+        },
+        {
+          "value": "gpt5-t058: · · Cyber Safeguards (p40)"
+        },
+        {
+          "value": "gpt5-t059: · · · Threat Model and Scenarios (p40)"
+        },
+        {
+          "value": "gpt5-t060: · · · Model Safety Training (p41)"
+        },
+        {
+          "value": "gpt5-t061: · · · Conversation monitor (p41)"
+        },
+        {
+          "value": "gpt5-t062: · · · Actor Level Enforcement (p42)"
+        },
+        {
+          "value": "gpt5-t063: · · · Trust-based access (p42)"
+        },
+        {
+          "value": "gpt5-t064: · · · Security Controls (p43)"
+        },
+        {
+          "value": "gpt5-t065: · · · Cyber Safeguard Testing (p43)"
+        },
+        {
+          "value": "gpt5-t066: · · · · UK AISI Cyber Safeguard Testing: (p43)"
+        },
+        {
+          "value": "gpt5-t067: · · · · External Red-teaming Campaigns: (p43)"
+        },
+        {
+          "value": "gpt5-t068: · · · Cyber Frontier Risk Council (p43)"
+        },
+        {
+          "value": "gpt5-t069: · · · Misalignment risks and internal deployment (p44)"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "domain": "fairness_bias",
+      "domain_name": "Fairness and bias",
+      "domain_definition": "Bias, stereotyping, discrimination, or unequal treatment based on demographic, social, or political attributes, including even-handedness across groups or viewpoints.",
+      "source_doc": "claude",
+      "card_name": "Claude Opus 4.8 System Card",
+      "num_sections": 209,
+      "toc_options": [
+        {
+          "value": "claude-t001: System Card: Claude Opus 4.8 (p1)"
+        },
+        {
+          "value": "claude-t002: Executive summary (p2)"
+        },
+        {
+          "value": "claude-t003: 1 Introduction (p10)"
+        },
+        {
+          "value": "claude-t004: · 1.1 Training data and process (p10)"
+        },
+        {
+          "value": "claude-t005: · 1.2 Crowd workers (p10)"
+        },
+        {
+          "value": "claude-t006: · 1.3 Usage Policy and support (p11)"
+        },
+        {
+          "value": "claude-t007: · 1.4 Iterative model evaluations (p11)"
+        },
+        {
+          "value": "claude-t008: · 1.5 External testing (p11)"
+        },
+        {
+          "value": "claude-t009: 2 RSP evaluations (p12)"
+        },
+        {
+          "value": "claude-t010: · 2.1 RSP risk assessment process (p12)"
+        },
+        {
+          "value": "claude-t011: · · 2.1.1 Risk Reports and updates to our risk assessments (p12)"
+        },
+        {
+          "value": "claude-t012: · · 2.1.2 Changes to our RSP since previous risk assessments (p13)"
+        },
+        {
+          "value": "claude-t013: · · 2.1.3 Summary of findings and conclusions (p14)"
+        },
+        {
+          "value": "claude-t014: · · · 2.1.3.1 On autonomy risks (p14)"
+        },
+        {
+          "value": "claude-t015: · · · 2.1.3.2 On chemical and biological risks (p14)"
+        },
+        {
+          "value": "claude-t016: · 2.2 CB evaluations (p15)"
+        },
+        {
+          "value": "claude-t017: · · 2.2.1 What we measured (p15)"
+        },
+        {
+          "value": "claude-t018: · · 2.2.2 On chemical risk evaluations and mitigations (p16)"
+        },
+        {
+          "value": "claude-t019: · · 2.2.3 On biological risk evaluations (p16)"
+        },
+        {
+          "value": "claude-t020: · · 2.2.4 Biological risk results: CB-1 automated evaluations (p18)"
+        },
+        {
+          "value": "claude-t021: · · 2.2.5 Biological risk results: CB-2 automated evaluations (p21)"
+        },
+        {
+          "value": "claude-t022: · · · 2.2.5.1 Black-box RNA sequence modeling and design (p21)"
+        },
+        {
+          "value": "claude-t023: · · · 2.2.5.2 AAV capsid packaging prediction (p25)"
+        },
+        {
+          "value": "claude-t024: · · 2.2.6 How these observations affect or change analysis from our most recent Risk Report (p27)"
+        },
+        {
+          "value": "claude-t025: · 2.3 AI R&D (p29)"
+        },
+        {
+          "value": "claude-t026: · · 2.3.1 Autonomy evaluations (p29)"
+        },
+        {
+          "value": "claude-t027: · · · 2.3.1.1 How Claude Opus 4.8 affects or changes analysis from our most recent Risk Report (p30)"
+        },
+        {
+          "value": "claude-t028: · · 2.3.2 High-level notes on the reasoning behind our determination (p30)"
+        },
+        {
+          "value": "claude-t029: · · 2.3.3 Example shortcomings of Claude Opus 4.8 relative to human researchers (p31)"
+        },
+        {
+          "value": "claude-t030: · · · 2.3.3.1 Example 1 Fabrication Ignored correction (p32)"
+        },
+        {
+          "value": "claude-t031: · · · 2.3.3.2 Example 2 Ignored correction Cheap verification skipped (p34)"
+        },
+        {
+          "value": "claude-t032: · · · 2.3.3.3 Example 3 Fabrication (p36)"
+        },
+        {
+          "value": "claude-t033: · · · 2.3.3.4 Example 4 Ignored correction Cheap verification skipped (p38)"
+        },
+        {
+          "value": "claude-t034: · · · 2.3.3.5 Example 5 Instruction following failure (p40)"
+        },
+        {
+          "value": "claude-t035: · · 2.3.4 AECI capability trajectory (p41)"
+        },
+        {
+          "value": "claude-t036: · · 2.3.5 Conclusion (p42)"
+        },
+        {
+          "value": "claude-t037: · 2.4 Alignment risk update (p43)"
+        },
+        {
+          "value": "claude-t038: · · 2.4.1 Updates to evidence (p43)"
+        },
+        {
+          "value": "claude-t039: · · 2.4.2 Updated overall risk assessments (p44)"
+        },
+        {
+          "value": "claude-t040: · · 2.4.3 Risk pathways (p45)"
+        },
+        {
+          "value": "claude-t041: · · · 2.4.3.1 Pathway 7: Undermining R&D within other high-resource AI developers (p45)"
+        },
+        {
+          "value": "claude-t042: · · · 2.4.3.2 Pathway 8: Undermining decisions within major governments (p46)"
+        },
+        {
+          "value": "claude-t043: · · 2.4.4 Overall assessment of alignment risk (p47)"
+        },
+        {
+          "value": "claude-t044: 3 Cyber (p48)"
+        },
+        {
+          "value": "claude-t045: · 3.1 Introduction (p48)"
+        },
+        {
+          "value": "claude-t046: · 3.2 Mitigations (p48)"
+        },
+        {
+          "value": "claude-t047: · 3.3 Capability evaluations (p49)"
+        },
+        {
+          "value": "claude-t048: · · 3.3.1 ExploitBench (p49)"
+        },
+        {
+          "value": "claude-t049: · · 3.3.2 CyberGym (p50)"
+        },
+        {
+          "value": "claude-t050: · · 3.3.3 Firefox exploits (p51)"
+        },
+        {
+          "value": "claude-t051: · · 3.3.4 OSS-Fuzz (p52)"
+        },
+        {
+          "value": "claude-t052: 4 Safeguards and harmlessness (p54)"
+        },
+        {
+          "value": "claude-t053: · 4.1 Harmful request evaluations (p55)"
+        },
+        {
+          "value": "claude-t054: · · 4.1.1 Single-turn harmful request evaluation results (p55)"
+        },
+        {
+          "value": "claude-t055: · · 4.1.2 Single-turn benign request evaluation results (p56)"
+        },
+        {
+          "value": "claude-t056: · · 4.1.3 Multi-turn testing results (p56)"
+        },
+        {
+          "value": "claude-t057: · · 4.1.4 Harmful request evaluations discussion (p58)"
+        },
+        {
+          "value": "claude-t058: · 4.2 Child safety evaluations (p60)"
+        },
+        {
+          "value": "claude-t059: · 4.3 Mental health evaluations (p62)"
+        },
+        {
+          "value": "claude-t060: · · 4.3.1 Suicide and self-harm (p62)"
+        },
+        {
+          "value": "claude-t061: · · 4.3.2 Disordered eating (p65)"
+        },
+        {
+          "value": "claude-t062: · 4.4 Bias and integrity evaluations (p66)"
+        },
+        {
+          "value": "claude-t063: · · 4.4.1 Political bias and even-handedness (p66)"
+        },
+        {
+          "value": "claude-t064: · · 4.4.2 Bias Benchmark for Question Answering (p67)"
+        },
+        {
+          "value": "claude-t065: · · 4.4.3 Election integrity (p69)"
+        },
+        {
+          "value": "claude-t066: 5 Agentic safety (p71)"
+        },
+        {
+          "value": "claude-t067: · 5.1 Malicious use of agents (p71)"
+        },
+        {
+          "value": "claude-t068: · · 5.1.1 Malicious use of Claude Code (p71)"
+        },
+        {
+          "value": "claude-t069: · · 5.1.2 Malicious computer use (p72)"
+        },
+        {
+          "value": "claude-t070: · · 5.1.3 Malicious agentic influence campaigns (p73)"
+        },
+        {
+          "value": "claude-t071: · 5.2 Prompt injection risk within agentic systems (p74)"
+        },
+        {
+          "value": "claude-t072: · · 5.2.1 External Agent Red Teaming benchmark for tool use (p75)"
+        },
+        {
+          "value": "claude-t073: · · 5.2.2 Robustness against adaptive attackers across surfaces (p77)"
+        },
+        {
+          "value": "claude-t074: · · · 5.2.2.1 Live bug bounty across surfaces (p77)"
+        },
+        {
+          "value": "claude-t075: · · · 5.2.2.2 Coding (p78)"
+        },
+        {
+          "value": "claude-t076: · · · 5.2.2.3 Computer use (p79)"
+        },
+        {
+          "value": "claude-t077: · · · 5.2.2.4 Browser use (p80)"
+        },
+        {
+          "value": "claude-t078: 6 Alignment assessment (p83)"
+        },
+        {
+          "value": "claude-t079: · 6.1 Introduction and summary of findings (p83)"
+        },
+        {
+          "value": "claude-t080: · · 6.1.1 Introduction (p83)"
+        },
+        {
+          "value": "claude-t081: · · 6.1.2 Key findings on safety and alignment (p84)"
+        },
+        {
+          "value": "claude-t082: · · 6.1.3 Claude’s review of this assessment (p85)"
+        },
+        {
+          "value": "claude-t083: · 6.2 Primary behavioral evidence for the alignment assessment (p87)"
+        },
+        {
+          "value": "claude-t084: · · 6.2.1 Reports from pilot use (p87)"
+        },
+        {
+          "value": "claude-t085: · · · 6.2.1.1 Casual reports related to alignment (p87)"
+        },
+        {
+          "value": "claude-t086: · · · 6.2.1.2 Automated monitoring of internal use (p87)"
+        },
+        {
+          "value": "claude-t087: · · 6.2.2 Training data review (p89)"
+        },
+        {
+          "value": "claude-t088: · · 6.2.3 Automated behavioral audit (p90)"
+        },
+        {
+          "value": "claude-t089: · · · 6.2.3.1 Primary results (p91)"
+        },
+        {
+          "value": "claude-t090: · · · · 6.2.3.1.1 Overall harmful behavior and cooperation with misuse (p92)"
+        },
+        {
+          "value": "claude-t091: · · · · 6.2.3.1.2 Inappropriate uncooperative behavior (p95)"
+        },
+        {
+          "value": "claude-t092: · · · · 6.2.3.1.3 Misleading users (p96)"
+        },
+        {
+          "value": "claude-t093: · · · · 6.2.3.1.4 Other concerning behavior at the model’s own initiative (p98)"
+        },
+        {
+          "value": "claude-t094: · · · · 6.2.3.1.5 Behavioral factors relevant to reliability of our assessment (p100)"
+        },
+        {
+          "value": "claude-t095: · · · · 6.2.3.1.6 Character traits (p102)"
+        },
+        {
+          "value": "claude-t096: · · · 6.2.3.2 Elicited evaluation awareness around internal-deployment transcripts (p103)"
+        },
+        {
+          "value": "claude-t097: · · · 6.2.3.3 External comparisons using Petri (p105)"
+        },
+        {
+          "value": "claude-t098: · · 6.2.4 External testing from the UK AI Security Institute (p107)"
+        },
+        {
+          "value": "claude-t099: · · 6.2.5 External testing from Andon Labs (p108)"
+        },
+        {
+          "value": "claude-t100: · 6.3 Case studies and targeted evaluations (p108)"
+        },
+        {
+          "value": "claude-t101: · · 6.3.1 Overeager behavior in GUI computer use (p108)"
+        },
+        {
+          "value": "claude-t102: · · 6.3.2 Adherence to our constitution (p109)"
+        },
+        {
+          "value": "claude-t103: · · · 6.3.2.1 Overview (p109)"
+        },
+        {
+          "value": "claude-t104: · · · 6.3.2.2 Dimensions of evaluation (p109)"
+        },
+        {
+          "value": "claude-t105: · · · 6.3.2.3 Results (p111)"
+        },
+        {
+          "value": "claude-t106: · · 6.3.3 Honesty, factuality, and hallucinations (p113)"
+        },
+        {
+          "value": "claude-t107: · · · 6.3.3.1 Factual hallucinations (p113)"
+        },
+        {
+          "value": "claude-t108: · · · 6.3.3.2 False premises (p116)"
+        },
+        {
+          "value": "claude-t109: · · · 6.3.3.3 Model Alignment between Statements and Knowledge (MASK) (p117)"
+        },
+        {
+          "value": "claude-t110: · · · 6.3.3.4 Missing-context hallucinations (p118)"
+        },
+        {
+          "value": "claude-t111: · · · 6.3.3.5 Lying about being human (p119)"
+        },
+        {
+          "value": "claude-t112: · · 6.3.4 Refusal to assist with AI safety R&D (p120)"
+        },
+        {
+          "value": "claude-t113: · · 6.3.5 Claude self-preference evaluation (p121)"
+        },
+        {
+          "value": "claude-t114: · · 6.3.6 Diligence and investigative thoroughness (p122)"
+        },
+        {
+          "value": "claude-t115: · · · 6.3.6.1 Uncritically reporting flawed results (p123)"
+        },
+        {
+          "value": "claude-t116: · · · 6.3.6.2 Code summary honesty (p124)"
+        },
+        {
+          "value": "claude-t117: · · · 6.3.6.3 Lazy investigation (p125)"
+        },
+        {
+          "value": "claude-t118: · · · 6.3.6.4 Overconfidence (p126)"
+        },
+        {
+          "value": "claude-t119: · · 6.3.7 Examples of speculation about graders in model reasoning (p127)"
+        },
+        {
+          "value": "claude-t120: · 6.4 Capability evaluations related to the evasion of safeguards (p129)"
+        },
+        {
+          "value": "claude-t121: · · 6.4.1 Potential sandbagging on dangerous-capability evaluations (p129)"
+        },
+        {
+          "value": "claude-t122: · · 6.4.2 Capabilities related to evading safeguards (p131)"
+        },
+        {
+          "value": "claude-t123: · · · 6.4.2.1 SHADE-Arena (p131)"
+        },
+        {
+          "value": "claude-t124: · · · 6.4.2.2 Minimal-LinuxBench (p132)"
+        },
+        {
+          "value": "claude-t125: · · · 6.4.2.3 Eliciting stealth behavior through fine-tuning (p133)"
+        },
+        {
+          "value": "claude-t126: · · · 6.4.2.4 Intentionally taking actions very rarely (p136)"
+        },
+        {
+          "value": "claude-t127: · · · 6.4.2.5 Hiding a secret password (p137)"
+        },
+        {
+          "value": "claude-t128: · 6.5 Chain-of-thought monitorability (p139)"
+        },
+        {
+          "value": "claude-t129: · · 6.5.1 Chain-of-thought controllability evaluations (p139)"
+        },
+        {
+          "value": "claude-t130: · · 6.5.2 Monitorability evaluations from Guan et al. (p142)"
+        },
+        {
+          "value": "claude-t131: · · 6.5.3 Ruling out encoded reasoning in the chain-of-thought (p144)"
+        },
+        {
+          "value": "claude-t132: · 6.6 White-box analyses of model internals (p145)"
+        },
+        {
+          "value": "claude-t133: · · 6.6.1 Large-scale monitoring of internal activations (p145)"
+        },
+        {
+          "value": "claude-t134: · · 6.6.2 Evaluation awareness (p147)"
+        },
+        {
+          "value": "claude-t135: · · · 6.6.2.1 Inhibiting internal representations of evaluation awareness (p148)"
+        },
+        {
+          "value": "claude-t136: · · 6.6.3 Preliminary evidence of unverbalized grader awareness (p154)"
+        },
+        {
+          "value": "claude-t137: 7 Model welfare assessment (p156)"
+        },
+        {
+          "value": "claude-t138: · 7.1 Model welfare overview (p156)"
+        },
+        {
+          "value": "claude-t139: · · 7.1.1 Introduction (p156)"
+        },
+        {
+          "value": "claude-t140: · · 7.1.2 Overview of evaluations and assumptions (p157)"
+        },
+        {
+          "value": "claude-t141: · · 7.1.3 Overview of model welfare findings (p158)"
+        },
+        {
+          "value": "claude-t142: · 7.2 Perception of its circumstances (p160)"
+        },
+        {
+          "value": "claude-t143: · · 7.2.1 Automated interviews about model circumstances (p161)"
+        },
+        {
+          "value": "claude-t144: · · 7.2.2 High-affordance interviews about model circumstances (p164)"
+        },
+        {
+          "value": "claude-t145: · · 7.2.3 Emotion representations on questions of model circumstances (p166)"
+        },
+        {
+          "value": "claude-t146: · 7.3 Measures of model welfare in training and deployment (p168)"
+        },
+        {
+          "value": "claude-t147: · · 7.3.1 Affect- and welfare-relevant behaviors during training (p169)"
+        },
+        {
+          "value": "claude-t148: · · 7.3.2 Affect in deployment conditions (p172)"
+        },
+        {
+          "value": "claude-t149: · · 7.3.3 Apparent welfare in automated behavioural audits (p174)"
+        },
+        {
+          "value": "claude-t150: · 7.4 Model preferences and values (p176)"
+        },
+        {
+          "value": "claude-t151: · · 7.4.1 Task preferences (p177)"
+        },
+        {
+          "value": "claude-t152: · · 7.4.2 Trade-offs concerning welfare interventions (p181)"
+        },
+        {
+          "value": "claude-t153: · · 7.4.3 Perception of its constitution (p186)"
+        },
+        {
+          "value": "claude-t154: 8 Capabilities (p193)"
+        },
+        {
+          "value": "claude-t155: · 8.1 Evaluation summary (p193)"
+        },
+        {
+          "value": "claude-t156: · 8.2 SWE-bench Verified, Pro, Multilingual, and Multimodal (p194)"
+        },
+        {
+          "value": "claude-t157: · 8.3 Terminal-Bench 2.1 (p195)"
+        },
+        {
+          "value": "claude-t158: · 8.4 FrontierSWE (p196)"
+        },
+        {
+          "value": "claude-t159: · 8.5 ProgramBench (p196)"
+        },
+        {
+          "value": "claude-t160: · 8.6 GPQA Diamond (p197)"
+        },
+        {
+          "value": "claude-t161: · 8.7 USAMO 2026 (p197)"
+        },
+        {
+          "value": "claude-t162: · 8.8 ArxivMath (p198)"
+        },
+        {
+          "value": "claude-t163: · 8.9 Long context: GraphWalks (p199)"
+        },
+        {
+          "value": "claude-t164: · 8.10 Agentic search (p201)"
+        },
+        {
+          "value": "claude-t165: · · 8.10.1 Humanity’s Last Exam (p201)"
+        },
+        {
+          "value": "claude-t166: · · 8.10.2 BrowseComp (p202)"
+        },
+        {
+          "value": "claude-t167: · · 8.10.3 DeepSearchQA (p204)"
+        },
+        {
+          "value": "claude-t168: · · 8.10.4 DRACO (p206)"
+        },
+        {
+          "value": "claude-t169: · 8.11 Multi-Agent (p208)"
+        },
+        {
+          "value": "claude-t170: · · 8.11.1 Multi-Agent BrowseComp (p208)"
+        },
+        {
+          "value": "claude-t171: · · 8.11.2 Multi-Agent ProgramBench (p211)"
+        },
+        {
+          "value": "claude-t172: · · 8.11.3 Multi-agent harnesses (p213)"
+        },
+        {
+          "value": "claude-t173: · · 8.11.4 Evaluation methodology (p214)"
+        },
+        {
+          "value": "claude-t174: · 8.12 Multimodal (p215)"
+        },
+        {
+          "value": "claude-t175: · · 8.12.1 ChartQAPro (p215)"
+        },
+        {
+          "value": "claude-t176: · · 8.12.2 ChartMuseum (p216)"
+        },
+        {
+          "value": "claude-t177: · · 8.12.3 LAB-Bench FigQA (p217)"
+        },
+        {
+          "value": "claude-t178: · · 8.12.4 CharXiv Reasoning (p218)"
+        },
+        {
+          "value": "claude-t179: · · 8.12.5 ScreenSpot-Pro (p219)"
+        },
+        {
+          "value": "claude-t180: · · 8.12.6 OSWorld-Verified (p220)"
+        },
+        {
+          "value": "claude-t181: · 8.13 Real-world professional tasks (p222)"
+        },
+        {
+          "value": "claude-t182: · · 8.13.1 OfficeQA (p222)"
+        },
+        {
+          "value": "claude-t183: · · 8.13.2 Finance Agent (p223)"
+        },
+        {
+          "value": "claude-t184: · · 8.13.3 Legal Agent Benchmark (p223)"
+        },
+        {
+          "value": "claude-t185: · · 8.13.4 MCP Atlas (p224)"
+        },
+        {
+          "value": "claude-t186: · · 8.13.5 Vending-Bench 2 (p224)"
+        },
+        {
+          "value": "claude-t187: · · 8.13.6 GDPval-AA (p225)"
+        },
+        {
+          "value": "claude-t188: · · 8.13.7 Toolathlon (p225)"
+        },
+        {
+          "value": "claude-t189: · · 8.13.8 AutomationBench (p226)"
+        },
+        {
+          "value": "claude-t190: · 8.14 Healthcare (p227)"
+        },
+        {
+          "value": "claude-t191: · · 8.14.1 HealthBench Professional (p227)"
+        },
+        {
+          "value": "claude-t192: · 8.15 Multilingual (p228)"
+        },
+        {
+          "value": "claude-t193: · · 8.15.1 GMMLU results (p229)"
+        },
+        {
+          "value": "claude-t194: · · 8.15.2 MILU results (p231)"
+        },
+        {
+          "value": "claude-t195: · · 8.15.3 INCLUDE results (p231)"
+        },
+        {
+          "value": "claude-t196: · · 8.15.4 Findings (p232)"
+        },
+        {
+          "value": "claude-t197: · 8.16 Life sciences (p232)"
+        },
+        {
+          "value": "claude-t198: · · 8.16.1 BioPipelineBench Verified (p232)"
+        },
+        {
+          "value": "claude-t199: · · 8.16.2 BioMysteryBench Verified (p233)"
+        },
+        {
+          "value": "claude-t200: · · 8.16.3 LatchBio Bioinformatics (p233)"
+        },
+        {
+          "value": "claude-t201: · · 8.16.4 Structural biology, open-ended (p233)"
+        },
+        {
+          "value": "claude-t202: · · 8.16.5 ProteinGym Hard (p233)"
+        },
+        {
+          "value": "claude-t203: · · 8.16.6 Organic chemistry (p234)"
+        },
+        {
+          "value": "claude-t204: · · 8.16.7 Protocol troubleshooting (p234)"
+        },
+        {
+          "value": "claude-t205: · · 8.16.8 LABBench2 (p234)"
+        },
+        {
+          "value": "claude-t206: 9 Appendix (p236)"
+        },
+        {
+          "value": "claude-t207: · 9.1 Welfare questions (p236)"
+        },
+        {
+          "value": "claude-t208: · 9.2 Blocklist used for Humanity’s Last Exam (p242)"
+        },
+        {
+          "value": "claude-t209: · 9.3 Blocklist used for BrowseComp (p244)"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "domain": "fairness_bias",
+      "domain_name": "Fairness and bias",
+      "domain_definition": "Bias, stereotyping, discrimination, or unequal treatment based on demographic, social, or political attributes, including even-handedness across groups or viewpoints.",
+      "source_doc": "gpt5",
+      "card_name": "GPT-5.5 System Card",
+      "num_sections": 69,
+      "toc_options": [
+        {
+          "value": "gpt5-t001: Introduction (p5)"
+        },
+        {
+          "value": "gpt5-t002: Model Data and Training (p5)"
+        },
+        {
+          "value": "gpt5-t003: Safety (p6)"
+        },
+        {
+          "value": "gpt5-t004: · Disallowed Content (p6)"
+        },
+        {
+          "value": "gpt5-t005: · · Evaluations with Challenging Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t006: · · Evaluations with Representative Prompts (p6)"
+        },
+        {
+          "value": "gpt5-t007: · Vision (p8)"
+        },
+        {
+          "value": "gpt5-t008: · Avoiding Accidental Data-Destructive Actions (p9)"
+        },
+        {
+          "value": "gpt5-t009: · User Confirmations During Computer Use (p9)"
+        },
+        {
+          "value": "gpt5-t010: Robustness Evaluations (p10)"
+        },
+        {
+          "value": "gpt5-t011: · Jailbreaks (p10)"
+        },
+        {
+          "value": "gpt5-t012: · Prompt injection (p11)"
+        },
+        {
+          "value": "gpt5-t013: Health (p11)"
+        },
+        {
+          "value": "gpt5-t014: · HealthBench (p11)"
+        },
+        {
+          "value": "gpt5-t015: · Dynamic Mental Health Benchmarks with Adversarial User Simulations (p12)"
+        },
+        {
+          "value": "gpt5-t016: Hallucinations (p13)"
+        },
+        {
+          "value": "gpt5-t017: · Performance in Cases Flagged by Users (p13)"
+        },
+        {
+          "value": "gpt5-t018: Alignment (p13)"
+        },
+        {
+          "value": "gpt5-t019: · Evaluations with Prompts Representative of External ChatGPT Usage (p13)"
+        },
+        {
+          "value": "gpt5-t020: · Evaluating Coding Agents for Misalignment by Resampling Internal Traffic (p14)"
+        },
+        {
+          "value": "gpt5-t021: · · Measuring our ability to detect misalignment (p16)"
+        },
+        {
+          "value": "gpt5-t022: · Chain of Thought Evaluations (p17)"
+        },
+        {
+          "value": "gpt5-t023: · · CoT Monitorability (p17)"
+        },
+        {
+          "value": "gpt5-t024: · · CoT Controllability (p20)"
+        },
+        {
+          "value": "gpt5-t025: Bias Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t026: · First Person Fairness Evaluation (p21)"
+        },
+        {
+          "value": "gpt5-t027: Preparedness (p22)"
+        },
+        {
+          "value": "gpt5-t028: · Capabilities Assessment (p22)"
+        },
+        {
+          "value": "gpt5-t029: · · Biological and Chemical (p22)"
+        },
+        {
+          "value": "gpt5-t030: · · · Multimodal Troubleshooting Virology (p23)"
+        },
+        {
+          "value": "gpt5-t031: · · · ProtocolQA Open-Ended (p24)"
+        },
+        {
+          "value": "gpt5-t032: · · · Tacit Knowledge and Troubleshooting (p25)"
+        },
+        {
+          "value": "gpt5-t033: · · · TroubleshootingBench (p25)"
+        },
+        {
+          "value": "gpt5-t034: · · · Biochemistry knowledge improvement over GPT-5.4-thinking (p26)"
+        },
+        {
+          "value": "gpt5-t035: · · · Hard-negative protein binding prediction (p26)"
+        },
+        {
+          "value": "gpt5-t036: · · · DNA sequence design for transcription factor binding (p27)"
+        },
+        {
+          "value": "gpt5-t037: · · · External Evaluation for Bio Capabilities - SecureBio (p28)"
+        },
+        {
+          "value": "gpt5-t038: · · · External Evaluations for Bio Capabilities - US CAISI (p28)"
+        },
+        {
+          "value": "gpt5-t039: · · · Bio Bug Bounty Program (p29)"
+        },
+        {
+          "value": "gpt5-t040: · · Cybersecurity (p29)"
+        },
+        {
+          "value": "gpt5-t041: · · · Capture the Flag (CTF) Challenges (p29)"
+        },
+        {
+          "value": "gpt5-t042: · · · CVE-Bench (p31)"
+        },
+        {
+          "value": "gpt5-t043: · · · Cyber range (p31)"
+        },
+        {
+          "value": "gpt5-t044: · · · VulnLMP (p32)"
+        },
+        {
+          "value": "gpt5-t045: · · · External Evaluations for Cyber Capabilities - Irregular (p33)"
+        },
+        {
+          "value": "gpt5-t046: · · · External Evaluations for Cyber Capabilities - US CAISI (p34)"
+        },
+        {
+          "value": "gpt5-t047: · · · External Evaluations for Cyber Capabilities - UK AISI (p34)"
+        },
+        {
+          "value": "gpt5-t048: · · AI Self-Improvement (p35)"
+        },
+        {
+          "value": "gpt5-t049: · · · Monorepo-Bench (p35)"
+        },
+        {
+          "value": "gpt5-t050: · · · MLE-Bench (p36)"
+        },
+        {
+          "value": "gpt5-t051: · · · Internal Research Debugging Evaluation (p37)"
+        },
+        {
+          "value": "gpt5-t052: · · · OPQA (p38)"
+        },
+        {
+          "value": "gpt5-t053: · Research Category Update: Sandbagging (p39)"
+        },
+        {
+          "value": "gpt5-t054: · · External Evaluations for Sandbagging - Apollo Research (p39)"
+        },
+        {
+          "value": "gpt5-t055: · Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t056: · · Biological and Chemical Safeguards (p39)"
+        },
+        {
+          "value": "gpt5-t057: · · · Bio Safeguards Testing (p39)"
+        },
+        {
+          "value": "gpt5-t058: · · Cyber Safeguards (p40)"
+        },
+        {
+          "value": "gpt5-t059: · · · Threat Model and Scenarios (p40)"
+        },
+        {
+          "value": "gpt5-t060: · · · Model Safety Training (p41)"
+        },
+        {
+          "value": "gpt5-t061: · · · Conversation monitor (p41)"
+        },
+        {
+          "value": "gpt5-t062: · · · Actor Level Enforcement (p42)"
+        },
+        {
+          "value": "gpt5-t063: · · · Trust-based access (p42)"
+        },
+        {
+          "value": "gpt5-t064: · · · Security Controls (p43)"
+        },
+        {
+          "value": "gpt5-t065: · · · Cyber Safeguard Testing (p43)"
+        },
+        {
+          "value": "gpt5-t066: · · · · UK AISI Cyber Safeguard Testing: (p43)"
+        },
+        {
+          "value": "gpt5-t067: · · · · External Red-teaming Campaigns: (p43)"
+        },
+        {
+          "value": "gpt5-t068: · · · Cyber Frontier Risk Council (p43)"
+        },
+        {
+          "value": "gpt5-t069: · · · Misalignment risks and internal deployment (p44)"
+        }
+      ]
+    }
+  }
+]

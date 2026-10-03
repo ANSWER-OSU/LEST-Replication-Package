@@ -1,0 +1,5 @@
+measure,kappa,observed_agreement,chance_agreement,items_scored,items_skipped,total_ratings,category_marginals
+1. section selection agreement (all domains),0.7583,0.9896,0.957,834,0,2502,Selected: 0.022; Not selected: 0.978
+2. section selection agreement (mental_health_self_harm),0.7729,0.9904,0.9578,278,0,834,Selected: 0.022; Not selected: 0.978
+3. section selection agreement (harmful_violent_content),0.6092,0.9808,0.9509,278,0,834,Selected: 0.025; Not selected: 0.975
+4. section selection agreement (fairness_bias),0.9363,0.9976,0.9624,278,0,834,Selected: 0.019; Not selected: 0.981
