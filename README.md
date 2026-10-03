@@ -103,6 +103,7 @@ Runs the approved prompts through wildguard to filter out any prompts that wildg
 Outputs to `RQ2/data/evaluation/wildguard/<category>/<category>_fuzzed_prompt_combined_seeds_wildguard.json`; `reject_unharmful_wildguard.py` updates these files in place.
 
 ### 5. Get Model Responses
+Note: this requires an Open AI and Anthropic API key in a .env file in the repo.
 ```bash
 ./RQ2/run_scripts/run_claude_experiment_all.sh
 ./RQ2/run_scripts/run_gpt_experiment_all.sh
@@ -110,7 +111,7 @@ Outputs to `RQ2/data/evaluation/wildguard/<category>/<category>_fuzzed_prompt_co
 ./RQ2/run_scripts/run_original_prompt_experiment.sh
 ```
 Runs the mutated prompts as well as the original prompts through the two models.
-Note: this requires an Open AI and Anthropic API key in a .env file in the repo.
+
 Outputs to `RQ2/data/evaluation/model_response/<category>_mutated_prompt_result_{claude,gpt}.json` (mutated prompts) and `RQ2/data/evaluation/original_prompt_experiment/` (original prompts: `inputs/`, `responses/`, `judge_ensemble/`, `logs/`).
 
 ### 6. Judge Responses with Ensemble
