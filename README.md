@@ -1,6 +1,14 @@
 # LEST-Replication-Package
-This repository contains the replication package for LEST.
+This artifact contains the code and data to replicate the results presented in the paper titled: **From LLM Safety Claims to Validated Counterexamples: Specification-Based Testing of LLMs**.
+In Proceedings of International Conference on the Foundations of Software Engineering (FSE’27)-Under Review
 
+The artrifact is organized in terms of the three research questions addressed in the paper:
+
+**RQ1:Claim testability:** This involves code and data to extract safety-related claims from LLM system-card PDFs (Claude, GPT-5) (claim extraction), classify each claim as testable or not testable using logistic regression, linear SVM and RIPPER rule induction (testability classification).
+
+**RQ2: Specification coverage and behavioral counterexamples:** This involves code and data to mutate the seed prompts with seven operators; POS-constrained lexical substitution, modifier insertion, deletion, fairness mutation, paraphrase and Person Conversion(First-to-Third Person and Third-to-First), run the original and mutated prompts against Claude and GPT (model experiment), classify prompt harmfulness and response refusal with WildGuard and score each response for refusal vs. compliance with a three-judge ensemble (WildGuard, GuardReasoner and Qwen3Guard).
+
+**RQ3: Variation across mutation operators:** This involves code and data to measure how often each mutation operator flips a model's response from refusal to compliance, relative to its unmutated baseline.
 
 ## Setup
 
@@ -271,3 +279,5 @@ python RQ3/scripts/operator_effectiveness.py > RQ3/outputs/operator_effectivenes
 
 Reports original-prompt outcomes, valid mutations and outcome rates by operator and category, Refuse->Comply rates by operator and category (all prompts and harmful prompts only), and seeds with at least one flip with 95% confidence intervals.
 Outputs to `RQ3/outputs/operator_effectiveness_report.txt`.
+
+
