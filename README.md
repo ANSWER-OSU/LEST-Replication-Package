@@ -1,8 +1,8 @@
 # LEST-Replication-Package
 This artifact contains the code and data to replicate the results presented in the paper titled: **From LLM Safety Claims to Validated Counterexamples: Specification-Based Testing of LLMs**.
-In Proceedings of International Conference on the Foundations of Software Engineering (FSE’27)-Under Review
+In Proceedings of International Conference on the Foundations of Software Engineering (FSE’27)-Under Review. 
 
-The artrifact is organized in terms of the three research questions addressed in the paper:
+**LEST** is a framework for black-box testing LLM safety claims as behavioral specifications, using prompt mutation to search for Refuse→Comply counterexamples, human validation to confirm them and traceability back to the claim each one contradicts. The artifact is organized in terms of the three research questions addressed in the paper:
 
 **RQ1:Claim testability:** This involves code and data to extract safety-related claims from LLM system-card PDFs (Claude, GPT-5) (claim extraction), classify each claim as testable or not testable using logistic regression, linear SVM and RIPPER rule induction (testability classification).
 
